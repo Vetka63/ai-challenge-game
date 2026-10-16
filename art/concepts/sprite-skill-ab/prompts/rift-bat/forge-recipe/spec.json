@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "rift-bat",
+  "subject": "a rift bat enemy",
+  "identity": "A coral red bat with two wide angular wings, a tiny central body, two pointed ears and two ivory eyes. Three strong zigzag strokes on each side define the wing edge, with empty space inside the wings. Its silhouette is much wider than it is tall. Coral red dominates with a little orange and ivory.",
+  "pose": "a neutral readable resting pose, full body and all extremities visible",
+  "recap": null,
+  "facing": "front",
+  "facing_parts": null,
+  "view": "orthographic slightly elevated front view for a top-down 2D arena game",
+  "class": "mob",
+  "finish": "pixel",
+  "key": "#FF00FF",
+  "genre": null,
+  "pronoun": "they",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": "Keep body art independent of attack effects: no projectiles, trails, particles or aura. Make the silhouette and identity readable at the intended gameplay size."
+}

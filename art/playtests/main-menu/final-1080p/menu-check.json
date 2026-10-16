@@ -1,0 +1,9 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "graphics": "Direct3D11",
+    "resume": true,
+    "exactResume": true,
+    "speedRatio": 0.0,
+    "errors": []
+}

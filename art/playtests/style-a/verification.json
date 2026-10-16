@@ -1,0 +1,15 @@
+{
+  "mechanics_files_checked": 18,
+  "changed_mechanics_files": [],
+  "all_mechanics_unchanged": true,
+  "combat_frames": 48,
+  "combat_seconds": 5.9679412841796875,
+  "enemies_min": 17,
+  "enemies_max": 24,
+  "bolt_hits_delta": 22,
+  "pulse_hits_delta": 5,
+  "kills_delta": 12,
+  "motion_confirmed": true,
+  "crt_changes_image": true,
+  "notes": "Real ECS combat with technical autopilot after accelerated setup at 120s. Automatic upgrade choice only in diagnostic harness. GIF durations follow simulation timestamps; not an FPS benchmark. Boss/result captures use a separate controlled smoke setup."
+}

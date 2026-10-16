@@ -1,0 +1,40 @@
+{
+    "width": 1280,
+    "height": 720,
+    "graphics": "Direct3D11",
+    "fights": [
+        {
+            "hero": "Spark",
+            "victory": true,
+            "seconds": 21.7908935546875,
+            "health": 100.0,
+            "dashes": 1,
+            "patterns": 3
+        },
+        {
+            "hero": "Pacman",
+            "victory": true,
+            "seconds": 20.4864501953125,
+            "health": 100.0,
+            "dashes": 1,
+            "patterns": 3
+        },
+        {
+            "hero": "Doomguy",
+            "victory": true,
+            "seconds": 18.630126953125,
+            "health": 80.0,
+            "dashes": 1,
+            "patterns": 2
+        },
+        {
+            "hero": "Ascii",
+            "victory": true,
+            "seconds": 71.811279296875,
+            "health": 93.0,
+            "dashes": 3,
+            "patterns": 3
+        }
+    ],
+    "errors": []
+}

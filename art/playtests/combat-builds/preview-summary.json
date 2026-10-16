@@ -1,0 +1,26 @@
+[
+  {
+    "build": "Runebolt + Ward",
+    "frames": 40,
+    "seconds": 5.017,
+    "boltHits": 19,
+    "wardHits": 0,
+    "orbitHits": 0
+  },
+  {
+    "build": "Ward + Orbit",
+    "frames": 40,
+    "seconds": 5.067,
+    "boltHits": 0,
+    "wardHits": 10,
+    "orbitHits": 3
+  },
+  {
+    "build": "Orbit + Runebolt",
+    "frames": 40,
+    "seconds": 4.95,
+    "boltHits": 17,
+    "wardHits": 0,
+    "orbitHits": 0
+  }
+]

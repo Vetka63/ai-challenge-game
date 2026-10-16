@@ -1,0 +1,1173 @@
+{
+  "status": "pass",
+  "frames": 128,
+  "frame_size": [
+    128,
+    128
+  ],
+  "root_top_left": [
+    64,
+    108
+  ],
+  "visible_colors": 32,
+  "partial_alpha_pixels": 0,
+  "clipped_frames": 0,
+  "visible_height_range_including_raised_staff": [
+    67,
+    84
+  ],
+  "frames_detail": [
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_00.png",
+      "bounds": [
+        39,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_01.png",
+      "bounds": [
+        44,
+        36,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_02.png",
+      "bounds": [
+        42,
+        36,
+        96,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_03.png",
+      "bounds": [
+        40,
+        37,
+        101,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_04.png",
+      "bounds": [
+        42,
+        37,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_east_05.png",
+      "bounds": [
+        38,
+        37,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_00.png",
+      "bounds": [
+        38,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_01.png",
+      "bounds": [
+        45,
+        35,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_02.png",
+      "bounds": [
+        40,
+        35,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_03.png",
+      "bounds": [
+        39,
+        38,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_04.png",
+      "bounds": [
+        42,
+        38,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_north_05.png",
+      "bounds": [
+        38,
+        38,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_00.png",
+      "bounds": [
+        38,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_01.png",
+      "bounds": [
+        45,
+        36,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_02.png",
+      "bounds": [
+        40,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_03.png",
+      "bounds": [
+        42,
+        37,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_04.png",
+      "bounds": [
+        39,
+        37,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_south_05.png",
+      "bounds": [
+        38,
+        37,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_00.png",
+      "bounds": [
+        42,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_01.png",
+      "bounds": [
+        47,
+        36,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_02.png",
+      "bounds": [
+        40,
+        37,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_03.png",
+      "bounds": [
+        31,
+        37,
+        84,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_04.png",
+      "bounds": [
+        42,
+        37,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\cast_west_05.png",
+      "bounds": [
+        42,
+        37,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_east_00.png",
+      "bounds": [
+        41,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_east_01.png",
+      "bounds": [
+        38,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_east_02.png",
+      "bounds": [
+        36,
+        36,
+        84,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_east_03.png",
+      "bounds": [
+        38,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_north_00.png",
+      "bounds": [
+        39,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_north_01.png",
+      "bounds": [
+        40,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_north_02.png",
+      "bounds": [
+        39,
+        38,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_north_03.png",
+      "bounds": [
+        40,
+        38,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_south_00.png",
+      "bounds": [
+        39,
+        37,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_south_01.png",
+      "bounds": [
+        39,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_south_02.png",
+      "bounds": [
+        38,
+        37,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_south_03.png",
+      "bounds": [
+        39,
+        37,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_west_00.png",
+      "bounds": [
+        40,
+        36,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_west_01.png",
+      "bounds": [
+        40,
+        36,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_west_02.png",
+      "bounds": [
+        40,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\idle_west_03.png",
+      "bounds": [
+        40,
+        37,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_00.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_01.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_02.png",
+      "bounds": [
+        33,
+        36,
+        82,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_03.png",
+      "bounds": [
+        36,
+        38,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_04.png",
+      "bounds": [
+        35,
+        37,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_east_05.png",
+      "bounds": [
+        37,
+        37,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_00.png",
+      "bounds": [
+        50,
+        36,
+        98,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_01.png",
+      "bounds": [
+        52,
+        36,
+        98,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_02.png",
+      "bounds": [
+        51,
+        36,
+        100,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_03.png",
+      "bounds": [
+        52,
+        38,
+        100,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_04.png",
+      "bounds": [
+        51,
+        38,
+        99,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_north_05.png",
+      "bounds": [
+        51,
+        38,
+        99,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_00.png",
+      "bounds": [
+        37,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_01.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_02.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_03.png",
+      "bounds": [
+        37,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_04.png",
+      "bounds": [
+        37,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_south_05.png",
+      "bounds": [
+        37,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_00.png",
+      "bounds": [
+        43,
+        36,
+        93,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_01.png",
+      "bounds": [
+        45,
+        36,
+        92,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_02.png",
+      "bounds": [
+        45,
+        36,
+        93,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_03.png",
+      "bounds": [
+        43,
+        37,
+        93,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_04.png",
+      "bounds": [
+        44,
+        37,
+        93,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\hex-cultist\\frames\\walk_west_05.png",
+      "bounds": [
+        44,
+        37,
+        93,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_00.png",
+      "bounds": [
+        39,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_01.png",
+      "bounds": [
+        42,
+        37,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_02.png",
+      "bounds": [
+        44,
+        30,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_03.png",
+      "bounds": [
+        44,
+        41,
+        115,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_04.png",
+      "bounds": [
+        42,
+        39,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_east_05.png",
+      "bounds": [
+        39,
+        39,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_00.png",
+      "bounds": [
+        36,
+        36,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_01.png",
+      "bounds": [
+        34,
+        36,
+        81,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_02.png",
+      "bounds": [
+        38,
+        31,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_03.png",
+      "bounds": [
+        31,
+        32,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_04.png",
+      "bounds": [
+        36,
+        35,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_north_05.png",
+      "bounds": [
+        38,
+        37,
+        84,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_00.png",
+      "bounds": [
+        40,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_01.png",
+      "bounds": [
+        45,
+        37,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_02.png",
+      "bounds": [
+        41,
+        36,
+        94,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_03.png",
+      "bounds": [
+        43,
+        35,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_04.png",
+      "bounds": [
+        42,
+        37,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_south_05.png",
+      "bounds": [
+        41,
+        37,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_00.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_01.png",
+      "bounds": [
+        35,
+        33,
+        83,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_02.png",
+      "bounds": [
+        27,
+        24,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_03.png",
+      "bounds": [
+        8,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_04.png",
+      "bounds": [
+        15,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\cast_west_05.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_east_00.png",
+      "bounds": [
+        40,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_east_01.png",
+      "bounds": [
+        40,
+        36,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_east_02.png",
+      "bounds": [
+        39,
+        36,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_east_03.png",
+      "bounds": [
+        40,
+        37,
+        92,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_north_00.png",
+      "bounds": [
+        40,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_north_01.png",
+      "bounds": [
+        42,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_north_02.png",
+      "bounds": [
+        42,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_north_03.png",
+      "bounds": [
+        40,
+        37,
+        84,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_south_00.png",
+      "bounds": [
+        40,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_south_01.png",
+      "bounds": [
+        38,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_south_02.png",
+      "bounds": [
+        41,
+        35,
+        91,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_south_03.png",
+      "bounds": [
+        40,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_west_00.png",
+      "bounds": [
+        37,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_west_01.png",
+      "bounds": [
+        37,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_west_02.png",
+      "bounds": [
+        36,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\idle_west_03.png",
+      "bounds": [
+        37,
+        36,
+        85,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_00.png",
+      "bounds": [
+        39,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_01.png",
+      "bounds": [
+        44,
+        36,
+        92,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_02.png",
+      "bounds": [
+        39,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_03.png",
+      "bounds": [
+        39,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_04.png",
+      "bounds": [
+        43,
+        36,
+        92,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_east_05.png",
+      "bounds": [
+        40,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_00.png",
+      "bounds": [
+        52,
+        37,
+        94,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_01.png",
+      "bounds": [
+        54,
+        36,
+        94,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_02.png",
+      "bounds": [
+        51,
+        36,
+        95,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_03.png",
+      "bounds": [
+        51,
+        38,
+        94,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_04.png",
+      "bounds": [
+        52,
+        37,
+        94,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_north_05.png",
+      "bounds": [
+        53,
+        37,
+        95,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_00.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_01.png",
+      "bounds": [
+        42,
+        36,
+        89,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_02.png",
+      "bounds": [
+        38,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_03.png",
+      "bounds": [
+        41,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_04.png",
+      "bounds": [
+        37,
+        37,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_south_05.png",
+      "bounds": [
+        38,
+        36,
+        87,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_00.png",
+      "bounds": [
+        35,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_01.png",
+      "bounds": [
+        36,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_02.png",
+      "bounds": [
+        35,
+        36,
+        86,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_03.png",
+      "bounds": [
+        35,
+        36,
+        88,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_04.png",
+      "bounds": [
+        40,
+        36,
+        90,
+        108
+      ]
+    },
+    {
+      "file": "runtime\\runescribe\\frames\\walk_west_05.png",
+      "bounds": [
+        35,
+        36,
+        89,
+        108
+      ]
+    }
+  ]
+}

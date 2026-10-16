@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 0.29,
+      "summary": {
+        "total": 14,
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.ActorArtUsesPrintableAsciiAndFourDifferentFacings",
+          "Status": "Passed",
+          "Duration": 0.1670761,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.BossSpawnsOnceAndVictoryStopsSimulation",
+          "Status": "Passed",
+          "Duration": 0.0273349,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.DeadlineAndDeathEndTheRun",
+          "Status": "Passed",
+          "Duration": 0.0013494,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.ExperienceOpensChoiceAndFreezesWorldUntilSelection",
+          "Status": "Passed",
+          "Duration": 0.0039397,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.FastHostileProjectileUsesSweptCollisionAndInvulnerability",
+          "Status": "Passed",
+          "Duration": 0.0014711,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.FourDirectionsPersistWhenStopped",
+          "Status": "Passed",
+          "Duration": 0.0012462,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.GridMatchesBruteForceAtCellBoundaries",
+          "Status": "Passed",
+          "Duration": 0.0015381,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaRunTests.ShooterTelegraphsBeforeProducingHostileProjectile",
+          "Status": "Passed",
+          "Duration": 0.0033158,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.BothAutoAttacksDamageRealEntities",
+          "Status": "Passed",
+          "Duration": 0.002318,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.CrowdNeverExceedsConfiguredLimit",
+          "Status": "Passed",
+          "Duration": 0.0430188,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.DemoDoesNotOvershootItsMovingTarget",
+          "Status": "Passed",
+          "Duration": 0.0014545,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.HeroCannotWalkThroughThePond",
+          "Status": "Passed",
+          "Duration": 0.0016214,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.MovementHasEqualScreenSpeedAndNoDiagonalBoost",
+          "Status": "Passed",
+          "Duration": 0.0017652,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "AsciiArena.Tests.ArenaSimulationTests.PauseAndResetDoNotLeakThePreviousRun",
+          "Status": "Passed",
+          "Duration": 0.0048385,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

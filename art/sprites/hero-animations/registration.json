@@ -1,0 +1,220 @@
+{
+  "frames": [
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-dash.png",
+      "rootX": 714.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-hurt.png",
+      "rootX": 544.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-idle.png",
+      "rootX": 535.75,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-pass.png",
+      "rootX": 538.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-stepA.png",
+      "rootX": 614.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/east-stepB.png",
+      "rootX": 614.5,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/north-dash.png",
+      "rootX": 571.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/north-hurt.png",
+      "rootX": 559.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/north-pass.png",
+      "rootX": 558.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/north-stepA.png",
+      "rootX": 558.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/north-stepB.png",
+      "rootX": 557.5,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/south-dash.png",
+      "rootX": 538.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/south-hurt.png",
+      "rootX": 542.5,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/south-pass.png",
+      "rootX": 542.5,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/south-stepA.png",
+      "rootX": 541.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/doomguy/south-stepB.png",
+      "rootX": 542.0,
+      "rootY": 1350.0,
+      "pixelsPerUnit": 884.1726618705037
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/east-dash.png",
+      "rootX": 783.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/east-hurt.png",
+      "rootX": 582.75,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/east-pass.png",
+      "rootX": 673.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/east-stepA.png",
+      "rootX": 591.5,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/east-stepB.png",
+      "rootX": 693.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/north-dash.png",
+      "rootX": 700.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/north-hurt.png",
+      "rootX": 548.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/north-pass.png",
+      "rootX": 540.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/north-stepA.png",
+      "rootX": 498.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/north-stepB.png",
+      "rootX": 584.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/south-dash.png",
+      "rootX": 611.5,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/south-hurt.png",
+      "rootX": 576.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/south-pass.png",
+      "rootX": 612.75,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/south-stepA.png",
+      "rootX": 527.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/spark/south-stepB.png",
+      "rootX": 600.0,
+      "rootY": 1172.0,
+      "pixelsPerUnit": 731.6546762589928
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/pacman/closed.png",
+      "rootX": 687.0,
+      "rootY": 564.0,
+      "pixelsPerUnit": 788.0
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/pacman/dash.png",
+      "rootX": 687.0,
+      "rootY": 564.0,
+      "pixelsPerUnit": 788.0
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/pacman/half.png",
+      "rootX": 687.0,
+      "rootY": 564.0,
+      "pixelsPerUnit": 788.0
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/pacman/hurt.png",
+      "rootX": 687.0,
+      "rootY": 564.0,
+      "pixelsPerUnit": 788.0
+    },
+    {
+      "path": "Assets/Resources/HeroAnimations/pacman/open.png",
+      "rootX": 687.0,
+      "rootY": 564.0,
+      "pixelsPerUnit": 788.0
+    }
+  ]
+}

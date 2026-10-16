@@ -1,0 +1,53 @@
+{
+    "width": 1280,
+    "height": 720,
+    "graphics": "Direct3D11",
+    "encounters": [
+        {
+            "name": "warden-phase1",
+            "patterns": 13,
+            "simulatedSeconds": 60.865909576416019,
+            "recovery": true,
+            "charge": true,
+            "inwardRing": false,
+            "disk": true
+        },
+        {
+            "name": "bell-phase1",
+            "patterns": 9,
+            "simulatedSeconds": 60.79924392700195,
+            "recovery": true,
+            "charge": false,
+            "inwardRing": true,
+            "disk": true
+        },
+        {
+            "name": "archive-phase1",
+            "patterns": 12,
+            "simulatedSeconds": 60.8492431640625,
+            "recovery": true,
+            "charge": false,
+            "inwardRing": false,
+            "disk": true
+        },
+        {
+            "name": "bell-phase2",
+            "patterns": 8,
+            "simulatedSeconds": 60.89924240112305,
+            "recovery": true,
+            "charge": false,
+            "inwardRing": true,
+            "disk": true
+        },
+        {
+            "name": "archive-phase2",
+            "patterns": 11,
+            "simulatedSeconds": 61.0659065246582,
+            "recovery": true,
+            "charge": false,
+            "inwardRing": false,
+            "disk": true
+        }
+    ],
+    "errors": []
+}

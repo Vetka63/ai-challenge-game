@@ -1,0 +1,15 @@
+{
+  "runtime": "pass",
+  "unity": "pass",
+  "art_heuristics": {
+    "warn": 15,
+    "pass": 3,
+    "fail": 6
+  },
+  "remaining_limits": [
+    "Small rune and hood-outline variation between frames",
+    "Hex Cultist east walk still flagged for leg alternation",
+    "Arena scene integration and GPU Play Mode rendering are outside this asset-pack verification"
+  ],
+  "inspection": "All generated sheets, both final atlases and game-size contact boards inspected; motion poses and alpha checked. No claim of a successful live GPU playback test."
+}

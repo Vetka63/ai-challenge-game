@@ -1,0 +1,9 @@
+{
+    "mode": "resume",
+    "graphics": "Direct3D11",
+    "width": 1920,
+    "height": 1080,
+    "exactResume": true,
+    "trainingPreserved": true,
+    "errors": []
+}

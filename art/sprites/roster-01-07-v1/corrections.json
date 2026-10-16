@@ -1,0 +1,8 @@
+[
+  {
+    "id": "runescribe-cast-east",
+    "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-b78aa23e-623f-41e3-8ae8-027d2a3ee084.png",
+    "prompt": "Edit this exact six-frame sprite sheet. TECHNICAL LAYOUT CORRECTION ONLY: In the lower-left cell the horizontal staff's star crosses into the next cell. Keep precisely all six poses, all costume details and frame order. Reduce ALL SIX figures uniformly to 78 percent of their current size, keeping the character feet centered inside their own cell. Every entire staff and star must fit completely within its own cell with 12 percent transparent margin on ALL sides. The lower-left staff must not enter the lower-middle cell. Preserve 2 rows by 3 equal square cells and right-facing character. True transparent background, no glow. No text or grid. Character identity from second attached master.",
+    "reason": "Staff crossed source-cell boundary in rejected take."
+  }
+]

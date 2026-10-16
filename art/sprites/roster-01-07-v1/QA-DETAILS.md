@@ -1,0 +1,4794 @@
+# QA: warnings and failures, preserved verbatim
+
+Includes source diagnostics and rejected takes. Runtime technical validation is separate in runtime-validation.json and unity-validation.json.
+
+## qa\frames-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 4.03,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 68.2,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 3.12,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 61.0,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 4.37,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.8,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 0.66,
+    "2": 2.59,
+    "3": 1.0
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 1.0,
+    "2": 1.69,
+    "3": 0.97
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.52,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 0.94,
+    "3": 1.0,
+    "4": 0.94,
+    "5": 1.0
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    2,
+    4
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "warn",
+  "value": [
+    "far",
+    "unclear",
+    "near",
+    "far",
+    "far",
+    "far"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "mixed: some half-cycle pairs repeat the lead",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      2,
+      5,
+      false
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 1,
+  "unclear": 1,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.8966
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.9329
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8774
+      }
+    ],
+    "adjacent_iou_median": 0.843,
+    "half_cycle_iou_median": 0.8966
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 7.29,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 60.4,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "warn",
+  "value": [
+    "far",
+    "unclear",
+    "near",
+    "far",
+    "near",
+    "far"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "mixed: some half-cycle pairs repeat the lead",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      2,
+      5,
+      false
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 2,
+  "unclear": 1,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.8977
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.9216
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.9021
+      }
+    ],
+    "adjacent_iou_median": 0.8728,
+    "half_cycle_iou_median": 0.9021
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.5,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.8,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "far",
+    "near",
+    "far",
+    "far",
+    "near",
+    "far"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 2,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.944
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.9496
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.9305
+      }
+    ],
+    "adjacent_iou_median": 0.9415,
+    "half_cycle_iou_median": 0.944
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "far",
+    "unclear",
+    "far",
+    "far",
+    "unclear",
+    "far"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 0,
+  "unclear": 2,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.936
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8974
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8725
+      }
+    ],
+    "adjacent_iou_median": 0.8303,
+    "half_cycle_iou_median": 0.8974
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 3.27,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.8,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 0.99,
+    "1": 1.01,
+    "2": 1.03,
+    "3": 0.891,
+    "4": 0.99,
+    "5": 1.01
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    3
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 0.73,
+    "2": 1.89,
+    "3": 1.65,
+    "4": 0.98,
+    "5": 1.0
+  },
+  "threshold": 1.5,
+  "frames": [
+    2,
+    3
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 5.43,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 60.3,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 5.24,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 64.8,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 0.94,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.98
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    2
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.07,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 62.4,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.01,
+    "1": 0.909,
+    "2": 0.99,
+    "3": 1.01,
+    "4": 0.99,
+    "5": 1.01
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    1
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 10.35,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.5,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 0.99,
+    "1": 1.01,
+    "2": 0.99,
+    "3": 1.05
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    3
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.51,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.9,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 3.47,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 67.4,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.86,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 59.7,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.63,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 1.0,
+    "2": 3.2,
+    "3": 0.46
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.71,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "near",
+    "near",
+    "near",
+    "near",
+    "near",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 6,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.8594
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.9216
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8945
+      }
+    ],
+    "adjacent_iou_median": 0.8536,
+    "half_cycle_iou_median": 0.8945
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 6.03,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 63.5,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.0,
+    "1": 0.94,
+    "2": 1.0,
+    "3": 1.02,
+    "4": 0.96,
+    "5": 1.0
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    1
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "far",
+    "far",
+    "far",
+    "unclear",
+    "far",
+    "far"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 0,
+  "unclear": 1,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.8576
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8916
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8651
+      }
+    ],
+    "adjacent_iou_median": 0.8346,
+    "half_cycle_iou_median": 0.8651
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.84,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 66.4,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      2,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "near",
+    "unclear",
+    "near",
+    "unclear",
+    "near",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 4,
+  "unclear": 2,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.853
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8925
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.9588
+      }
+    ],
+    "adjacent_iou_median": 0.9052,
+    "half_cycle_iou_median": 0.8925
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 7.3,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 59.6,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.71,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 0.98,
+    "1": 1.078,
+    "2": 1.02,
+    "3": 0.98,
+    "4": 1.059,
+    "5": 0.98
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    1,
+    4
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "near",
+    "near",
+    "near",
+    "near",
+    "near",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 6,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.851
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8806
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8432
+      }
+    ],
+    "adjacent_iou_median": 0.8215,
+    "half_cycle_iou_median": 0.851
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 5.01,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 67.1,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 4.03,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 67.2,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 3.12,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 62.0,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 0.7,
+    "2": 2.68,
+    "3": 1.0
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 1.0,
+    "2": 1.66,
+    "3": 0.98
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 3.26,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 64.2,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.61,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      2,
+      3
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "fail",
+  "value": [
+    "unclear",
+    "far",
+    "unclear",
+    "far",
+    "far",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "duplicated half-cycle: the same leg leads in both halves",
+  "pairs": [
+    [
+      1,
+      4,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 1,
+  "unclear": 2,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.9167
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8772
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.8881
+      }
+    ],
+    "adjacent_iou_median": 0.8667,
+    "half_cycle_iou_median": 0.8881
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 8.28,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 58.0,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.57,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      0,
+      1
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 0.87,
+    "2": 0.73,
+    "3": 1.0,
+    "4": 1.19,
+    "5": 1.61
+  },
+  "threshold": 1.5,
+  "frames": [
+    5
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-v2-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "warn",
+  "value": [
+    "near",
+    "far",
+    "far",
+    "far",
+    "far",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "mixed: some half-cycle pairs repeat the lead",
+  "pairs": [
+    [
+      0,
+      3,
+      false
+    ],
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      false
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 2,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.9307
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.9136
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.9273
+      }
+    ],
+    "adjacent_iou_median": 0.8942,
+    "half_cycle_iou_median": 0.9273
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-v2-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 0.99,
+    "1": 1.01,
+    "2": 1.03,
+    "3": 0.891,
+    "4": 0.99,
+    "5": 1.01
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    3
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-v2-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 0.73,
+    "2": 1.89,
+    "3": 1.65,
+    "4": 0.98,
+    "5": 1.0
+  },
+  "threshold": 1.5,
+  "frames": [
+    2,
+    3
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-v2-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 5.43,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 59.3,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 5.24,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 62.8,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 0.94,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.98
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    2
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-v2-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.07,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 61.4,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.01,
+    "1": 0.909,
+    "2": 0.99,
+    "3": 1.01,
+    "4": 0.99,
+    "5": 1.01
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    1
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-v2-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 10.35,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 64.5,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 0.99,
+    "1": 1.01,
+    "2": 0.99,
+    "3": 1.05
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    3
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-v2-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 7.65,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 67.7,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "identity_residual",
+  "status": "warn",
+  "value": {
+    "0": null,
+    "1": 1.0,
+    "2": 3.19,
+    "3": 0.47
+  },
+  "threshold": 1.5,
+  "frames": [
+    2
+  ],
+  "note": "head match residual over the median: face or costume drift"
+}
+```
+
+## qa\frames-v2-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.44,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 67.7,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 1.81,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\frames-v2-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "near_duplicates",
+  "status": "warn",
+  "value": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "threshold": 0.95,
+  "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+}
+```
+
+## qa\frames-v2-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "warn",
+  "value": [
+    "near",
+    "near",
+    "near",
+    "far",
+    "near",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "mixed: some half-cycle pairs repeat the lead",
+  "pairs": [
+    [
+      0,
+      3,
+      false
+    ],
+    [
+      1,
+      4,
+      true
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 5,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.9451
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8868
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.9438
+      }
+    ],
+    "adjacent_iou_median": 0.9013,
+    "half_cycle_iou_median": 0.9438
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-v2-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "identity_head_ratio",
+  "status": "fail",
+  "value": {
+    "0": 1.0,
+    "1": 0.94,
+    "2": 1.0,
+    "3": 1.02,
+    "4": 0.96,
+    "5": 1.0
+  },
+  "threshold": [
+    0.95,
+    1.05
+  ],
+  "frames": [
+    1
+  ],
+  "note": "head scale against the median frame (frame 0 template)"
+}
+```
+
+## qa\frames-v2-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.5,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 76.2,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 2.4,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 58.5,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "leg_alternation",
+  "status": "warn",
+  "value": [
+    "near",
+    "near",
+    "near",
+    "near",
+    "far",
+    "near"
+  ],
+  "threshold": "lead differs between i and i+n/2",
+  "verdict": "mixed: some half-cycle pairs repeat the lead",
+  "pairs": [
+    [
+      0,
+      3,
+      true
+    ],
+    [
+      1,
+      4,
+      false
+    ],
+    [
+      2,
+      5,
+      true
+    ]
+  ],
+  "mode": "auto-luminance",
+  "near_leading": 5,
+  "unclear": 0,
+  "half_cycle": {
+    "pairs": [
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "iou_best_shift": 0.9411
+      },
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "iou_best_shift": 0.8413
+      },
+      {
+        "pair": [
+          2,
+          5
+        ],
+        "iou_best_shift": 0.922
+      }
+    ],
+    "adjacent_iou_median": 0.8799,
+    "half_cycle_iou_median": 0.922
+  },
+  "fix": "regenerate frames 3-5 with NEAR and FAR swapped (attach frames 0-2 and the guide)"
+}
+```
+
+## qa\frames-v2-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "torso_drift",
+  "status": "warn",
+  "value": 4.74,
+  "threshold": 2.0,
+  "method": "trunk",
+  "median_x": 68.6,
+  "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+}
+```
+
+## qa\frames-v2-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "seam",
+  "status": "warn",
+  "value": 2.13,
+  "threshold": 1.5,
+  "transitions": [
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "note": "largest frame-to-frame change over the median step; review these joins first"
+}
+```
+
+## qa\rejected-spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "cross_cell_components",
+  "status": "fail",
+  "value": 1,
+  "threshold": 0,
+  "cells": [
+    [
+      1,
+      0
+    ]
+  ],
+  "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+}
+```
+
+## qa\rejected-spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "cross_cell_visible",
+  "status": "fail",
+  "value": 1,
+  "threshold": 0,
+  "note": "the same test on the visible edge (alpha > 16)"
+}
+```
+
+## qa\rejected-spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 658,
+  "threshold": 0,
+  "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\rejected-spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\rejected-spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 74244,
+    "detached_components": 4
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1908,
+  "threshold": 0,
+  "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 80204,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 77118,
+    "detached_components": 8
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 79029,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 69520,
+    "detached_components": 0
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1335,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 49651,
+    "detached_components": 12
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 611,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 58061,
+    "detached_components": 15
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1907,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 50973,
+    "detached_components": 11
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 47695,
+    "detached_components": 7
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 62680,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 77768,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 62240,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 59895,
+    "detached_components": 8
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 107078,
+    "detached_components": 6
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 115857,
+    "detached_components": 12
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 83104,
+    "detached_components": 9
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 114037,
+    "detached_components": 15
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 68831,
+    "detached_components": 29
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 48131,
+    "detached_components": 17
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 72980,
+    "detached_components": 21
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 59036,
+    "detached_components": 9
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 66398,
+    "detached_components": 9
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 75979,
+    "detached_components": 6
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 78821,
+    "detached_components": 14
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 92319,
+    "detached_components": 11
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1908,
+  "threshold": 0,
+  "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 80204,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 77118,
+    "detached_components": 8
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 79029,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 69520,
+    "detached_components": 0
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1335,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 49651,
+    "detached_components": 12
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 611,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 58061,
+    "detached_components": 15
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "boundary_band",
+  "status": "warn",
+  "value": 1907,
+  "threshold": 0,
+  "note": "solid pixels within 13 px of a cell line; a different crop or rounding can cut them"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 50973,
+    "detached_components": 11
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 47695,
+    "detached_components": 7
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 55131,
+    "detached_components": 2
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 77768,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 62240,
+    "detached_components": 5
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-hex-cultist-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 78107,
+    "detached_components": 2
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-cast-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 107078,
+    "detached_components": 6
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-cast-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 115857,
+    "detached_components": 12
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-cast-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 83104,
+    "detached_components": 9
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-cast-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 114037,
+    "detached_components": 15
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-idle-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 68831,
+    "detached_components": 29
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-idle-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 48131,
+    "detached_components": 17
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-idle-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 72980,
+    "detached_components": 21
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 4,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-idle-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 59036,
+    "detached_components": 9
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-walk-east\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 101039,
+    "detached_components": 10
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-walk-north\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 75979,
+    "detached_components": 6
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-walk-south\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 78821,
+    "detached_components": 14
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```
+
+## qa\spill-v3-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "safe_frame",
+  "status": "warn",
+  "value": 6,
+  "threshold": 0,
+  "cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+}
+```
+
+## qa\spill-v3-runescribe-walk-west\sheet-qc.json
+
+```json
+{
+  "id": "faint_specks",
+  "status": "warn",
+  "value": {
+    "floor_px": 90104,
+    "detached_components": 7
+  },
+  "threshold": 0,
+  "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+}
+```

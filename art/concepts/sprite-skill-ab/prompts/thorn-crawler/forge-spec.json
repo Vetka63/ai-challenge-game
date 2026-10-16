@@ -1,0 +1,11 @@
+{
+  "name": "thorn-crawler",
+  "subject": "a thorn crawler scorpion enemy",
+  "identity": "A low amber scorpion with a compact diamond body, two large angular open pincers, three short legs on each side and a hooked segmented tail curling above the body. The two pincers are the strongest shape. Amber and muted gold, with two tiny ivory eye marks. Its silhouette is broad and low, clearly distinct from the wide winged bat.",
+  "class": "mob",
+  "finish": "pixel",
+  "facing": "front",
+  "view": "orthographic slightly elevated front view for a top-down 2D arena game",
+  "pose": "a neutral readable resting pose, full body and all extremities visible",
+  "extra": "Keep body art independent of attack effects: no projectiles, trails, particles or aura. Make the silhouette and identity readable at the intended gameplay size."
+}

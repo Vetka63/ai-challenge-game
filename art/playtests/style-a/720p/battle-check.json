@@ -1,0 +1,436 @@
+{
+    "samples": [
+        {
+            "frame": 714,
+            "enemies": 22,
+            "kills": 204,
+            "boltHits": 390,
+            "pulseHits": 155,
+            "time": 120.24453735351563,
+            "hp": 75.5
+        },
+        {
+            "frame": 721,
+            "enemies": 23,
+            "kills": 204,
+            "boltHits": 390,
+            "pulseHits": 155,
+            "time": 120.37789916992188,
+            "hp": 75.5
+        },
+        {
+            "frame": 728,
+            "enemies": 23,
+            "kills": 204,
+            "boltHits": 390,
+            "pulseHits": 155,
+            "time": 120.51126098632813,
+            "hp": 75.5
+        },
+        {
+            "frame": 735,
+            "enemies": 22,
+            "kills": 205,
+            "boltHits": 391,
+            "pulseHits": 155,
+            "time": 120.6279525756836,
+            "hp": 75.5
+        },
+        {
+            "frame": 742,
+            "enemies": 23,
+            "kills": 205,
+            "boltHits": 391,
+            "pulseHits": 155,
+            "time": 120.76131439208985,
+            "hp": 75.5
+        },
+        {
+            "frame": 749,
+            "enemies": 23,
+            "kills": 205,
+            "boltHits": 392,
+            "pulseHits": 155,
+            "time": 120.8946762084961,
+            "hp": 75.5
+        },
+        {
+            "frame": 756,
+            "enemies": 23,
+            "kills": 205,
+            "boltHits": 392,
+            "pulseHits": 155,
+            "time": 121.01136779785156,
+            "hp": 75.5
+        },
+        {
+            "frame": 763,
+            "enemies": 17,
+            "kills": 211,
+            "boltHits": 394,
+            "pulseHits": 160,
+            "time": 121.14472961425781,
+            "hp": 75.5
+        },
+        {
+            "frame": 770,
+            "enemies": 18,
+            "kills": 211,
+            "boltHits": 394,
+            "pulseHits": 160,
+            "time": 121.26142120361328,
+            "hp": 75.5
+        },
+        {
+            "frame": 777,
+            "enemies": 18,
+            "kills": 211,
+            "boltHits": 394,
+            "pulseHits": 160,
+            "time": 121.39478302001953,
+            "hp": 75.5
+        },
+        {
+            "frame": 784,
+            "enemies": 18,
+            "kills": 211,
+            "boltHits": 394,
+            "pulseHits": 160,
+            "time": 121.511474609375,
+            "hp": 75.5
+        },
+        {
+            "frame": 791,
+            "enemies": 19,
+            "kills": 211,
+            "boltHits": 395,
+            "pulseHits": 160,
+            "time": 121.64483642578125,
+            "hp": 75.5
+        },
+        {
+            "frame": 798,
+            "enemies": 19,
+            "kills": 211,
+            "boltHits": 395,
+            "pulseHits": 160,
+            "time": 121.7781982421875,
+            "hp": 75.5
+        },
+        {
+            "frame": 805,
+            "enemies": 19,
+            "kills": 211,
+            "boltHits": 395,
+            "pulseHits": 160,
+            "time": 121.91156005859375,
+            "hp": 75.5
+        },
+        {
+            "frame": 812,
+            "enemies": 19,
+            "kills": 211,
+            "boltHits": 396,
+            "pulseHits": 160,
+            "time": 122.044921875,
+            "hp": 75.5
+        },
+        {
+            "frame": 819,
+            "enemies": 20,
+            "kills": 211,
+            "boltHits": 396,
+            "pulseHits": 160,
+            "time": 122.16161346435547,
+            "hp": 75.5
+        },
+        {
+            "frame": 826,
+            "enemies": 20,
+            "kills": 211,
+            "boltHits": 396,
+            "pulseHits": 160,
+            "time": 122.29497528076172,
+            "hp": 75.5
+        },
+        {
+            "frame": 833,
+            "enemies": 20,
+            "kills": 211,
+            "boltHits": 398,
+            "pulseHits": 160,
+            "time": 122.42833709716797,
+            "hp": 75.5
+        },
+        {
+            "frame": 840,
+            "enemies": 21,
+            "kills": 211,
+            "boltHits": 398,
+            "pulseHits": 160,
+            "time": 122.54502868652344,
+            "hp": 75.5
+        },
+        {
+            "frame": 847,
+            "enemies": 21,
+            "kills": 211,
+            "boltHits": 398,
+            "pulseHits": 160,
+            "time": 122.67839050292969,
+            "hp": 75.5
+        },
+        {
+            "frame": 854,
+            "enemies": 20,
+            "kills": 212,
+            "boltHits": 400,
+            "pulseHits": 160,
+            "time": 122.81175231933594,
+            "hp": 75.5
+        },
+        {
+            "frame": 861,
+            "enemies": 20,
+            "kills": 212,
+            "boltHits": 400,
+            "pulseHits": 160,
+            "time": 122.9284439086914,
+            "hp": 75.5
+        },
+        {
+            "frame": 868,
+            "enemies": 21,
+            "kills": 212,
+            "boltHits": 400,
+            "pulseHits": 160,
+            "time": 123.06180572509766,
+            "hp": 75.5
+        },
+        {
+            "frame": 875,
+            "enemies": 21,
+            "kills": 212,
+            "boltHits": 400,
+            "pulseHits": 160,
+            "time": 123.17849731445313,
+            "hp": 75.5
+        },
+        {
+            "frame": 882,
+            "enemies": 21,
+            "kills": 212,
+            "boltHits": 400,
+            "pulseHits": 160,
+            "time": 123.31185913085938,
+            "hp": 75.5
+        },
+        {
+            "frame": 889,
+            "enemies": 21,
+            "kills": 212,
+            "boltHits": 402,
+            "pulseHits": 160,
+            "time": 123.44522094726563,
+            "hp": 75.5
+        },
+        {
+            "frame": 896,
+            "enemies": 22,
+            "kills": 212,
+            "boltHits": 402,
+            "pulseHits": 160,
+            "time": 123.5619125366211,
+            "hp": 75.5
+        },
+        {
+            "frame": 903,
+            "enemies": 22,
+            "kills": 212,
+            "boltHits": 402,
+            "pulseHits": 160,
+            "time": 123.69527435302735,
+            "hp": 75.5
+        },
+        {
+            "frame": 910,
+            "enemies": 20,
+            "kills": 214,
+            "boltHits": 404,
+            "pulseHits": 160,
+            "time": 123.8286361694336,
+            "hp": 75.5
+        },
+        {
+            "frame": 917,
+            "enemies": 21,
+            "kills": 214,
+            "boltHits": 404,
+            "pulseHits": 160,
+            "time": 123.94532775878906,
+            "hp": 75.5
+        },
+        {
+            "frame": 924,
+            "enemies": 21,
+            "kills": 214,
+            "boltHits": 404,
+            "pulseHits": 160,
+            "time": 124.07868957519531,
+            "hp": 75.5
+        },
+        {
+            "frame": 931,
+            "enemies": 21,
+            "kills": 214,
+            "boltHits": 404,
+            "pulseHits": 160,
+            "time": 124.19538116455078,
+            "hp": 75.5
+        },
+        {
+            "frame": 938,
+            "enemies": 20,
+            "kills": 215,
+            "boltHits": 406,
+            "pulseHits": 160,
+            "time": 124.32874298095703,
+            "hp": 75.5
+        },
+        {
+            "frame": 945,
+            "enemies": 21,
+            "kills": 215,
+            "boltHits": 406,
+            "pulseHits": 160,
+            "time": 124.46210479736328,
+            "hp": 75.5
+        },
+        {
+            "frame": 952,
+            "enemies": 21,
+            "kills": 215,
+            "boltHits": 406,
+            "pulseHits": 160,
+            "time": 124.57879638671875,
+            "hp": 75.5
+        },
+        {
+            "frame": 959,
+            "enemies": 21,
+            "kills": 215,
+            "boltHits": 407,
+            "pulseHits": 160,
+            "time": 124.712158203125,
+            "hp": 75.5
+        },
+        {
+            "frame": 966,
+            "enemies": 22,
+            "kills": 215,
+            "boltHits": 407,
+            "pulseHits": 160,
+            "time": 124.84552001953125,
+            "hp": 75.5
+        },
+        {
+            "frame": 973,
+            "enemies": 22,
+            "kills": 215,
+            "boltHits": 407,
+            "pulseHits": 160,
+            "time": 124.9788818359375,
+            "hp": 75.5
+        },
+        {
+            "frame": 980,
+            "enemies": 21,
+            "kills": 216,
+            "boltHits": 408,
+            "pulseHits": 160,
+            "time": 125.09557342529297,
+            "hp": 75.5
+        },
+        {
+            "frame": 987,
+            "enemies": 21,
+            "kills": 216,
+            "boltHits": 408,
+            "pulseHits": 160,
+            "time": 125.21226501464844,
+            "hp": 75.5
+        },
+        {
+            "frame": 994,
+            "enemies": 22,
+            "kills": 216,
+            "boltHits": 408,
+            "pulseHits": 160,
+            "time": 125.3289566040039,
+            "hp": 85.5
+        },
+        {
+            "frame": 1001,
+            "enemies": 22,
+            "kills": 216,
+            "boltHits": 408,
+            "pulseHits": 160,
+            "time": 125.46231842041016,
+            "hp": 85.5
+        },
+        {
+            "frame": 1008,
+            "enemies": 22,
+            "kills": 216,
+            "boltHits": 410,
+            "pulseHits": 160,
+            "time": 125.57901000976563,
+            "hp": 85.5
+        },
+        {
+            "frame": 1015,
+            "enemies": 22,
+            "kills": 216,
+            "boltHits": 410,
+            "pulseHits": 160,
+            "time": 125.71237182617188,
+            "hp": 85.5
+        },
+        {
+            "frame": 1022,
+            "enemies": 23,
+            "kills": 216,
+            "boltHits": 410,
+            "pulseHits": 160,
+            "time": 125.82906341552735,
+            "hp": 85.5
+        },
+        {
+            "frame": 1029,
+            "enemies": 23,
+            "kills": 216,
+            "boltHits": 411,
+            "pulseHits": 160,
+            "time": 125.9624252319336,
+            "hp": 85.5
+        },
+        {
+            "frame": 1036,
+            "enemies": 23,
+            "kills": 216,
+            "boltHits": 412,
+            "pulseHits": 160,
+            "time": 126.07911682128906,
+            "hp": 85.5
+        },
+        {
+            "frame": 1043,
+            "enemies": 24,
+            "kills": 216,
+            "boltHits": 412,
+            "pulseHits": 160,
+            "time": 126.21247863769531,
+            "hp": 85.5
+        }
+    ]
+}

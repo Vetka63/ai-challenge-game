@@ -1,0 +1,878 @@
+{
+  "cell": [
+    128,
+    128
+  ],
+  "rootTopLeft": [
+    64,
+    108
+  ],
+  "frames": [
+    {
+      "name": "idle_south_00",
+      "index": 0,
+      "rectTopLeft": [
+        0,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_south_01",
+      "index": 1,
+      "rectTopLeft": [
+        128,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_south_02",
+      "index": 2,
+      "rectTopLeft": [
+        256,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_south_03",
+      "index": 3,
+      "rectTopLeft": [
+        384,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_north_00",
+      "index": 4,
+      "rectTopLeft": [
+        512,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_north_01",
+      "index": 5,
+      "rectTopLeft": [
+        640,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_north_02",
+      "index": 6,
+      "rectTopLeft": [
+        768,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_north_03",
+      "index": 7,
+      "rectTopLeft": [
+        896,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_west_00",
+      "index": 8,
+      "rectTopLeft": [
+        0,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_west_01",
+      "index": 9,
+      "rectTopLeft": [
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_west_02",
+      "index": 10,
+      "rectTopLeft": [
+        256,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_west_03",
+      "index": 11,
+      "rectTopLeft": [
+        384,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_east_00",
+      "index": 12,
+      "rectTopLeft": [
+        512,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_east_01",
+      "index": 13,
+      "rectTopLeft": [
+        640,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_east_02",
+      "index": 14,
+      "rectTopLeft": [
+        768,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "idle_east_03",
+      "index": 15,
+      "rectTopLeft": [
+        896,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_00",
+      "index": 16,
+      "rectTopLeft": [
+        0,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_01",
+      "index": 17,
+      "rectTopLeft": [
+        128,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_02",
+      "index": 18,
+      "rectTopLeft": [
+        256,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_03",
+      "index": 19,
+      "rectTopLeft": [
+        384,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_04",
+      "index": 20,
+      "rectTopLeft": [
+        512,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_south_05",
+      "index": 21,
+      "rectTopLeft": [
+        640,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_00",
+      "index": 22,
+      "rectTopLeft": [
+        768,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_01",
+      "index": 23,
+      "rectTopLeft": [
+        896,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_02",
+      "index": 24,
+      "rectTopLeft": [
+        0,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_03",
+      "index": 25,
+      "rectTopLeft": [
+        128,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_04",
+      "index": 26,
+      "rectTopLeft": [
+        256,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_north_05",
+      "index": 27,
+      "rectTopLeft": [
+        384,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_00",
+      "index": 28,
+      "rectTopLeft": [
+        512,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_01",
+      "index": 29,
+      "rectTopLeft": [
+        640,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_02",
+      "index": 30,
+      "rectTopLeft": [
+        768,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_03",
+      "index": 31,
+      "rectTopLeft": [
+        896,
+        384,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_04",
+      "index": 32,
+      "rectTopLeft": [
+        0,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_west_05",
+      "index": 33,
+      "rectTopLeft": [
+        128,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_00",
+      "index": 34,
+      "rectTopLeft": [
+        256,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_01",
+      "index": 35,
+      "rectTopLeft": [
+        384,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_02",
+      "index": 36,
+      "rectTopLeft": [
+        512,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_03",
+      "index": 37,
+      "rectTopLeft": [
+        640,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_04",
+      "index": 38,
+      "rectTopLeft": [
+        768,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "walk_east_05",
+      "index": 39,
+      "rectTopLeft": [
+        896,
+        512,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_00",
+      "index": 40,
+      "rectTopLeft": [
+        0,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_01",
+      "index": 41,
+      "rectTopLeft": [
+        128,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_02",
+      "index": 42,
+      "rectTopLeft": [
+        256,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_03",
+      "index": 43,
+      "rectTopLeft": [
+        384,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_04",
+      "index": 44,
+      "rectTopLeft": [
+        512,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_south_05",
+      "index": 45,
+      "rectTopLeft": [
+        640,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_00",
+      "index": 46,
+      "rectTopLeft": [
+        768,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_01",
+      "index": 47,
+      "rectTopLeft": [
+        896,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_02",
+      "index": 48,
+      "rectTopLeft": [
+        0,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_03",
+      "index": 49,
+      "rectTopLeft": [
+        128,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_04",
+      "index": 50,
+      "rectTopLeft": [
+        256,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_north_05",
+      "index": 51,
+      "rectTopLeft": [
+        384,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_00",
+      "index": 52,
+      "rectTopLeft": [
+        512,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_01",
+      "index": 53,
+      "rectTopLeft": [
+        640,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_02",
+      "index": 54,
+      "rectTopLeft": [
+        768,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_03",
+      "index": 55,
+      "rectTopLeft": [
+        896,
+        768,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_04",
+      "index": 56,
+      "rectTopLeft": [
+        0,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_west_05",
+      "index": 57,
+      "rectTopLeft": [
+        128,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_00",
+      "index": 58,
+      "rectTopLeft": [
+        256,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_01",
+      "index": 59,
+      "rectTopLeft": [
+        384,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_02",
+      "index": 60,
+      "rectTopLeft": [
+        512,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_03",
+      "index": 61,
+      "rectTopLeft": [
+        640,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_04",
+      "index": 62,
+      "rectTopLeft": [
+        768,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cast_east_05",
+      "index": 63,
+      "rectTopLeft": [
+        896,
+        896,
+        128,
+        128
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "name": "idle_south",
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true
+    },
+    {
+      "name": "idle_north",
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true
+    },
+    {
+      "name": "idle_west",
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true
+    },
+    {
+      "name": "idle_east",
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true
+    },
+    {
+      "name": "walk_south",
+      "indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    {
+      "name": "walk_north",
+      "indices": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    {
+      "name": "walk_west",
+      "indices": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    {
+      "name": "walk_east",
+      "indices": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    {
+      "name": "cast_south",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "loop": false
+    },
+    {
+      "name": "cast_north",
+      "indices": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "loop": false
+    },
+    {
+      "name": "cast_west",
+      "indices": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "loop": false
+    },
+    {
+      "name": "cast_east",
+      "indices": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        200
+      ],
+      "loop": false
+    }
+  ]
+}

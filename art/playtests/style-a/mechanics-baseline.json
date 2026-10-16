@@ -1,0 +1,74 @@
+[
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaAudio.cs",
+    "sha256": "CBBE5B3E7E02A074F6ECC3858AB670F99BBD26C1870E1081A3ABA0E0BCF35527"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaComponents.cs",
+    "sha256": "E92152DA52F31DBCF659739D3926F7B9B1CF10515EE1954153BB7C1178BDD9BD"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaInput.cs",
+    "sha256": "B3E7EF41566E99DC553A6C7AE8BF3D8406362DE4500685209AA5CC9815E6F590"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaInstaller.cs",
+    "sha256": "A0C482577981E24AD5B19EF89CA9D0789A44650746E22B4C6C5E8E4EC57E4F93"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaLayout.cs",
+    "sha256": "00EDF9D1DF928EEC0591944F316421794EA7A91A55BB647A79B450B78BD1AFA9"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaRun.cs",
+    "sha256": "904947B8625909C38ECCC03E708B4580660027E226D81CF56684ED27DFF5EA95"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaSettings.cs",
+    "sha256": "3FAA086BC0DB27F927D9CAE6CF7D2924549347FAFF3366EEF5B465281381BAB0"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\ArenaSimulation.cs",
+    "sha256": "016905B41FBE6B7A4B47DFB0B4894ADC4AE62F740471F67C0AE5BA1C4695D9C9"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Runtime\\SeparationGrid.cs",
+    "sha256": "70B61BC2C61D4FE80FBFA369D0DBC6EF0CAC0A1B430D9E2DBB0DF13FE1F562C4"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Data\\ArenaSettings.asset",
+    "sha256": "2663F95BF9F140D0A8AA83F2FEDC16A741382B9F5CAB0ED0F3FBF5AC3A391DB7"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Data\\ArenaSettings.asset.meta",
+    "sha256": "BCD1B7C66382EDE653139C3B52907C37CC4167EA9AE864A8026239D4FD1B0C7C"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode.meta",
+    "sha256": "7D39FAA588AEF20A1BCC990CA965AE9406FC3A5FD066620AA32F7B6306FD4E5C"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\ArenaRunTests.cs",
+    "sha256": "8E5084EA0AB4E50488168BE7D5DEE02BA5D562BEE90A6F44C9B05427576599EF"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\ArenaRunTests.cs.meta",
+    "sha256": "23AF7ACD2D150C1F28810C6AB50EF6ED4A8F9E30C7EAB1D6D8D73FA9E33A1A3E"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\ArenaSimulationTests.cs",
+    "sha256": "E08E188100EA7ED57CEC5987289673D57B85883BB168D2C2F420D57359B26656"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\ArenaSimulationTests.cs.meta",
+    "sha256": "E53DB17B2E6D63D1B70B67EA2F393CF49C1961D245F6793694BBB25AF47CBC07"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\AsciiArena.Tests.asmdef",
+    "sha256": "0FDD6146533CA57EAFE5B0403F9B63E673AFE9E7E90C990DF2D96B426BD388A1"
+  },
+  {
+    "path": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena\\Assets\\Prototype\\Tests\\EditMode\\AsciiArena.Tests.asmdef.meta",
+    "sha256": "8703379BC6BF4612A6FDD6B06D6FA5B24B221E479D5B41B00D126DE52DFFE33E"
+  }
+]

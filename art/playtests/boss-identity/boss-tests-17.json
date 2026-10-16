@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 0.54,
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.ChargeSweepHitsInsideWarningButNotOutsideAndDashProtects",
+      "Status": "Passed",
+      "Duration": 0.1487876,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.DiskWarningAndEdgeUseExactDamageGeometry",
+      "Status": "Passed",
+      "Duration": 0.0016929,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(0)",
+      "Status": "Passed",
+      "Duration": 0.0988583,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(1)",
+      "Status": "Passed",
+      "Duration": 0.1087373,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(2)",
+      "Status": "Passed",
+      "Duration": 0.1062738,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.InwardRingSweepsDamageAndPreservesGap",
+      "Status": "Passed",
+      "Duration": 0.0015531,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(1)",
+      "Status": "Passed",
+      "Duration": 0.0194057,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(2)",
+      "Status": "Passed",
+      "Duration": 0.0111625,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(3)",
+      "Status": "Passed",
+      "Duration": 0.0099284,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,0)",
+      "Status": "Passed",
+      "Duration": 0.0014438,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,1)",
+      "Status": "Passed",
+      "Duration": 0.0003514,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,2)",
+      "Status": "Passed",
+      "Duration": 0.0003155,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,0)",
+      "Status": "Passed",
+      "Duration": 0.0003063,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,1)",
+      "Status": "Passed",
+      "Duration": 0.0002899,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,2)",
+      "Status": "Passed",
+      "Duration": 0.0003257,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.WardenChargeStopsBeforePillarAndImpactUsesActualLanding",
+      "Status": "Passed",
+      "Duration": 0.0028189,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.WardenLocksChargeThenWarnsImpactBeforeRecovery",
+      "Status": "Passed",
+      "Duration": 0.0072358,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

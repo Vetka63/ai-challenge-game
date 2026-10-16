@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var results=new System.Collections.Generic.List<object>(); foreach(float damage in new[]{24f,28f})for(int weapon=0;weapon<3;weapon++){var settings=UnityEngine.Object.Instantiate(UnityEditor.AssetDatabase.LoadAssetAtPath<AsciiArena.ArenaSettings>(\"Assets/Prototype/Data/ArenaSettings.asset\"));settings.orbitDamage=damage;using(var sim=new AsciiArena.ArenaSimulation(settings,new AsciiArena.ArenaLayout())){sim.ChooseUpgrade(weapon);sim.DemoMode=true;float firstLevel=-1;for(int i=0;i<3600&&!sim.Finished;i++){if(sim.Phase==AsciiArena.RunPhase.ChoosingUpgrade){if(firstLevel<0)firstLevel=sim.Elapsed;sim.ChooseUpgrade(0);}sim.Step(1f/60);}results.Add(new{damage,weapon,firstLevel,time=sim.Elapsed,health=sim.HeroHealth,level=sim.Level,kills=sim.Kills,second=sim.WeaponAt(1).ToString(),phase=sim.Phase.ToString()});}UnityEngine.Object.DestroyImmediate(settings);}return results;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "damage": 24,
+          "weapon": 0,
+          "firstLevel": 21.4331779,
+          "time": 59.9992561,
+          "health": 104,
+          "level": 4,
+          "kills": 93,
+          "second": "Orbit",
+          "phase": "Running"
+        },
+        {
+          "damage": 24,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 49.9827423,
+          "health": 0,
+          "level": 3,
+          "kills": 61,
+          "second": "Orbit",
+          "phase": "Defeat"
+        },
+        {
+          "damage": 24,
+          "weapon": 2,
+          "firstLevel": -1,
+          "time": 15.9499283,
+          "health": 0,
+          "level": 1,
+          "kills": 18,
+          "second": "None",
+          "phase": "Defeat"
+        },
+        {
+          "damage": 28,
+          "weapon": 0,
+          "firstLevel": 21.4331779,
+          "time": 59.9992561,
+          "health": 104,
+          "level": 4,
+          "kills": 93,
+          "second": "Orbit",
+          "phase": "Running"
+        },
+        {
+          "damage": 28,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 49.9827423,
+          "health": 0,
+          "level": 3,
+          "kills": 61,
+          "second": "Orbit",
+          "phase": "Defeat"
+        },
+        {
+          "damage": 28,
+          "weapon": 2,
+          "firstLevel": -1,
+          "time": 15.9499283,
+          "health": 0,
+          "level": 1,
+          "kills": 18,
+          "second": "None",
+          "phase": "Defeat"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

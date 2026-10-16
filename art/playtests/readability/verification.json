@@ -1,0 +1,32 @@
+[
+  {
+    "resolution": "720p",
+    "width": 1280,
+    "height": 720,
+    "framesAdvanced": 1246,
+    "errors": 0,
+    "upgrade": true,
+    "pause": true,
+    "result": "Victory"
+  },
+  {
+    "resolution": "1080p",
+    "width": 1920,
+    "height": 1080,
+    "framesAdvanced": 911,
+    "errors": 0,
+    "upgrade": true,
+    "pause": true,
+    "result": "Victory"
+  },
+  {
+    "resolution": "1440p",
+    "width": 2560,
+    "height": 1440,
+    "framesAdvanced": 909,
+    "errors": 0,
+    "upgrade": true,
+    "pause": true,
+    "result": "Victory"
+  }
+]

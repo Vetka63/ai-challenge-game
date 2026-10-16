@@ -1,0 +1,44 @@
+{
+  "source": "AsciiActorArt.cs + GlyphAtlas.cs",
+  "artSource": "original ASCII glyph composition",
+  "files": [
+    "Assets/Art/HoverActors/hero-idle-south.png",
+    "Assets/Art/HoverActors/hero-hover-south-0.png",
+    "Assets/Art/HoverActors/hero-hover-south-1.png",
+    "Assets/Art/HoverActors/hero-hover-south-2.png",
+    "Assets/Art/HoverActors/hero-hover-south-3.png",
+    "Assets/Art/HoverActors/hero-idle-north.png",
+    "Assets/Art/HoverActors/hero-hover-north-0.png",
+    "Assets/Art/HoverActors/hero-hover-north-1.png",
+    "Assets/Art/HoverActors/hero-hover-north-2.png",
+    "Assets/Art/HoverActors/hero-hover-north-3.png",
+    "Assets/Art/HoverActors/hero-idle-west.png",
+    "Assets/Art/HoverActors/hero-hover-west-0.png",
+    "Assets/Art/HoverActors/hero-hover-west-1.png",
+    "Assets/Art/HoverActors/hero-hover-west-2.png",
+    "Assets/Art/HoverActors/hero-hover-west-3.png",
+    "Assets/Art/HoverActors/hero-idle-east.png",
+    "Assets/Art/HoverActors/hero-hover-east-0.png",
+    "Assets/Art/HoverActors/hero-hover-east-1.png",
+    "Assets/Art/HoverActors/hero-hover-east-2.png",
+    "Assets/Art/HoverActors/hero-hover-east-3.png",
+    "Assets/Art/HoverActors/chaser.png",
+    "Assets/Art/HoverActors/shooter.png",
+    "Assets/Art/HoverActors/heavy.png",
+    "Assets/Art/HoverActors/boss.png"
+  ],
+  "ppu": 40,
+  "cell": [
+    6,
+    8
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "heroRoot": [
+    64,
+    20
+  ],
+  "hover": "four hem poses per facing; runtime adds time-based lift and cloth sway"
+}

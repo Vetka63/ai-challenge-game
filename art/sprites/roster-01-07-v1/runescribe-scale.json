@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "schema": "generate2dsprite.scale_profile.v2",
+  "name": "asset-sheet",
+  "processing": {
+    "cell_size": 96,
+    "fit_scale": 0.75,
+    "trim_border": 0,
+    "edge_clean_depth": 0,
+    "align": "feet",
+    "shared_scale": false,
+    "scale_strategy": "preserve",
+    "component_mode": "all",
+    "component_padding": 0,
+    "min_component_area": 1,
+    "edge_touch_margin": 0,
+    "background_mode": "native_alpha",
+    "resampler": "lanczos",
+    "despill_radius": 0,
+    "key_quality": "auto",
+    "key": "magenta",
+    "alpha_geometry_threshold": 128,
+    "connectivity": 8,
+    "anchor_mode": "stance",
+    "alpha_hygiene": "both",
+    "alpha_floor": 4,
+    "pixel_scale": null,
+    "logical_pixel": 1
+  },
+  "output_origin": [
+    48.0,
+    84.0
+  ],
+  "reference": {
+    "target": "asset",
+    "mode": "sheet",
+    "rows": 2,
+    "cols": 3,
+    "body_scale_mean": 0.6354166666666666,
+    "body_scale_cv": 0.0,
+    "anchor_y_mean": 0.9290364583333334,
+    "output_subject_height_px": 61.0,
+    "legacy_body_scale_mean": 0.5195150733649274
+  },
+  "qc": {
+    "max_body_scale_drift": 0.1
+  }
+}

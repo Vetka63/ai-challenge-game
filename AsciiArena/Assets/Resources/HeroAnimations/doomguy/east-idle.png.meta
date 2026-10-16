@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 72a9d7ebe3e9cab4ea8fe467555f2cea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2983064494579626115
+    second: east-idle_0
+  - first:
+      213: 8444559276599407518
+    second: east-idle_1
+  - first:
+      213: -4872248456859878919
+    second: east-idle_2
+  - first:
+      213: 8926908468122632014
+    second: east-idle_3
+  - first:
+      213: -5147563211002041668
+    second: east-idle_4
+  - first:
+      213: 7853850505034422849
+    second: east-idle_5
+  - first:
+      213: 8736378084942095822
+    second: east-idle_6
+  - first:
+      213: 8251484228090069577
+    second: east-idle_7
+  - first:
+      213: -2426412118024917222
+    second: east-idle_8
+  - first:
+      213: 3962185149776328601
+    second: east-idle_9
+  - first:
+      213: -2495448012927061244
+    second: east-idle_10
+  - first:
+      213: -7980609764306920656
+    second: east-idle_11
+  - first:
+      213: 1403203093300535419
+    second: east-idle_12
+  - first:
+      213: -5519741137599950811
+    second: east-idle_13
+  - first:
+      213: -3789851576315697147
+    second: east-idle_14
+  - first:
+      213: 8268791787393933214
+    second: east-idle_15
+  - first:
+      213: -5366112920284103740
+    second: east-idle_16
+  - first:
+      213: 4265929245563146143
+    second: east-idle_17
+  - first:
+      213: -3150152507950770542
+    second: east-idle_18
+  - first:
+      213: -3408941013939328656
+    second: east-idle_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 884.17267
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim-east-idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1086
+        height: 1448
+      alignment: 9
+      pivot: {x: 0.49332413, y: 0.06767956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f408aa5a60a96d0800000000000000
+      internalID: -2983064494579626115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 388f97734615e2842b177c90b5fe3941
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anim-east-idle: -2983064494579626115
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

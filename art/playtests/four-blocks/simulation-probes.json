@@ -1,0 +1,126 @@
+[
+  {
+    "mode": "default_autopilot_balance_probe",
+    "frames": 10961,
+    "seconds": 182.682846,
+    "result": "Defeat",
+    "Level": 11,
+    "Kills": 336,
+    "BoltHits": 709,
+    "PulseHits": 288,
+    "BossSpawned": false,
+    "bossHealth": 0.0,
+    "hp": 0.0,
+    "maxEnemies": 40,
+    "maxPickups": 23,
+    "wallSeconds": 0.7979535,
+    "meanStepMs": 0.072431712434996534,
+    "worstStepMs": 0.3203,
+    "samples": [
+      {
+        "time": 60.0159225,
+        "Level": 5,
+        "Kills": 86,
+        "hp": 86.0,
+        "enemies": 21
+      },
+      {
+        "time": 120.011154,
+        "Level": 8,
+        "Kills": 198,
+        "hp": 77.0,
+        "enemies": 28
+      },
+      {
+        "time": 180.000168,
+        "Level": 11,
+        "Kills": 332,
+        "hp": 12.5,
+        "enemies": 37
+      }
+    ]
+  },
+  {
+    "mode": "controlled_no_damage_pacing",
+    "frames": 34399,
+    "seconds": 573.2208,
+    "result": "Victory",
+    "Level": 27,
+    "Kills": 1824,
+    "BoltHits": 2907,
+    "PulseHits": 2162,
+    "BossSpawned": true,
+    "bossHealth": 0.0,
+    "hp": 180.0,
+    "maxEnemies": 56,
+    "maxPickups": 26,
+    "wallSeconds": 3.5619848,
+    "meanStepMs": 0.10325245792028839,
+    "worstStepMs": 0.5195,
+    "samples": [
+      {
+        "time": 60.0159225,
+        "Level": 5,
+        "Kills": 86,
+        "hp": 100.0,
+        "enemies": 21
+      },
+      {
+        "time": 120.011154,
+        "Level": 8,
+        "Kills": 198,
+        "hp": 120.0,
+        "enemies": 28
+      },
+      {
+        "time": 180.000168,
+        "Level": 11,
+        "Kills": 333,
+        "hp": 120.0,
+        "enemies": 36
+      },
+      {
+        "time": 240.002182,
+        "Level": 14,
+        "Kills": 491,
+        "hp": 120.0,
+        "enemies": 44
+      },
+      {
+        "time": 300.0042,
+        "Level": 16,
+        "Kills": 687,
+        "hp": 140.0,
+        "enemies": 37
+      },
+      {
+        "time": 360.006226,
+        "Level": 19,
+        "Kills": 898,
+        "hp": 160.0,
+        "enemies": 39
+      },
+      {
+        "time": 420.00824,
+        "Level": 21,
+        "Kills": 1135,
+        "hp": 180.0,
+        "enemies": 38
+      },
+      {
+        "time": 480.010254,
+        "Level": 23,
+        "Kills": 1390,
+        "hp": 180.0,
+        "enemies": 41
+      },
+      {
+        "time": 540.012268,
+        "Level": 26,
+        "Kills": 1674,
+        "hp": 180.0,
+        "enemies": 41
+      }
+    ]
+  }
+]

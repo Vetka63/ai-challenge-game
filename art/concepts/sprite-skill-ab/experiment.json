@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Exploratory A/B comparison of character concepts for an ASCII-inspired survivor-like",
+  "scope": "Four single-pose character concepts in each condition; no animations or runtime integration",
+  "route": "built-in image_gen",
+  "model": "not exposed by the tool",
+  "seed": "not exposed by the tool",
+  "art_source": "host_image",
+  "conditions": {
+    "A": "Common project brief plus a normal concise ImageGen request; no specialist Sprite Forge prompt recipe",
+    "B": "Same brief and identities, with generate2dsprite master-still planning and prompt recipe"
+  },
+  "controls": ["same image tool", "same identities", "same art direction and named colours", "same front-facing camera", "same square transparent output request", "one generation per character per condition", "no reference images", "no selective rerolls"],
+  "skill": {
+    "repository": "https://github.com/0x0funky/agent-sprite-forge",
+    "commit": "5324342fdfab72430f4e9604f3fe427009f8596d",
+    "version": "0.4.0",
+    "installed": ["generate2dsprite", "generate2dmedia"],
+    "applied_stage": "concept planning and master-still prompt generation only",
+    "adaptations": ["Use built-in image_gen as required by the host imagegen skill", "Use native alpha supported by the host instead of chroma key", "Preserve the project's ASCII-derived visual language instead of the stock SNES shading line", "Permit punctuation as anatomy but no captions", "One take per condition for equal budgets; no master approval or animation pipeline in this concept comparison"]
+  },
+  "interpretation": "A small workflow comparison, not a statistical benchmark or proof that a skill universally improves the image model. Large concept PNGs are not native 32/48/64px sprites or a verified glyph grid.",
+  "common_brief": "Design an original readable character for a dark 2D arena survivor-like inspired by the legibility of ASCII Survivors. The visual language is colourful terminal-glyph art: a compact recognizable creature assembled from a few bold angular punctuation-like strokes, brackets, slashes, short bars and square dots, with deliberate empty gaps. Preserve the feeling of a small composed ASCII creature; avoid a detailed conventional fantasy illustration or a lone @ symbol. Crisp flat luminous-coloured marks, simple silhouette, minimal internal detail, no bloom or gradients. Front-facing neutral pose, orthographic game camera with a slight view of the top, full body and any held equipment visible. One isolated character on genuine transparent background, square canvas, centred with clear margins. No captions, words, logos, watermark, floor, scenery or extra creatures. Readability on near-black at small gameplay size is the priority.",
+  "characters": [
+    {"id":"runescribe","label":"Писец рун","class":"hero","subject":"a rune scribe mage hero","identity":"A small humanoid mage with a triangular cyan hood, a dark empty face opening with two ivory square eyes, a short split cyan robe, two separately visible feet and a slender ivory staff held to the viewer's right. A small gold four-point star crowns the staff. The hood, eyes, divided hem and staff are the four identity cues. Cyan and ivory dominate; gold is a tiny accent.","display_width":48,"display_height":56},
+    {"id":"rift-bat","label":"Разломная мышь","class":"mob","subject":"a rift bat enemy","identity":"A coral red bat with two wide angular wings, a tiny central body, two pointed ears and two ivory eyes. Three strong zigzag strokes on each side define the wing edge, with empty space inside the wings. Its silhouette is much wider than it is tall. Coral red dominates with a little orange and ivory.","display_width":56,"display_height":30},
+    {"id":"bone-runner","label":"Костяной бегун","class":"mob","subject":"a bone runner skeleton enemy","identity":"A narrow ivory skeleton with an oversized angular skull, two dark square eye sockets, three separated horizontal rib marks, thin arms and two long bent legs. An empty gap divides the legs. A single small coral waist rune provides the only coloured accent. Its silhouette is tall, narrow and slightly hunched; no weapon, armour or cloak.","display_width":32,"display_height":48},
+    {"id":"thorn-crawler","label":"Терновый ползун","class":"mob","subject":"a thorn crawler scorpion enemy","identity":"A low amber scorpion with a compact diamond body, two large angular open pincers, three short legs on each side and a hooked segmented tail curling above the body. The two pincers are the strongest shape. Amber and muted gold, with two tiny ivory eye marks. Its silhouette is broad and low, clearly distinct from the wide winged bat.","display_width":52,"display_height":40}
+  ]
+}

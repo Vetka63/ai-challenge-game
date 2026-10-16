@@ -1,0 +1,41 @@
+[
+  {
+    "name": "spark",
+    "size": [
+      1134,
+      1387
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "ae2f4870da50ef7a9eca19104636ef950836eac58296e86f96a6377fdc60d2ab"
+  },
+  {
+    "name": "pacman",
+    "size": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "72fc5aa62b65a59efa97fb25b5f489b6e58592046f3248c888d2c12476d22d11"
+  },
+  {
+    "name": "doomguy",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "bb945a8256182a29c9a6aa6cacb69c800d1e659fd81fcd53bd94756bb64b4715"
+  }
+]

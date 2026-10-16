@@ -1,0 +1,57 @@
+{
+  "created": "2026-10-15",
+  "route": "built-in image_gen",
+  "art_source": "host_image",
+  "model": null,
+  "estimateUsd": null,
+  "files": [
+    {
+      "id": "runescribe-A",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-c08b15e6-5f5c-4cc8-aec1-717795babb00.png",
+      "output": "images/runescribe-A.png",
+      "prompt": "prompts/runescribe/A.txt"
+    },
+    {
+      "id": "runescribe-B",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-629f4f58-0234-4e08-82a7-5ee252438b8b.png",
+      "output": "images/runescribe-B.png",
+      "prompt": "prompts/runescribe/B.txt"
+    },
+    {
+      "id": "rift-bat-A",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-0c94a312-f7af-405a-91df-795aa582ff8f.png",
+      "output": "images/rift-bat-A.png",
+      "prompt": "prompts/rift-bat/A.txt"
+    },
+    {
+      "id": "rift-bat-B",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-00b120f0-5236-4a1c-9ff6-afb958f0e273.png",
+      "output": "images/rift-bat-B.png",
+      "prompt": "prompts/rift-bat/B.txt"
+    },
+    {
+      "id": "bone-runner-A",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-a9491038-1baa-4847-84cd-f62af8cbd09a.png",
+      "output": "images/bone-runner-A.png",
+      "prompt": "prompts/bone-runner/A.txt"
+    },
+    {
+      "id": "bone-runner-B",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-6a92e5d3-2ad5-43f7-931d-2820ef57d372.png",
+      "output": "images/bone-runner-B.png",
+      "prompt": "prompts/bone-runner/B.txt"
+    },
+    {
+      "id": "thorn-crawler-A",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-cb09babe-70b6-4bc9-9f8c-9931c99b0ca6.png",
+      "output": "images/thorn-crawler-A.png",
+      "prompt": "prompts/thorn-crawler/A.txt"
+    },
+    {
+      "id": "thorn-crawler-B",
+      "source": "C:\\Users\\Сергей\\.codex\\generated_images\\01a136c7-1d38-7cc2-bfd0-d70f345e4199\\exec-f3461283-7f96-4851-be24-50bd4e8a8ca1.png",
+      "output": "images/thorn-crawler-B.png",
+      "prompt": "prompts/thorn-crawler/B.txt"
+    }
+  ]
+}

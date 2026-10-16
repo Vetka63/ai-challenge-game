@@ -1,0 +1,16 @@
+{
+  "capture": "URP GPU RenderRequest",
+  "size": [
+    1280,
+    720
+  ],
+  "motion_frames": 24,
+  "crt_mean_absolute_difference": [
+    4.805717230902777,
+    5.414661458333334,
+    5.022454427083333
+  ],
+  "crt_changes_image": true,
+  "frames_advance": true,
+  "gif_note": "110 ms presentation per sampled frame; not real-time FPS evidence"
+}

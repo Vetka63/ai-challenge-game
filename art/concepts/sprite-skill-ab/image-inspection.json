@@ -1,0 +1,130 @@
+[
+  {
+    "id": "runescribe-A",
+    "path": "images/runescribe-A.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      464,
+      351,
+      897,
+      938
+    ],
+    "transparent_fraction": 0.9163,
+    "partial_alpha_pixels": 130617,
+    "bytes": 215393,
+    "sha256": "51d8ae8fa4d74c6188eeb859c8d00cb775f085ea0dbd73d4bf00dcd9e6497d26"
+  },
+  {
+    "id": "runescribe-B",
+    "path": "images/runescribe-B.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      366,
+      176,
+      991,
+      1065
+    ],
+    "transparent_fraction": 0.8744,
+    "partial_alpha_pixels": 194575,
+    "bytes": 280024,
+    "sha256": "4996b45a44e9dc64eb9bf579240be6b722f158e939f0cfa15be42142a35ebe16"
+  },
+  {
+    "id": "rift-bat-A",
+    "path": "images/rift-bat-A.png",
+    "width": 1712,
+    "height": 919,
+    "bbox_alpha32": [
+      276,
+      325,
+      1436,
+      594
+    ],
+    "transparent_fraction": 0.9241,
+    "partial_alpha_pixels": 118617,
+    "bytes": 191600,
+    "sha256": "b7f3ecf6812d57982b881dd6adca6e40a95c71770ed2d1c30fc32acc6e285caa"
+  },
+  {
+    "id": "rift-bat-B",
+    "path": "images/rift-bat-B.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      73,
+      449,
+      1181,
+      862
+    ],
+    "transparent_fraction": 0.8981,
+    "partial_alpha_pixels": 156051,
+    "bytes": 236706,
+    "sha256": "11481e7101a1388fd234d5e1e2c6d87741d310abdf86bedb3ebe81dfadd3f88d"
+  },
+  {
+    "id": "bone-runner-A",
+    "path": "images/bone-runner-A.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      478,
+      245,
+      776,
+      1063
+    ],
+    "transparent_fraction": 0.9212,
+    "partial_alpha_pixels": 122153,
+    "bytes": 217892,
+    "sha256": "0dd0383e84dfa529bc57f6b142d569985a5272ebd03b539a176e4b1c117ba5d7"
+  },
+  {
+    "id": "bone-runner-B",
+    "path": "images/bone-runner-B.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      465,
+      317,
+      789,
+      1008
+    ],
+    "transparent_fraction": 0.9396,
+    "partial_alpha_pixels": 92828,
+    "bytes": 206196,
+    "sha256": "c140f929e00319f417c263b8dd72ff1940759bd7191aba2a376ad9b3d0942920"
+  },
+  {
+    "id": "thorn-crawler-A",
+    "path": "images/thorn-crawler-A.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      151,
+      278,
+      1104,
+      960
+    ],
+    "transparent_fraction": 0.868,
+    "partial_alpha_pixels": 205668,
+    "bytes": 338741,
+    "sha256": "a0d34a30425c70f4f658a3aa756c5470fdff43ff067f7f2367405374313a38a5"
+  },
+  {
+    "id": "thorn-crawler-B",
+    "path": "images/thorn-crawler-B.png",
+    "width": 1254,
+    "height": 1254,
+    "bbox_alpha32": [
+      327,
+      302,
+      933,
+      998
+    ],
+    "transparent_fraction": 0.8928,
+    "partial_alpha_pixels": 166652,
+    "bytes": 295890,
+    "sha256": "052a9a138acd9a4cbb80b05fdd082e1a97a9f1019f54023769da855d464bdb17"
+  }
+]

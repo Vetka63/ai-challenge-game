@@ -1,0 +1,601 @@
+{
+  "schema": "roster-unity.v1",
+  "cellSize": 128,
+  "pixelsPerUnit": 64,
+  "rootTopLeft": [
+    64,
+    108
+  ],
+  "characters": [
+    {
+      "id": "runescribe",
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_west_00",
+        "idle_west_01",
+        "idle_west_02",
+        "idle_west_03",
+        "idle_east_00",
+        "idle_east_01",
+        "idle_east_02",
+        "idle_east_03",
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05",
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05",
+        "walk_west_00",
+        "walk_west_01",
+        "walk_west_02",
+        "walk_west_03",
+        "walk_west_04",
+        "walk_west_05",
+        "walk_east_00",
+        "walk_east_01",
+        "walk_east_02",
+        "walk_east_03",
+        "walk_east_04",
+        "walk_east_05",
+        "cast_south_00",
+        "cast_south_01",
+        "cast_south_02",
+        "cast_south_03",
+        "cast_south_04",
+        "cast_south_05",
+        "cast_north_00",
+        "cast_north_01",
+        "cast_north_02",
+        "cast_north_03",
+        "cast_north_04",
+        "cast_north_05",
+        "cast_west_00",
+        "cast_west_01",
+        "cast_west_02",
+        "cast_west_03",
+        "cast_west_04",
+        "cast_west_05",
+        "cast_east_00",
+        "cast_east_01",
+        "cast_east_02",
+        "cast_east_03",
+        "cast_east_04",
+        "cast_east_05"
+      ],
+      "clips": [
+        {
+          "name": "idle_south",
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_north",
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_west",
+          "indices": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_east",
+          "indices": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_south",
+          "indices": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_north",
+          "indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_west",
+          "indices": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_east",
+          "indices": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "cast_south",
+          "indices": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_north",
+          "indices": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_west",
+          "indices": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_east",
+          "indices": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "hex-cultist",
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_west_00",
+        "idle_west_01",
+        "idle_west_02",
+        "idle_west_03",
+        "idle_east_00",
+        "idle_east_01",
+        "idle_east_02",
+        "idle_east_03",
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05",
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05",
+        "walk_west_00",
+        "walk_west_01",
+        "walk_west_02",
+        "walk_west_03",
+        "walk_west_04",
+        "walk_west_05",
+        "walk_east_00",
+        "walk_east_01",
+        "walk_east_02",
+        "walk_east_03",
+        "walk_east_04",
+        "walk_east_05",
+        "cast_south_00",
+        "cast_south_01",
+        "cast_south_02",
+        "cast_south_03",
+        "cast_south_04",
+        "cast_south_05",
+        "cast_north_00",
+        "cast_north_01",
+        "cast_north_02",
+        "cast_north_03",
+        "cast_north_04",
+        "cast_north_05",
+        "cast_west_00",
+        "cast_west_01",
+        "cast_west_02",
+        "cast_west_03",
+        "cast_west_04",
+        "cast_west_05",
+        "cast_east_00",
+        "cast_east_01",
+        "cast_east_02",
+        "cast_east_03",
+        "cast_east_04",
+        "cast_east_05"
+      ],
+      "clips": [
+        {
+          "name": "idle_south",
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_north",
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_west",
+          "indices": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "idle_east",
+          "indices": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "durationsMs": [
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_south",
+          "indices": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_north",
+          "indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_west",
+          "indices": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "walk_east",
+          "indices": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true
+        },
+        {
+          "name": "cast_south",
+          "indices": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_north",
+          "indices": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_west",
+          "indices": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        },
+        {
+          "name": "cast_east",
+          "indices": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            200
+          ],
+          "loop": false
+        }
+      ]
+    }
+  ]
+}

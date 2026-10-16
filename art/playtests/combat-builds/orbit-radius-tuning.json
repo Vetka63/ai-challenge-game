@@ -1,0 +1,156 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var results=new System.Collections.Generic.List<object>(); foreach(float radius in new[]{1.6f,1.9f,2.25f})foreach(float speed in new[]{3.8f,4.8f})for(int weapon=1;weapon<3;weapon++){var settings=UnityEngine.Object.Instantiate(UnityEditor.AssetDatabase.LoadAssetAtPath<AsciiArena.ArenaSettings>(\"Assets/Prototype/Data/ArenaSettings.asset\"));settings.orbitDamage=24;settings.orbitRadius=radius;settings.orbitAngularSpeed=speed;using(var sim=new AsciiArena.ArenaSimulation(settings,new AsciiArena.ArenaLayout())){sim.ChooseUpgrade(weapon);sim.DemoMode=true;float firstLevel=-1;for(int i=0;i<3600&&!sim.Finished;i++){if(sim.Phase==AsciiArena.RunPhase.ChoosingUpgrade){if(firstLevel<0)firstLevel=sim.Elapsed;sim.ChooseUpgrade(0);}sim.Step(1f/60);}results.Add(new{radius,speed,weapon,firstLevel,time=sim.Elapsed,health=sim.HeroHealth,level=sim.Level,kills=sim.Kills,phase=sim.Phase.ToString()});}UnityEngine.Object.DestroyImmediate(settings);}return results;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "radius": 1.6,
+          "speed": 3.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 59.9992561,
+          "health": 39.5,
+          "level": 5,
+          "kills": 84,
+          "phase": "Running"
+        },
+        {
+          "radius": 1.6,
+          "speed": 3.8,
+          "weapon": 2,
+          "firstLevel": 8.800037,
+          "time": 53.0493622,
+          "health": 0,
+          "level": 4,
+          "kills": 70,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 1.6,
+          "speed": 4.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 50.83273,
+          "health": 0,
+          "level": 4,
+          "kills": 67,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 1.6,
+          "speed": 4.8,
+          "weapon": 2,
+          "firstLevel": 9.400028,
+          "time": 59.9992561,
+          "health": 8.5,
+          "level": 5,
+          "kills": 83,
+          "phase": "Running"
+        },
+        {
+          "radius": 1.9,
+          "speed": 3.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 50.049408,
+          "health": 0,
+          "level": 4,
+          "kills": 65,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 1.9,
+          "speed": 3.8,
+          "weapon": 2,
+          "firstLevel": 10.7500076,
+          "time": 59.9992561,
+          "health": 23,
+          "level": 4,
+          "kills": 92,
+          "phase": "Running"
+        },
+        {
+          "radius": 1.9,
+          "speed": 4.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 51.6327171,
+          "health": 0,
+          "level": 4,
+          "kills": 69,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 1.9,
+          "speed": 4.8,
+          "weapon": 2,
+          "firstLevel": 9.733356,
+          "time": 53.082695,
+          "health": 0,
+          "level": 4,
+          "kills": 69,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 2.25,
+          "speed": 3.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 49.2160873,
+          "health": 0,
+          "level": 3,
+          "kills": 60,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 2.25,
+          "speed": 3.8,
+          "weapon": 2,
+          "firstLevel": -1,
+          "time": 14.8999443,
+          "health": 0,
+          "level": 1,
+          "kills": 18,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 2.25,
+          "speed": 4.8,
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 50.88273,
+          "health": 0,
+          "level": 4,
+          "kills": 68,
+          "phase": "Defeat"
+        },
+        {
+          "radius": 2.25,
+          "speed": 4.8,
+          "weapon": 2,
+          "firstLevel": -1,
+          "time": 14.8999443,
+          "health": 0,
+          "level": 1,
+          "kills": 21,
+          "phase": "Defeat"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

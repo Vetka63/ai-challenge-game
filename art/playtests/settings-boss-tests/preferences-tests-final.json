@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 0.24,
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.BossTestBypassesUnlockAndNeverReplacesExpedition(Bellkeeper)",
+      "Status": "Passed",
+      "Duration": 0.161847,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.BossTestBypassesUnlockAndNeverReplacesExpedition(Archivist)",
+      "Status": "Passed",
+      "Duration": 0.0079634,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.LegacyProfileGetsAudioDisplayDefaultsAndKeepsProgress",
+      "Status": "Passed",
+      "Duration": 0.0062862,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.OrdinaryTrainingStaysLockedAndBossTestDoesNotCreateExpedition",
+      "Status": "Passed",
+      "Duration": 0.0012766,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.PhaseTwoAndWardenUseDifferentHealthRulesAndBackReturnsToSettings",
+      "Status": "Passed",
+      "Duration": 0.0076862,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.PreferencesPersistAcrossRestartIncludingZeroAndFalse",
+      "Status": "Passed",
+      "Duration": 0.0249245,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.SliderFlushesOnSettingsExitWithoutChangingCombat",
+      "Status": "Passed",
+      "Duration": 0.0126331,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

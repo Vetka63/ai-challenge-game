@@ -1,0 +1,9 @@
+{
+    "mode": "save",
+    "graphics": "Direct3D11",
+    "width": 1280,
+    "height": 720,
+    "exactResume": false,
+    "trainingPreserved": false,
+    "errors": []
+}

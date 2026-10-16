@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var results=new System.Collections.Generic.List<object>(); for(int weapon=0;weapon<3;weapon++){var settings=UnityEngine.Object.Instantiate(UnityEditor.AssetDatabase.LoadAssetAtPath<AsciiArena.ArenaSettings>(\"Assets/Prototype/Data/ArenaSettings.asset\"));using(var sim=new AsciiArena.ArenaSimulation(settings,new AsciiArena.ArenaLayout())){sim.ChooseUpgrade(weapon);sim.DemoMode=true;float firstLevel=-1;for(int i=0;i<3600&&!sim.Finished;i++){if(sim.Phase==AsciiArena.RunPhase.ChoosingUpgrade){if(firstLevel<0)firstLevel=sim.Elapsed;sim.ChooseUpgrade(0);}sim.Step(1f/60);}results.Add(new{weapon,firstLevel,time=sim.Elapsed,health=sim.HeroHealth,level=sim.Level,kills=sim.Kills,second=sim.WeaponAt(1).ToString(),phase=sim.Phase.ToString(),orbitDamage=settings.orbitDamage,orbitRadius=settings.orbitRadius,orbitSpeed=settings.orbitAngularSpeed});}UnityEngine.Object.DestroyImmediate(settings);}return results;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "weapon": 0,
+          "firstLevel": 21.4331779,
+          "time": 59.9992561,
+          "health": 104,
+          "level": 4,
+          "kills": 91,
+          "second": "Orbit",
+          "phase": "Running",
+          "orbitDamage": 24,
+          "orbitRadius": 1.6,
+          "orbitSpeed": 3.8
+        },
+        {
+          "weapon": 1,
+          "firstLevel": 11.2833328,
+          "time": 59.9992561,
+          "health": 39.5,
+          "level": 5,
+          "kills": 84,
+          "second": "Orbit",
+          "phase": "Running",
+          "orbitDamage": 24,
+          "orbitRadius": 1.6,
+          "orbitSpeed": 3.8
+        },
+        {
+          "weapon": 2,
+          "firstLevel": 8.800037,
+          "time": 53.0493622,
+          "health": 0,
+          "level": 4,
+          "kills": 70,
+          "second": "Ward",
+          "phase": "Defeat",
+          "orbitDamage": 24,
+          "orbitRadius": 1.6,
+          "orbitSpeed": 3.8
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "F:\\ai-advent-challenge\\ai-challenge-game\\AsciiArena"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

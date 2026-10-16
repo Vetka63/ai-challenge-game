@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 4e1a4739d446121419ef43aca83ed6ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1385233164150275640
+    second: east-hurt_0
+  - first:
+      213: 6569615909510284960
+    second: east-hurt_1
+  - first:
+      213: 8021960762645889226
+    second: east-hurt_2
+  - first:
+      213: -4964210867469969009
+    second: east-hurt_3
+  - first:
+      213: -7728197609725225147
+    second: east-hurt_4
+  - first:
+      213: -8589403177192312060
+    second: east-hurt_5
+  - first:
+      213: -1728471266590262840
+    second: east-hurt_6
+  - first:
+      213: 1814354249482656155
+    second: east-hurt_7
+  - first:
+      213: -5816209228711407426
+    second: east-hurt_8
+  - first:
+      213: 1099181288413344459
+    second: east-hurt_9
+  - first:
+      213: 3623875810540468325
+    second: east-hurt_10
+  - first:
+      213: 8279954231827756282
+    second: east-hurt_11
+  - first:
+      213: 4508968994227633283
+    second: east-hurt_12
+  - first:
+      213: -3897277910771715416
+    second: east-hurt_13
+  - first:
+      213: -1389575543219765080
+    second: east-hurt_14
+  - first:
+      213: -649226376196309019
+    second: east-hurt_15
+  - first:
+      213: 216881648021258441
+    second: east-hurt_16
+  - first:
+      213: -5271187007994119522
+    second: east-hurt_17
+  - first:
+      213: 4247312069055163002
+    second: east-hurt_18
+  - first:
+      213: -8671802025011902700
+    second: east-hurt_19
+  - first:
+      213: 5233054616376587694
+    second: east-hurt_20
+  - first:
+      213: -6502477393910802252
+    second: east-hurt_21
+  - first:
+      213: -7515568273187377160
+    second: east-hurt_22
+  - first:
+      213: 1918936972093861101
+    second: east-hurt_23
+  - first:
+      213: -6732817687410424785
+    second: east-hurt_24
+  - first:
+      213: 1843794881952235582
+    second: east-hurt_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 731.65466
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim-east-hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1134
+        height: 1387
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.15501082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e74483936593310800000000000000
+      internalID: 1385233164150275640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 851aa19310ac7e642ad1f949b221b709
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anim-east-hurt: 1385233164150275640
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

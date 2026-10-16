@@ -9,6 +9,15 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 /[Aa]rtifacts/
+/AsciiArena/[Ll]ibrary/
+/AsciiArena/[Tt]emp/
+/AsciiArena/[Oo]bj/
+/AsciiArena/[Ll]ogs/
+/AsciiArena/[Uu]ser[Ss]ettings/
+/AsciiArena/[Bb]uild/
+/AsciiArena/[Bb]uilds/
+/AsciiArena/.vs/
+/AsciiArena/.vsconfig
 /.vs/
 /.idea/
 /.vscode/
@@ -73,3 +82,29 @@ crashlytics-build.properties
 /[Aa]ssets/StreamingAssets/aa.meta
 /[Aa]ssets/VisualScripting.Generated/
 /[Aa]ssets/VisualScripting.Generated.meta
+
+# Reproducible capture sequences; keep reports, contact sheets and review GIFs.
+/art/playtests/**/*-motion-*.png
+/art/playtests/**/*-[0-9][0-9].png
+/art/playtests/*/**/*.png
+/art/playtests/hero-animations/player/
+/art/playtests/hero-animations/player-verified/*-[0-9][0-9][0-9].png
+/art/style-study-2026-10-15/renders/*-motion-*.png
+/art/playtests/**/profile.json*
+/art/playtests/**/run.json*
+/art/sprites/roster-01-07-v1/logs/
+/art/sprites/roster-01-07-v1/*.zip
+/art/sprites/roster-01-07-v1/aligned-v2/
+/art/sprites/roster-01-07-v1/clips/
+/art/sprites/roster-01-07-v1/clips-v2/
+/art/sprites/roster-01-07-v1/on-palette/
+/art/sprites/roster-01-07-v1/on-palette-v2/
+/art/sprites/roster-01-07-v1/processed*/
+/art/sprites/roster-01-07-v1/registered/
+/art/sprites/roster-01-07-v1/registered-v2/
+__pycache__/
+*.pyc
+
+# Third-party screenshots are local research references, not redistributable assets.
+/art/style-study-2026-10-15/references/
+/art/style-study-2026-10-15/comparison.png

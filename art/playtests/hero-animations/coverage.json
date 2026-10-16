@@ -1,0 +1,173 @@
+{
+  "coverage": [
+    {
+      "hero": "Doomguy",
+      "direction": 0,
+      "walk_poses": [
+        "anim-south-pass",
+        "anim-south-stepA",
+        "anim-south-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Doomguy",
+      "direction": 1,
+      "walk_poses": [
+        "anim-north-pass",
+        "anim-north-stepA",
+        "anim-north-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Doomguy",
+      "direction": 2,
+      "walk_poses": [
+        "anim-east-pass",
+        "anim-east-stepA",
+        "anim-east-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Doomguy",
+      "direction": 3,
+      "walk_poses": [
+        "anim-east-pass",
+        "anim-east-stepA",
+        "anim-east-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Spark",
+      "direction": 0,
+      "walk_poses": [
+        "anim-south-pass",
+        "anim-south-stepA",
+        "anim-south-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Spark",
+      "direction": 1,
+      "walk_poses": [
+        "anim-north-pass",
+        "anim-north-stepA",
+        "anim-north-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Spark",
+      "direction": 2,
+      "walk_poses": [
+        "anim-east-pass",
+        "anim-east-stepA",
+        "anim-east-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Spark",
+      "direction": 3,
+      "walk_poses": [
+        "anim-east-pass",
+        "anim-east-stepA",
+        "anim-east-stepB"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Pacman",
+      "direction": 0,
+      "walk_poses": [
+        "anim-closed",
+        "anim-half",
+        "anim-open"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Pacman",
+      "direction": 1,
+      "walk_poses": [
+        "anim-closed",
+        "anim-half",
+        "anim-open"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Pacman",
+      "direction": 2,
+      "walk_poses": [
+        "anim-closed",
+        "anim-half",
+        "anim-open"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Pacman",
+      "direction": 3,
+      "walk_poses": [
+        "anim-closed",
+        "anim-half",
+        "anim-open"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Ascii",
+      "direction": 0,
+      "walk_poses": [
+        "ASCII"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Ascii",
+      "direction": 1,
+      "walk_poses": [
+        "ASCII"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Ascii",
+      "direction": 2,
+      "walk_poses": [
+        "ASCII"
+      ],
+      "dash": true,
+      "hurt": true
+    },
+    {
+      "hero": "Ascii",
+      "direction": 3,
+      "walk_poses": [
+        "ASCII"
+      ],
+      "dash": true,
+      "hurt": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,414 @@
+{
+  "frames": 24,
+  "status": "pass",
+  "images": [
+    {
+      "file": "boss.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        34,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "chaser.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        46,
+        68,
+        82,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "heavy.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        41,
+        52,
+        87,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-east.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        52,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-north.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-south.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-west.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-east-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        46,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-east-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        52,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-east-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        54,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-east-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        52,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-north-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        87,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-north-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-north-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        87,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-north-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-south-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        41,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-south-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-south-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        41,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-south-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-west-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        74,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-west-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-west-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        82,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-walk-west-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "shooter.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        52,
+        60,
+        82,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AsciiArena.Tests",
+  "references": ["AsciiArena.Runtime", "Unity.Entities", "Unity.Mathematics", "Unity.Collections"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

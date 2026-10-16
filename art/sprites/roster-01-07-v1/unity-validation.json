@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "unity": "6000.3.24f1",
+  "graphicsDevice": "Null",
+  "verified": [
+    {
+      "id": "runescribe",
+      "clips": 12,
+      "sampledFrames": 64,
+      "texture": "Point, no mipmaps, uncompressed",
+      "pivot": [
+        64,
+        20
+      ]
+    },
+    {
+      "id": "hex-cultist",
+      "clips": 12,
+      "sampledFrames": 64,
+      "texture": "Point, no mipmaps, uncompressed",
+      "pivot": [
+        64,
+        20
+      ]
+    }
+  ],
+  "scope": "Imported assets and clip sampling in headless Editor; Arena play mode and GPU rendering not tested."
+}

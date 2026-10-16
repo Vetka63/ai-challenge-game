@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Персонажи — ImageGen и Sprite Forge</title>
+<style>
+:root{color-scheme:dark;font:15px/1.5 system-ui,sans-serif;background:#101318;color:#e8edf2}
+*{box-sizing:border-box}body{margin:0}main{max-width:1160px;margin:auto;padding:28px 24px 48px}h1{font-size:28px;line-height:1.2;margin:6px 0 12px;font-weight:600}h2{font-size:17px;font-weight:500;margin:0}p{margin:6px 0;color:#aeb9c7}.eyebrow{color:#69d2d2;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.intro{max-width:840px}.controls{display:flex;flex-wrap:wrap;align-items:end;gap:16px;margin:24px 0 16px;padding:16px;background:#191e26;border-radius:12px}label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:#bac5d2}select,button{border:1px solid #3c4553;border-radius:7px;color:#edf1f5;background:#252d38;font:inherit;padding:8px 12px}button{cursor:pointer}button[aria-pressed=true]{background:#d9eff0;color:#142426;border-color:#d9eff0}button:focus-visible,select:focus-visible{outline:2px solid #79dce1;outline-offset:3px}.switch{display:flex;gap:6px}.method-heads{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 10px}.method-heads>div{padding:12px 16px;background:#202631;border-radius:10px}.badge{display:inline-flex;align-items:center;justify-content:center;width:25px;height:25px;border-radius:6px;background:#3a4557;margin-right:8px}.methods-small{font-size:12px;color:#aeb9c7;display:block;margin-top:4px}.roster{display:grid;grid-template-columns:1fr 1fr;gap:14px}.card{min-width:0;background:#171c24;border:1px solid #29313c;border-radius:12px;overflow:hidden}.card header{padding:12px 15px;display:flex;justify-content:space-between;gap:10px;align-items:center}.role{color:#91a0b2;font-size:12px}.stage{height:260px;display:flex;align-items:center;justify-content:center;gap:40px;overflow:hidden;background:var(--stage,#080b10)}.sample{display:flex;flex-direction:column;gap:16px;align-items:center}.sample small{color:#9caab8;font-size:12px;background:#17202be0;border-radius:4px;padding:2px 6px}.sprite{position:relative;flex:none}.sprite img{position:absolute;max-width:none;image-rendering:auto}.card footer{padding:9px 15px;color:#9aaabd;font-size:12px;border-top:1px solid #29313c}.mono .sprite{filter:grayscale(1)}.arena{position:relative;height:480px;background:var(--stage,#080b10);overflow:hidden}.arena .sprite{position:absolute;transform:translate(-50%,-50%)}.arena .hero-marker{position:absolute;border:1px dashed #428385;width:70px;height:70px;transform:translate(-50%,-50%);border-radius:50%}.crowd-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.crowd-title{padding:12px 16px;background:#171c24}.hint{font-size:13px;margin:16px 0 0}.light-stage{--stage:#d2d7d9}.method-heads.blind .methods-small{visibility:hidden}.source-note{margin-top:24px;padding-top:16px;border-top:1px solid #2a3440;font-size:13px}.hidden,[hidden]{display:none!important}details{margin-top:16px;color:#9eacbc;font-size:13px}summary{cursor:pointer;color:#d7e2ee}.method-label{font-weight:500}.load-error{color:#ff9a8b}a{color:#8edbdf}@media(max-width:700px){main{padding:20px 12px}.stage{gap:15px;height:220px}.role{display:none}.card header{font-size:13px;padding:8px}.method-heads>div{padding:10px}.crowd-grid{grid-template-columns:1fr}.arena{height:400px}h1{font-size:24px}.card footer{padding:8px;font-size:11px}}
+</style>
+</head>
+<body>
+<main id="comparison">
+<div class="eyebrow">ASCII survivor-like · концепты · 15 октября 2026</div>
+<h1>Что изменилось со скиллом?</h1>
+<p class="intro">Четыре персонажа, одинаковое задание и один генератор. По одной попытке в каждой группе. Сравниваем форму и читаемость; это эскизы, ещё не игровые спрайты.</p>
+<div class="controls">
+<label>Просмотр<select id="view"><option value="roster">Персонажи попарно</option><option value="crowd">Толпа на арене</option></select></label>
+<label>Увеличение рядом с 1×<select id="zoom"><option value="2">2×</option><option value="3" selected>3×</option><option value="4">4×</option></select></label>
+<label>Фон<select id="background"><option value="dark">Тёмный игровой</option><option value="light">Светлый для проверки краёв</option></select></label>
+<label>Оценка формы<div class="switch"><button id="mono" type="button" aria-pressed="false">Без цвета</button><button id="blind" type="button" aria-pressed="false">Скрыть методы</button></div></label>
+</div>
+<div class="method-heads" id="heads">
+<div><span class="badge">A</span><span class="method-label">Обычный запрос</span><span class="methods-small">Встроенный ImageGen · без специализированного спрайтового скилла</span></div>
+<div><span class="badge">B</span><span class="method-label">Со Sprite Forge</span><span class="methods-small">Тот же ImageGen · этап подготовки master still из generate2dsprite</span></div>
+</div>
+<div class="roster" id="roster"></div>
+<div id="crowd" hidden><div class="crowd-grid" id="crowd-grid"></div><p class="hint">Одинаковая расстановка 36 врагов в обоих вариантах. Масштаб фигур 1×; статическая композиция без анимаций и эффектов. Пунктир обозначает героя.</p></div>
+<p class="hint" id="roster-note">Слева в каждой ячейке — условный игровой размер 1×, справа — увеличение. Пропорции сохранены; фигуры вписаны в одинаковые рамки для своей роли.</p>
+<details><summary>Условия сравнения и исходники</summary><p>Запросы A и B имеют одинаковые образы, палитру, ракурс и цель. B дополнен правилами формы, отступов и отделения эффектов из Sprite Forge. Шаблон адаптирован к ASCII и прозрачному фону. Анимационный конвейер, нарезка и очистка скиллом здесь не проверялись. Seed и название модели встроенный инструмент не раскрыл. Пара попыток не является статистическим доказательством.</p><p>Исходные PNG сохранены без редактирования. Для просмотра используется масштабирование браузером и положение по границам alpha ≥ 32. Это не пиксельная сетка или экспорт в Unity. Один исходник A получился широким вопреки запросу квадратного холста.</p><p><a href="experiment.json">Задание</a> · <a href="generation-manifest.json">Происхождение и пути промптов</a> · <a href="image-inspection.json">Размеры и прозрачность</a></p></details>
+<div class="source-note">В обеих группах есть дефекты краёв и лишние детали. Скилл задаёт рабочий процесс; сам рисунок по-прежнему создаёт ImageGen.</div>
+</main>
+<script>
+const DATA = __COMPARISON_DATA__;
+const root=document.getElementById('comparison');
+const actors=DATA.actors, assets=DATA.assets;
+let zoom=3;
+function sprite(actor,condition,factor=1){
+ const entry=assets[actor.id+'-'+condition], [x0,y0,x1,y1]=entry.bbox_alpha32;
+ const bw=x1-x0,bh=y1-y0, scale=Math.min(actor.display_width/bw,actor.display_height/bh)*factor;
+ const box=document.createElement('div');box.className='sprite';box.style.width=(bw*scale)+'px';box.style.height=(bh*scale)+'px';
+ const img=new Image();img.alt=actor.label+', вариант '+condition;img.src=entry.data;
+ img.style.width=entry.width*scale+'px';img.style.height=entry.height*scale+'px';img.style.left=-x0*scale+'px';img.style.top=-y0*scale+'px';
+ img.onerror=()=>{box.textContent='Не удалось загрузить PNG';box.classList.add('load-error')};box.append(img);return box;
+}
+function roster(){
+ const grid=document.getElementById('roster');grid.replaceChildren();
+ for(const actor of actors)for(const condition of ['A','B']){
+  const card=document.createElement('article');card.className='card';
+  const header=document.createElement('header');header.innerHTML='<span>'+actor.label+'</span><span class="role">'+(actor.class==='hero'?'Герой':'Враг')+'</span>';
+  const stage=document.createElement('div');stage.className='stage';
+  for(const factor of [1,zoom]){const sample=document.createElement('div');sample.className='sample';sample.append(sprite(actor,condition,factor));const caption=document.createElement('small');caption.textContent=factor+'×';sample.append(caption);stage.append(sample)}
+  const footer=document.createElement('footer');footer.textContent='Рамка 1×: '+actor.display_width+' × '+actor.display_height+' px · '+condition;
+  card.append(header,stage,footer);grid.append(card);
+ }
+}
+function crowd(){
+ const grid=document.getElementById('crowd-grid');grid.replaceChildren();
+ for(const condition of ['A','B']){
+  const panel=document.createElement('section');panel.className='card';const title=document.createElement('div');title.className='crowd-title';title.textContent='Вариант '+condition;
+  const arena=document.createElement('div');arena.className='arena';arena.setAttribute('aria-label','Статическая арена '+condition);
+  const ring=document.createElement('div');ring.className='hero-marker';ring.style.left='50%';ring.style.top='50%';arena.append(ring);
+  for(let i=0;i<36;i++){
+   const row=Math.floor(i/6),col=i%6;
+   let x=10+col*16+(row%2?3:-1), y=9+row*16;
+   if(Math.abs(x-50)<14&&Math.abs(y-50)<15){x+=x<50?-10:10}
+   const actor=actors[1+(i*7+row)%3], s=sprite(actor,condition);s.style.left=x+'%';s.style.top=y+'%';arena.append(s);
+  }
+  const hero=sprite(actors[0],condition);hero.style.left='50%';hero.style.top='50%';arena.append(hero);
+  panel.append(title,arena);grid.append(panel);
+ }
+}
+document.getElementById('zoom').addEventListener('change',e=>{zoom=Number(e.target.value);roster()});
+document.getElementById('background').addEventListener('change',e=>root.classList.toggle('light-stage',e.target.value==='light'));
+document.getElementById('mono').addEventListener('click',e=>{const enabled=root.classList.toggle('mono');e.currentTarget.setAttribute('aria-pressed',String(enabled))});
+document.getElementById('blind').addEventListener('click',e=>{const enabled=document.getElementById('heads').classList.toggle('blind');e.currentTarget.setAttribute('aria-pressed',String(enabled));root.querySelectorAll('.method-label').forEach((node,i)=>node.textContent=enabled?'Набор '+(i?'B':'A'):(i?'Со Sprite Forge':'Обычный запрос'))});
+document.getElementById('view').addEventListener('change',e=>{const isCrowd=e.target.value==='crowd';document.getElementById('roster').hidden=isCrowd;document.getElementById('roster-note').hidden=isCrowd;document.getElementById('crowd').hidden=!isCrowd;document.getElementById('zoom').disabled=isCrowd});
+roster();crowd();
+</script>
+</body></html>

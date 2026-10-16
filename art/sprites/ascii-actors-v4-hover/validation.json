@@ -1,0 +1,414 @@
+{
+  "frames": 24,
+  "status": "pass",
+  "images": [
+    {
+      "file": "boss.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        34,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "chaser.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        46,
+        60,
+        82,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "heavy.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        34,
+        52,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-east-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        58,
+        36,
+        94,
+        105
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-east-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        58,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-east-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        58,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-east-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        58,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-north-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        105
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-north-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-north-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-north-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-south-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        105
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-south-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-south-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-south-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-west-0.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        105
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-west-1.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-west-2.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-hover-west-3.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-east.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        58,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-north.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-south.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        94,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "hero-idle-west.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        36,
+        76,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "shooter.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        40,
+        52,
+        88,
+        108
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ]
+}

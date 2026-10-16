@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ab3fa1a8f29c748952307db74034ea, type: 3}
+  m_Name: ArenaSettings
+  m_EditorClassIdentifier: AsciiArena.Runtime::AsciiArena.ArenaSettings
+  seed: 5271
+  crowdLimit: 140
+  initialEnemies: 12
+  spawnPerSecond: 1.4
+  heroSpeed: 5.8
+  heroHealth: 100
+  boltCooldown: 0.42
+  boltSpeed: 18
+  boltDamage: 18
+  pulseCooldown: 2.8
+  pulseRadius: 4.8
+  pulseDamage: 44
+  actOne: 1
+  runDuration: 1800
+  bossAt: 1620
+  eliteInterval: 180
+  finalSpawnMultiplier: 3.5
+  bossHealth: 4800
+  waveBossInterval: 600
+  waveBossHealth: 3200
+  maxExperiencePickups: 512
+  enemyShotDamage: 8
+  contactDamage: 7
+  firstLevelExperience: 12
+  experiencePerLevel: 8
+  pickupRadius: 2.8
+  orbitDamage: 48
+  orbitRadius: 1.6
+  orbitAngularSpeed: 3.8
+  orbitHitInterval: 0.3
+  dashCooldown: 2.4
+  dashDuration: 0.14
+  dashSpeedMultiplier: 2.8

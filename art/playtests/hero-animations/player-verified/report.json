@@ -1,0 +1,5821 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "samples": [
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 2,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Doomguy",
+            "sprite": "anim-east-idle",
+            "direction": 3,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepB",
+            "direction": 0,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-dash",
+            "direction": 0,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-stepA",
+            "direction": 0,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-hurt",
+            "direction": 0,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-south-pass",
+            "direction": 0,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepB",
+            "direction": 1,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-dash",
+            "direction": 1,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-stepA",
+            "direction": 1,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-hurt",
+            "direction": 1,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-north-pass",
+            "direction": 1,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 2,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 2,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 2,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 2,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 2,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepB",
+            "direction": 3,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-dash",
+            "direction": 3,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-stepA",
+            "direction": 3,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-hurt",
+            "direction": 3,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Spark",
+            "sprite": "anim-east-pass",
+            "direction": 3,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 0,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 0,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 0,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 0,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 0,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 0,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 0,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 0,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 0,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 0,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 0,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 0,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 1,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 1,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 1,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 1,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 1,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 1,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 1,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 1,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 1,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 1,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 1,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 1,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 2,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 2,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 2,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 2,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 2,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 2,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 2,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 2,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 2,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 2,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 2,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 2,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 3,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 3,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 3,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-dash",
+            "direction": 3,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 3,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 3,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-hurt",
+            "direction": 3,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 0,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 1,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 2,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 0,
+            "hits": 0,
+            "time": 0.01666666753590107,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 3,
+            "hits": 0,
+            "time": 0.06666667014360428,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 6,
+            "hits": 0,
+            "time": 0.11666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 9,
+            "hits": 0,
+            "time": 0.1666666716337204,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 12,
+            "hits": 0,
+            "time": 0.21666666865348817,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 15,
+            "hits": 0,
+            "time": 0.2666666805744171,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 18,
+            "hits": 0,
+            "time": 0.31666672229766848,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 21,
+            "hits": 0,
+            "time": 0.3666667640209198,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 24,
+            "hits": 0,
+            "time": 0.41666680574417117,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 27,
+            "hits": 0,
+            "time": 0.4666668474674225,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 30,
+            "hits": 0,
+            "time": 0.516666829586029,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 33,
+            "hits": 0,
+            "time": 0.5666667819023132,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 36,
+            "hits": 0,
+            "time": 0.6166667342185974,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 39,
+            "hits": 0,
+            "time": 0.6666666865348816,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 42,
+            "hits": 0,
+            "time": 0.7166666388511658,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 45,
+            "hits": 0,
+            "time": 0.76666659116745,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 48,
+            "hits": 0,
+            "time": 0.8166665434837341,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 51,
+            "hits": 0,
+            "time": 0.8666664958000183,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 54,
+            "hits": 0,
+            "time": 0.9166664481163025,
+            "dashing": true
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 57,
+            "hits": 0,
+            "time": 0.9666664004325867,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 60,
+            "hits": 0,
+            "time": 1.0166664123535157,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 63,
+            "hits": 0,
+            "time": 1.0666663646697999,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 66,
+            "hits": 0,
+            "time": 1.116666316986084,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 69,
+            "hits": 0,
+            "time": 1.1666662693023682,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 72,
+            "hits": 0,
+            "time": 1.2166662216186524,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 75,
+            "hits": 0,
+            "time": 1.2666661739349366,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 78,
+            "hits": 0,
+            "time": 1.3166661262512208,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 81,
+            "hits": 1,
+            "time": 1.3666660785675049,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 84,
+            "hits": 1,
+            "time": 1.416666030883789,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 87,
+            "hits": 1,
+            "time": 1.4666659832000733,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 90,
+            "hits": 1,
+            "time": 1.5166659355163575,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 93,
+            "hits": 1,
+            "time": 1.5666658878326417,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 96,
+            "hits": 1,
+            "time": 1.6166658401489258,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 99,
+            "hits": 1,
+            "time": 1.66666579246521,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 102,
+            "hits": 1,
+            "time": 1.7166657447814942,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 105,
+            "hits": 1,
+            "time": 1.7666656970977784,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 108,
+            "hits": 1,
+            "time": 1.8166656494140626,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 111,
+            "hits": 1,
+            "time": 1.8666656017303467,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 114,
+            "hits": 1,
+            "time": 1.9166655540466309,
+            "dashing": false
+        },
+        {
+            "hero": "Ascii",
+            "sprite": "ASCII",
+            "direction": 3,
+            "frame": 117,
+            "hits": 1,
+            "time": 1.966665506362915,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-open",
+            "direction": 1,
+            "frame": 999,
+            "hits": 0,
+            "time": 0.20000000298023225,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-closed",
+            "direction": 3,
+            "frame": 999,
+            "hits": 0,
+            "time": 0.40000012516975405,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 2,
+            "frame": 999,
+            "hits": 0,
+            "time": 0.6000000834465027,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 999,
+            "hits": 0,
+            "time": 0.7999998927116394,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 0,
+            "frame": 999,
+            "hits": 0,
+            "time": 0.9999997019767761,
+            "dashing": false
+        },
+        {
+            "hero": "Pacman",
+            "sprite": "anim-half",
+            "direction": 3,
+            "frame": 999,
+            "hits": 0,
+            "time": 1.1999995708465577,
+            "dashing": false
+        }
+    ],
+    "errors": []
+}

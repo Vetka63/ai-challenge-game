@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-15",
+  "purpose": "Original character designs and a battle composition for evaluating a new ASCII-inspired art direction",
+  "status": "concepts; not runtime sprite atlases or gameplay captures",
+  "tool": "built-in image_gen",
+  "skill": "imagegen",
+  "externalGameReference": "https://store.steampowered.com/app/4588220/ASCII_Survivors/",
+  "files": [
+    {
+      "image": "roster-concept.png",
+      "prompt": "roster-prompt.txt",
+      "inputImages": []
+    },
+    {
+      "image": "battle-concept.png",
+      "prompt": "battle-prompt.txt",
+      "inputImages": ["roster-concept.png"]
+    }
+  ],
+  "notes": "Steam screenshots were viewed as references and were not imported as assets or image-generation inputs. The generated boards contain illustrative ASCII-inspired shapes; exact monospace cells and readable runtime sizes still require manual sprite authoring and verification. No external skill was installed. Unity was not launched for this art pass."
+}

@@ -1,0 +1,14 @@
+{
+    "width": 1280,
+    "height": 720,
+    "startFrame": 13,
+    "endFrame": 1259,
+    "startTime": 0.21666666865348817,
+    "elapsed": 2.3499984741210939,
+    "upgradeFrozen": true,
+    "upgradeButtonWorked": true,
+    "pauseFrozen": true,
+    "phase": "Victory",
+    "graphics": "Direct3D11",
+    "errors": []
+}

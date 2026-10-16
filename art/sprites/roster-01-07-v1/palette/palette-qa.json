@@ -1,0 +1,2119 @@
+{
+  "status": "pass",
+  "method": "forge_palette.build_palette (weighted k-means++ in OKLab over unique colours, reserved colours fixed, coverage skipping) then forge_palette.fit_report of every input: OKLab dE of each pixel with alpha >= the threshold to its nearest palette colour",
+  "notProven": [
+    "Visual quality of the palette: look at swatches.png and an applied frame.",
+    "Colours of pixels below the alpha threshold were not sampled or measured.",
+    "No --max-delta-e gate was set."
+  ],
+  "checks": [
+    {
+      "id": "palette_colors",
+      "status": "pass",
+      "value": 32,
+      "threshold": 32
+    },
+    {
+      "id": "inputs_without_samples",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "files": []
+    },
+    {
+      "id": "max_delta_e",
+      "status": "skipped",
+      "value": 0.183111,
+      "threshold": null
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-00.png",
+      "sha256": "c9de43c2fa0a257e17be1cd08378a1f0f8c40e304aa21aa5950474b253efe1d9",
+      "bytes": 8051
+    },
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-01.png",
+      "sha256": "5e177d0bdba9635b43591cebd5be6d66cf61c7656ce2a45073850c55a8e7457d",
+      "bytes": 7888
+    },
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-02.png",
+      "sha256": "00bcd66ad5eee1aba753091469c36ae87683069c503d06d35f6e7526c077925a",
+      "bytes": 7966
+    },
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-03.png",
+      "sha256": "79f5cd8bf3607a21e886a45ee3b1cfec8eb463519e419e9d2920bdb1e5924f73",
+      "bytes": 8058
+    },
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-04.png",
+      "sha256": "a44c5df6f1ed04e11312af50d79f17f670fcf7d0a837cde5c67e001fc8baca4c",
+      "bytes": 8203
+    },
+    {
+      "path": "../registered/runescribe-walk-south/runescribe-walk-south-05.png",
+      "sha256": "6870435258f5708a80849f50c722a7a7a28d141bcb0635cafbac199733ece7e9",
+      "bytes": 8060
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-00.png",
+      "sha256": "f74cd67dfce9627311a6fa6c13b3845fe4fc25443a027c6da7a73de9271d3056",
+      "bytes": 7005
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-01.png",
+      "sha256": "2f9f17721ee7e7c0d6a7bbeaad85e67116564aee8c009d36f8ea6198cb1f17c7",
+      "bytes": 6776
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-02.png",
+      "sha256": "a3fd8a61885a55ed13f849ef2a2b8398cc52085094e8bd17e2cffa29d09102af",
+      "bytes": 7017
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-03.png",
+      "sha256": "3aa833ab34a3fe61096b87c0756bb7fcac1f86e3fff211e2b96fd900d2b8c2c8",
+      "bytes": 6869
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-04.png",
+      "sha256": "582e331e7703f73ad5fa95a06e24eba9fa916d2e69367a044304481c5959d11c",
+      "bytes": 6731
+    },
+    {
+      "path": "../registered/runescribe-walk-north/runescribe-walk-north-05.png",
+      "sha256": "743fd797919860244e11acb53b1f1dcc7e793ca2130366a631757ac3541cc75f",
+      "bytes": 6995
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-00.png",
+      "sha256": "2560c3a9f81895ef497fca605527dcade33b36aaf4d95583516bb4e919753820",
+      "bytes": 8173
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-01.png",
+      "sha256": "5e881ed75534fe39c4abb20963569d4c002ec9336fbd3c7ef2b680f4b13dad5c",
+      "bytes": 7764
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-02.png",
+      "sha256": "6953e87bce7e3506e661f01e23b3d51e41ac0dead358487932eb62b54ac4302e",
+      "bytes": 8168
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-03.png",
+      "sha256": "0e73b8ffc677047e63c6ecb86b3779ea209ed4f81203d95f320cddc9b3c0a54f",
+      "bytes": 8371
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-04.png",
+      "sha256": "7a9f94ca1d4ebd8df9b18868bfff59023668c6fcd34630f3d49ffe47281f48cd",
+      "bytes": 7669
+    },
+    {
+      "path": "../registered/runescribe-walk-west/runescribe-walk-west-05.png",
+      "sha256": "5850bfcba65ba5dde6f6d6d189b824e9164603b4c4c72bb0980924a7ba974d5e",
+      "bytes": 8561
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-00.png",
+      "sha256": "2d599cc64131726a462d18ef934d62c77e495156071d06e44eda0ef633fcecec",
+      "bytes": 8176
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-01.png",
+      "sha256": "47e550d848cd92decb7d63258bdd98d7d7dd7d488698ae62d75b8bf18125029d",
+      "bytes": 7705
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-02.png",
+      "sha256": "ca4c384183ae062deabc8a967402cf99f65093edbf1c4a5c7437897a1d80b902",
+      "bytes": 8181
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-03.png",
+      "sha256": "3f359a34fb9091a0dc2dff0e4d2d8f25af4f53432ece718254a7a067c59da213",
+      "bytes": 8228
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-04.png",
+      "sha256": "5913dfca14f37c9308568eaf8ec80b0cc60040528b4e924326cde94ff4441ba9",
+      "bytes": 7600
+    },
+    {
+      "path": "../registered/runescribe-walk-east/runescribe-walk-east-05.png",
+      "sha256": "8459ff47529944f153eca7f8cd8e3e6ba4c7cfff5136815b25772b9196c65514",
+      "bytes": 8136
+    },
+    {
+      "path": "../registered/runescribe-idle-south/runescribe-idle-south-00.png",
+      "sha256": "b83b9cb024e9c6307c3007ccd30c0f784624fe355519599cf938146bce232afa",
+      "bytes": 8134
+    },
+    {
+      "path": "../registered/runescribe-idle-south/runescribe-idle-south-01.png",
+      "sha256": "db473b6135ea89097952dada1f24e22fbdb9999731ef7348e94584917db75256",
+      "bytes": 8141
+    },
+    {
+      "path": "../registered/runescribe-idle-south/runescribe-idle-south-02.png",
+      "sha256": "b075bb4478d9bac275edc8c207885aa7d03cc9e9a1cdf519f79209d904c26fd9",
+      "bytes": 8460
+    },
+    {
+      "path": "../registered/runescribe-idle-south/runescribe-idle-south-03.png",
+      "sha256": "68d164f40f2dfbd4aa93068e18a8097bc8f4cd00380ea31bb221c0261bdbc75e",
+      "bytes": 8254
+    },
+    {
+      "path": "../registered/runescribe-idle-north/runescribe-idle-north-00.png",
+      "sha256": "3b449a10feb7ac45692c8aa8fe3d69fb2171b8cb316c989dfe99f3d9ed138cca",
+      "bytes": 7378
+    },
+    {
+      "path": "../registered/runescribe-idle-north/runescribe-idle-north-01.png",
+      "sha256": "d0e387594cb1c5add275b958f96ea478098ab58ef861988613ffd8396fe4820e",
+      "bytes": 7452
+    },
+    {
+      "path": "../registered/runescribe-idle-north/runescribe-idle-north-02.png",
+      "sha256": "e64e0342d2a8be2d09003720acd5f48a3a75b9cfbf0a3cb04ff1287a265b24df",
+      "bytes": 7579
+    },
+    {
+      "path": "../registered/runescribe-idle-north/runescribe-idle-north-03.png",
+      "sha256": "622122dfd1a80667269cefc1c78018a3d3bd610bce8d01d35971355c2e8149fe",
+      "bytes": 7357
+    },
+    {
+      "path": "../registered/runescribe-idle-west/runescribe-idle-west-00.png",
+      "sha256": "56c1b67649dcf730e465e67dcc428ae7cb22d80a26aeea5a5c3b812a7550813e",
+      "bytes": 7677
+    },
+    {
+      "path": "../registered/runescribe-idle-west/runescribe-idle-west-01.png",
+      "sha256": "991c9a1272e5a96b5569bd10e3ddd2a9c2476111fbb6669ee9a14fec809a9dd0",
+      "bytes": 7804
+    },
+    {
+      "path": "../registered/runescribe-idle-west/runescribe-idle-west-02.png",
+      "sha256": "6aafb36ddfce1581047035031dc99ed10287ade4ec5b01a1188a657fa6bf7037",
+      "bytes": 7856
+    },
+    {
+      "path": "../registered/runescribe-idle-west/runescribe-idle-west-03.png",
+      "sha256": "2b1c6e91f682f424479b4bb6652828044376da54aef824931928c55b2c4aa4ac",
+      "bytes": 7687
+    },
+    {
+      "path": "../registered/runescribe-idle-east/runescribe-idle-east-00.png",
+      "sha256": "e96c8686e3de486c4d4ed762c2dda5067b7ec30bc7e6eaf1d18113b59237f92a",
+      "bytes": 7952
+    },
+    {
+      "path": "../registered/runescribe-idle-east/runescribe-idle-east-01.png",
+      "sha256": "a323796cee27ecdcf19bb930b9678eeb942210129de5b8486158f3bad8376629",
+      "bytes": 8171
+    },
+    {
+      "path": "../registered/runescribe-idle-east/runescribe-idle-east-02.png",
+      "sha256": "bcc4d7a2127b615866cf0d530d14e2df8ba3a0afadc22f6345bbe27fdad029de",
+      "bytes": 8307
+    },
+    {
+      "path": "../registered/runescribe-idle-east/runescribe-idle-east-03.png",
+      "sha256": "e294e3071e2e3df702ffe2ceaab90b92aa1fb2db01bea978924ab0e761f864b3",
+      "bytes": 8090
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-00.png",
+      "sha256": "21a2521446a4964d649bc50314edaf4a04c31855477bda99d291f8545b711f55",
+      "bytes": 8224
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-01.png",
+      "sha256": "ae0c61fcb1a0ad78f6d778034fa170baf3f79131f0ec46135e18eadf6681be4d",
+      "bytes": 7242
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-02.png",
+      "sha256": "0458a9c16b0ff55eeee52624fa0b747177a866db21d89d1f7e05d073c572b9a8",
+      "bytes": 8110
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-03.png",
+      "sha256": "f311f885c6993a1d633c2bab3648b22ae540482904cbd2cb3250220fb12bf3b6",
+      "bytes": 8031
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-04.png",
+      "sha256": "6c50471bf5d99c6394167c68da6afd6e1080bc48479f46fc6acc0d7d00f31b79",
+      "bytes": 8104
+    },
+    {
+      "path": "../registered/runescribe-cast-south/runescribe-cast-south-05.png",
+      "sha256": "09d6e413799ffc38769e5ba2e5c7a617fb0599a030fecb415577a1783ae3051d",
+      "bytes": 8040
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-00.png",
+      "sha256": "979d203e67248a1288d79a2733404206f2c7c1346469b1edc6821c476c2069ec",
+      "bytes": 7622
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-01.png",
+      "sha256": "aa5a3b1cae8733b47d458f8673258a5b249a20a6df8ecf2a15e5a43696e84177",
+      "bytes": 7568
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-02.png",
+      "sha256": "6a55f2305f6ee2d91ecdcfe88509f66359928e52764d1952a34a1414acaaf47d",
+      "bytes": 7677
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-03.png",
+      "sha256": "8b7ea33fccb8f65997119bd4865c1b4726a442ee6071ac910abaa84f7d8eaf0b",
+      "bytes": 7840
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-04.png",
+      "sha256": "56749dc0c9c1ace3561ce4c798a5ad1048c07344ea3a93a8fa92ada08183d295",
+      "bytes": 7593
+    },
+    {
+      "path": "../registered/runescribe-cast-north/runescribe-cast-north-05.png",
+      "sha256": "96bead88a4fe6bd9d288d598e2229094168bccd3209fc3460829d48a3478f36b",
+      "bytes": 7734
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-00.png",
+      "sha256": "f716dd72ce19a729a389a12ea5f5ce5eafa983e8cb2cc1b56d50af2667989964",
+      "bytes": 8133
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-01.png",
+      "sha256": "7f043b30f60c94b9d40354aec92c61e9bfa0473f41d0d36b41045adeba6ef883",
+      "bytes": 7460
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-02.png",
+      "sha256": "76529f2cca25b26310fa3e9f186fb83cdaa4d5f2f69e4528269668493470013f",
+      "bytes": 7873
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-03.png",
+      "sha256": "b874337bd5e7ce7a0226b20ae0ebff7b9019196f0b098ed5dc61bdfc80a0cdde",
+      "bytes": 8147
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-04.png",
+      "sha256": "2d68f7044fd8e3df899be3af55334c366040a2d01615c5b80e63a60d3e66bb30",
+      "bytes": 7977
+    },
+    {
+      "path": "../registered/runescribe-cast-west/runescribe-cast-west-05.png",
+      "sha256": "bd80f33d0ed6671bf26373d7417b06917352f50b13aa754be4b83c27eef15218",
+      "bytes": 8354
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-00.png",
+      "sha256": "ed6eda9a2660ca00ea6d428688889bdc9b93d06b131d85837bde322caf8b8ee5",
+      "bytes": 8579
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-01.png",
+      "sha256": "adb2740db8e57513b238c64f92eee6569c089fd4cdf35e23de7155558a85bcf7",
+      "bytes": 8247
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-02.png",
+      "sha256": "ea6faaf459d2adac15d60e52f5f3d640174680acc50ca15d08dec8e2c0712edd",
+      "bytes": 8361
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-03.png",
+      "sha256": "8d35184632845c3f0b2a4cf380838a2936229ee7707289bb22b6b28cfc1bb8a0",
+      "bytes": 7845
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-04.png",
+      "sha256": "c8d1ee522b43c286858402be94578dee68ce77fc6ddbefa67d2098f7b0f54758",
+      "bytes": 8198
+    },
+    {
+      "path": "../registered/runescribe-cast-east/runescribe-cast-east-05.png",
+      "sha256": "43da731fe23708638d9e537f0b4ac69a80df930c51e92a1a6af953147ebf43bb",
+      "bytes": 8569
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-00.png",
+      "sha256": "d85fa7605fe4b11401c5b3a0ae9112da0ccf2718611b5bab3080514c5c5002cf",
+      "bytes": 7184
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-01.png",
+      "sha256": "355d50e3241f01dfd1722bec87f99fc8cfec61f8484b0e16a4712a3953492340",
+      "bytes": 7176
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-02.png",
+      "sha256": "618f5436c2bb53de304a4e1fcd54f264df1f12fbdda5fed5720268e43e59dff7",
+      "bytes": 7058
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-03.png",
+      "sha256": "f8249a4c4c2fec1cdc701ee671a0d16ad0ce8872c28aace911f8bb7815d919c0",
+      "bytes": 7191
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-04.png",
+      "sha256": "bf69fb3caec983fc7c0a3bab060f101f40e373c053993f8b7ded80f44762cfec",
+      "bytes": 7198
+    },
+    {
+      "path": "../registered/hex-cultist-walk-south/hex-cultist-walk-south-05.png",
+      "sha256": "eaa2f0cb2f3b7da79db2194b302a3a24aceaa02e4616e806bc230d7da2951897",
+      "bytes": 7255
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-00.png",
+      "sha256": "094a0c2f7d3e12462d81a95c9a017485fac2f1854425f9a8c76723cc304310b1",
+      "bytes": 7271
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-01.png",
+      "sha256": "fa89e5bd759887316e7db37264b02a08ed61c819752125083f3f739f4ff5b59c",
+      "bytes": 6930
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-02.png",
+      "sha256": "0782b422cb921eba39c13dc18fb82e81d6d9ed37a7f0a286fe5845fae0626778",
+      "bytes": 7158
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-03.png",
+      "sha256": "cae8e77c22ad9dbf9d778600d482da39bd0fbda752c182432e04a1225f5cc4ee",
+      "bytes": 7066
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-04.png",
+      "sha256": "ac467b26796eba42dbbb7371248cc7c0e219714f8a3dd40ccab474f0604a776c",
+      "bytes": 6917
+    },
+    {
+      "path": "../registered/hex-cultist-walk-north/hex-cultist-walk-north-05.png",
+      "sha256": "7f86b22e5ad9e6de252dac2a7a17d99fcc5b1ac92e32e9c46e7f112d67bbab65",
+      "bytes": 7002
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-00.png",
+      "sha256": "b3e188330278fec963e427a3d9f98509502bf9314fe32b3c5fe547675ec6b901",
+      "bytes": 7563
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-01.png",
+      "sha256": "035d2454417b35358cd96307fe08b27ac348b99def534f47dcd26e87fb83b663",
+      "bytes": 6748
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-02.png",
+      "sha256": "9d2b2cfc68b2efe102e0f3e49e8591ccf07eec0624b48552f7c7fef756249ef3",
+      "bytes": 6965
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-03.png",
+      "sha256": "969eb1a779049f2d212da1491885a00d4dfa9153a3ded7c89a5ec8dfdf3a059c",
+      "bytes": 7465
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-04.png",
+      "sha256": "d4a819793a1e0f685a30096d3e3dd83e55c87ceace224eb36f3c71df6bc8f117",
+      "bytes": 6986
+    },
+    {
+      "path": "../registered/hex-cultist-walk-west/hex-cultist-walk-west-05.png",
+      "sha256": "2f3175508c4ba7cdd0ac301dce19e88e9c9dbde72ee72328b5c441860b7cfb7d",
+      "bytes": 7316
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-00.png",
+      "sha256": "f38f8c0560920d85f03ebc7e68d38604384e0e3ca88ee8319e66ae5cb4e023eb",
+      "bytes": 7519
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-01.png",
+      "sha256": "327d124a75601c5793d438b37cced89f48707dfd470e4ef18f37d5c7df802e2a",
+      "bytes": 7040
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-02.png",
+      "sha256": "e7a0d4c6ac6eceadf77249a72da1803d929147e1c2f08c64daf6765995f77029",
+      "bytes": 7058
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-03.png",
+      "sha256": "31450e94e41946c9eead5ea81e8bfeff146bf55c711584c0c2cf4d73bb21fba3",
+      "bytes": 7298
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-04.png",
+      "sha256": "b50b5f426df3571a62fee3eb2740600faec0d473edf2d4c2708bb5a83c213122",
+      "bytes": 6775
+    },
+    {
+      "path": "../registered/hex-cultist-walk-east/hex-cultist-walk-east-05.png",
+      "sha256": "b9d8b3b40ae80b06b5d4e5769e03d3898cedba5c2e0ca2af60529431d6babfdf",
+      "bytes": 7411
+    },
+    {
+      "path": "../registered/hex-cultist-idle-south/hex-cultist-idle-south-00.png",
+      "sha256": "68b73daa11fd026bbf29c5007cc2ac801efa4b44374e19b530db7d695fe8458f",
+      "bytes": 7201
+    },
+    {
+      "path": "../registered/hex-cultist-idle-south/hex-cultist-idle-south-01.png",
+      "sha256": "99ccebc2f658c37e3499c8f063c66b8819b9e6e8a8eab999fe4fd100edf03dde",
+      "bytes": 7345
+    },
+    {
+      "path": "../registered/hex-cultist-idle-south/hex-cultist-idle-south-02.png",
+      "sha256": "94616dca0c952dc639435e2d44f5542bc046f4a71f04793139da29a585cb0704",
+      "bytes": 7396
+    },
+    {
+      "path": "../registered/hex-cultist-idle-south/hex-cultist-idle-south-03.png",
+      "sha256": "f8fb44dac667cdc0d83bbcd07bd5fcef4af78c25a6f5b021f01c40180e1570e3",
+      "bytes": 7183
+    },
+    {
+      "path": "../registered/hex-cultist-idle-north/hex-cultist-idle-north-00.png",
+      "sha256": "9298602ef7497c224d0f3ee5c4e29e60e99eb8a2b79e6a60dc8424e5d64bc512",
+      "bytes": 7151
+    },
+    {
+      "path": "../registered/hex-cultist-idle-north/hex-cultist-idle-north-01.png",
+      "sha256": "2b30483c93e5d3ac2edd10265d616bc8edb6809356259bf97bb7be36505ce359",
+      "bytes": 7113
+    },
+    {
+      "path": "../registered/hex-cultist-idle-north/hex-cultist-idle-north-02.png",
+      "sha256": "30bd66b79d6541b958df7d4bcbe027afa38de3e9d15342b5537113c37b812bbd",
+      "bytes": 7210
+    },
+    {
+      "path": "../registered/hex-cultist-idle-north/hex-cultist-idle-north-03.png",
+      "sha256": "5e019ea915f27f38e0bb2cd36cf2afce2a2850a3fe51a2fb2578fb64859f8885",
+      "bytes": 7013
+    },
+    {
+      "path": "../registered/hex-cultist-idle-west/hex-cultist-idle-west-00.png",
+      "sha256": "606b58fb7019b0bb6a32b387789cd022a0a677a9ba80c782095767c4ba87eead",
+      "bytes": 6737
+    },
+    {
+      "path": "../registered/hex-cultist-idle-west/hex-cultist-idle-west-01.png",
+      "sha256": "d2b3c84f58fb0e27f8409aad31b3d1501c5a4a0d3b120b67dbd117f3fd7f458d",
+      "bytes": 6793
+    },
+    {
+      "path": "../registered/hex-cultist-idle-west/hex-cultist-idle-west-02.png",
+      "sha256": "645800b2b435b4cf4a90ed3c8e24fd279b065d49c48157ad7b630f6bf9b813ea",
+      "bytes": 7120
+    },
+    {
+      "path": "../registered/hex-cultist-idle-west/hex-cultist-idle-west-03.png",
+      "sha256": "50884ee10b43686d64393528c4d2deac73d7b247587cdaf7f72f0b1ea6930738",
+      "bytes": 6680
+    },
+    {
+      "path": "../registered/hex-cultist-idle-east/hex-cultist-idle-east-00.png",
+      "sha256": "254ee267a112d032d3579cd09fa824fee8a46b3197fcd82594293d7d7e90effe",
+      "bytes": 6909
+    },
+    {
+      "path": "../registered/hex-cultist-idle-east/hex-cultist-idle-east-01.png",
+      "sha256": "65445b663cc12dd7fb59923b1d5c78a9ccf55c1439b015126d21baae47b32e61",
+      "bytes": 7139
+    },
+    {
+      "path": "../registered/hex-cultist-idle-east/hex-cultist-idle-east-02.png",
+      "sha256": "86a0416df6265a21792c8430c89ee6495e2f6d83026bd6df29a5357ab270c7a3",
+      "bytes": 7322
+    },
+    {
+      "path": "../registered/hex-cultist-idle-east/hex-cultist-idle-east-03.png",
+      "sha256": "41ac99dbd4f1f2540a213420092ac385a332cb414ccd88289aa1f5547b81372b",
+      "bytes": 6966
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-00.png",
+      "sha256": "65cf38445e8505cb06ca1076319bad8a44fdeae1d17e54902475a470fb598131",
+      "bytes": 7695
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-01.png",
+      "sha256": "c2a7212b1a82146aec83df929991291d58f4f664919734a5242d2e11471a2072",
+      "bytes": 6827
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-02.png",
+      "sha256": "adf5395424029851c8e771e096d9e396035d1138fb80cd956b2e3776c525fdda",
+      "bytes": 8059
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-03.png",
+      "sha256": "0597f3d2574ce98623c98b066e1429ba324bebf531c6a0a43783b472ac6025e3",
+      "bytes": 7744
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-04.png",
+      "sha256": "abe530edf697fcaa86d20290d39b2d40f2e2188b06f627f95592178955ac000c",
+      "bytes": 7809
+    },
+    {
+      "path": "../registered/hex-cultist-cast-south/hex-cultist-cast-south-05.png",
+      "sha256": "9cc455747935a6d9c1f4077719d6f7529f87b4c4793c2f0e8f8cc9cc58f007ae",
+      "bytes": 7700
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-00.png",
+      "sha256": "0e6d3fa6253376d15a3cd76fe0f0c0858cfb3c6d4b9d75e5bfaab6b01a0e7f45",
+      "bytes": 7273
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-01.png",
+      "sha256": "acc7549b91d2bec4e1790b19f2d3b477a685425be27077cde408b1613141c643",
+      "bytes": 6795
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-02.png",
+      "sha256": "9abf37acea019348907f09ca3aea77e24a6a4bfae60f0be5a03aa795bcedf272",
+      "bytes": 7620
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-03.png",
+      "sha256": "7f41577fb84d64e3da4f68920976f02b9d09ffb6d8e8aac675b9e7404c1036d1",
+      "bytes": 7259
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-04.png",
+      "sha256": "3323c766c2f2c9d0c03750cfb98d078a895cc55647df79f031721226ffeb2979",
+      "bytes": 6924
+    },
+    {
+      "path": "../registered/hex-cultist-cast-north/hex-cultist-cast-north-05.png",
+      "sha256": "7e302b06a6db6873d1f9c69c88ea5e5f3fcfce01934a444dae3eae5aad170ddf",
+      "bytes": 7176
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-00.png",
+      "sha256": "c3c040bbb4ca844e866587c03749c0f7028fc371ef0baf6861815495636c5c4c",
+      "bytes": 7036
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-01.png",
+      "sha256": "cef7f57cd820476d3ae62dc74ab2ee8a2a465ffbb64eec9aa8ed577f1537aadc",
+      "bytes": 5982
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-02.png",
+      "sha256": "1a788ffad888d3a35303e32ab8956467b7621375adc9707b7753af797c8a54eb",
+      "bytes": 6484
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-03.png",
+      "sha256": "0252f9bdd8823a0df833027c4419090d9f608e8b03ecd62ed93d0f704b112911",
+      "bytes": 7083
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-04.png",
+      "sha256": "522b26e386ec629d09f04bacf0a66eeec08ddddea2142441ad7fa289e08037b4",
+      "bytes": 6362
+    },
+    {
+      "path": "../registered/hex-cultist-cast-west/hex-cultist-cast-west-05.png",
+      "sha256": "940a03ab7716e3ea077c9852c99fdfa175a3bca1c69429280f7cc9e11b0efdec",
+      "bytes": 7025
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-00.png",
+      "sha256": "ca45ec4a315b07674517c8901cf2b3e33bd9eb242709ebc75671189a78fe82b8",
+      "bytes": 7474
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-01.png",
+      "sha256": "d2860e82e4fd1d63e8948a4ed6c86009448799f89a18a18c9a1d1fba475ddcbc",
+      "bytes": 6374
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-02.png",
+      "sha256": "71aee95201ef8b86abcacfb236a7c2acf1fa9a82bc907652f893e8fff04a8bd3",
+      "bytes": 7480
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-03.png",
+      "sha256": "5ab371911f69ffd0ed89748d9ba5954128d3b868610282d41505e018f399fb1a",
+      "bytes": 7679
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-04.png",
+      "sha256": "353f4aa3f2a5db550cda9fbd16e2e4c274ac5c4217c071c703b543771cc8888d",
+      "bytes": 6995
+    },
+    {
+      "path": "../registered/hex-cultist-cast-east/hex-cultist-cast-east-05.png",
+      "sha256": "a9977d71ce15d183c4c34646f7364a484d11ba142e1e8771987c56f97b631a57",
+      "bytes": 7457
+    }
+  ],
+  "outputs": [
+    {
+      "path": "palette.json",
+      "sha256": "63ccb406bd074445c205502fab4e27ea7dbc5302c9e4b6ea5ab10aef27ff41ab",
+      "bytes": 1473
+    },
+    {
+      "path": "palette.gpl",
+      "sha256": "5f9c0a433704415e52e530aba10c89399a14f03ac5202efc77adcaff5cbbd8d0",
+      "bytes": 687
+    },
+    {
+      "path": "palette.hex",
+      "sha256": "8e30537eff5689602d64f8374db071276e3bba040389544facb4be0bc8c9d7fc",
+      "bytes": 224
+    },
+    {
+      "path": "swatches.png",
+      "sha256": "287e58936cffb9a5714026c7394e4bf92e732572055c1c7d19199bb4278974b5",
+      "bytes": 508
+    }
+  ],
+  "tool": {
+    "name": "palette_tool",
+    "version": "0.4.0"
+  },
+  "palette": {
+    "colors": 32,
+    "reserved": 4,
+    "transparent_index": 255,
+    "seed": 0
+  },
+  "fit": {
+    "../registered/runescribe-walk-south/runescribe-walk-south-00.png": {
+      "measured_px": 1961,
+      "alpha_threshold": 128,
+      "off_palette_px": 1959,
+      "partial_alpha_px": 2281,
+      "colors": 1552,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023656,
+      "p95_delta_e": 0.049444,
+      "max_delta_e": 0.069242
+    },
+    "../registered/runescribe-walk-south/runescribe-walk-south-01.png": {
+      "measured_px": 1897,
+      "alpha_threshold": 128,
+      "off_palette_px": 1894,
+      "partial_alpha_px": 2203,
+      "colors": 1444,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023916,
+      "p95_delta_e": 0.050781,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-walk-south/runescribe-walk-south-02.png": {
+      "measured_px": 1936,
+      "alpha_threshold": 128,
+      "off_palette_px": 1931,
+      "partial_alpha_px": 2263,
+      "colors": 1510,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023655,
+      "p95_delta_e": 0.048929,
+      "max_delta_e": 0.086102
+    },
+    "../registered/runescribe-walk-south/runescribe-walk-south-03.png": {
+      "measured_px": 1973,
+      "alpha_threshold": 128,
+      "off_palette_px": 1970,
+      "partial_alpha_px": 2282,
+      "colors": 1517,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023511,
+      "p95_delta_e": 0.048431,
+      "max_delta_e": 0.068514
+    },
+    "../registered/runescribe-walk-south/runescribe-walk-south-04.png": {
+      "measured_px": 1978,
+      "alpha_threshold": 128,
+      "off_palette_px": 1976,
+      "partial_alpha_px": 2315,
+      "colors": 1496,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023811,
+      "p95_delta_e": 0.050427,
+      "max_delta_e": 0.073482
+    },
+    "../registered/runescribe-walk-south/runescribe-walk-south-05.png": {
+      "measured_px": 1959,
+      "alpha_threshold": 128,
+      "off_palette_px": 1958,
+      "partial_alpha_px": 2305,
+      "colors": 1494,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023177,
+      "p95_delta_e": 0.048786,
+      "max_delta_e": 0.079993
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-00.png": {
+      "measured_px": 1688,
+      "alpha_threshold": 128,
+      "off_palette_px": 1687,
+      "partial_alpha_px": 2017,
+      "colors": 1195,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021646,
+      "p95_delta_e": 0.047121,
+      "max_delta_e": 0.081195
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-01.png": {
+      "measured_px": 1631,
+      "alpha_threshold": 128,
+      "off_palette_px": 1631,
+      "partial_alpha_px": 1940,
+      "colors": 1159,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021453,
+      "p95_delta_e": 0.04765,
+      "max_delta_e": 0.085889
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-02.png": {
+      "measured_px": 1695,
+      "alpha_threshold": 128,
+      "off_palette_px": 1695,
+      "partial_alpha_px": 2020,
+      "colors": 1177,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021315,
+      "p95_delta_e": 0.047352,
+      "max_delta_e": 0.079429
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-03.png": {
+      "measured_px": 1691,
+      "alpha_threshold": 128,
+      "off_palette_px": 1691,
+      "partial_alpha_px": 1977,
+      "colors": 1176,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022088,
+      "p95_delta_e": 0.050068,
+      "max_delta_e": 0.085717
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-04.png": {
+      "measured_px": 1617,
+      "alpha_threshold": 128,
+      "off_palette_px": 1616,
+      "partial_alpha_px": 1913,
+      "colors": 1143,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021619,
+      "p95_delta_e": 0.046941,
+      "max_delta_e": 0.0819
+    },
+    "../registered/runescribe-walk-north/runescribe-walk-north-05.png": {
+      "measured_px": 1670,
+      "alpha_threshold": 128,
+      "off_palette_px": 1669,
+      "partial_alpha_px": 1979,
+      "colors": 1155,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021776,
+      "p95_delta_e": 0.049049,
+      "max_delta_e": 0.080701
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-00.png": {
+      "measured_px": 1950,
+      "alpha_threshold": 128,
+      "off_palette_px": 1944,
+      "partial_alpha_px": 2257,
+      "colors": 1423,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021213,
+      "p95_delta_e": 0.04691,
+      "max_delta_e": 0.072055
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-01.png": {
+      "measured_px": 1796,
+      "alpha_threshold": 128,
+      "off_palette_px": 1791,
+      "partial_alpha_px": 2139,
+      "colors": 1329,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021014,
+      "p95_delta_e": 0.04434,
+      "max_delta_e": 0.085099
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-02.png": {
+      "measured_px": 1902,
+      "alpha_threshold": 128,
+      "off_palette_px": 1899,
+      "partial_alpha_px": 2259,
+      "colors": 1386,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021397,
+      "p95_delta_e": 0.04652,
+      "max_delta_e": 0.078784
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-03.png": {
+      "measured_px": 1964,
+      "alpha_threshold": 128,
+      "off_palette_px": 1961,
+      "partial_alpha_px": 2334,
+      "colors": 1416,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02135,
+      "p95_delta_e": 0.046418,
+      "max_delta_e": 0.082158
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-04.png": {
+      "measured_px": 1782,
+      "alpha_threshold": 128,
+      "off_palette_px": 1782,
+      "partial_alpha_px": 2110,
+      "colors": 1325,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021435,
+      "p95_delta_e": 0.048358,
+      "max_delta_e": 0.074719
+    },
+    "../registered/runescribe-walk-west/runescribe-walk-west-05.png": {
+      "measured_px": 1980,
+      "alpha_threshold": 128,
+      "off_palette_px": 1979,
+      "partial_alpha_px": 2364,
+      "colors": 1438,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02087,
+      "p95_delta_e": 0.047092,
+      "max_delta_e": 0.078048
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-00.png": {
+      "measured_px": 1981,
+      "alpha_threshold": 128,
+      "off_palette_px": 1980,
+      "partial_alpha_px": 2314,
+      "colors": 1472,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02237,
+      "p95_delta_e": 0.050679,
+      "max_delta_e": 0.077355
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-01.png": {
+      "measured_px": 1885,
+      "alpha_threshold": 128,
+      "off_palette_px": 1885,
+      "partial_alpha_px": 2198,
+      "colors": 1386,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021451,
+      "p95_delta_e": 0.046356,
+      "max_delta_e": 0.07337
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-02.png": {
+      "measured_px": 1973,
+      "alpha_threshold": 128,
+      "off_palette_px": 1973,
+      "partial_alpha_px": 2314,
+      "colors": 1456,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021566,
+      "p95_delta_e": 0.048294,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-03.png": {
+      "measured_px": 1995,
+      "alpha_threshold": 128,
+      "off_palette_px": 1993,
+      "partial_alpha_px": 2339,
+      "colors": 1412,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021422,
+      "p95_delta_e": 0.046107,
+      "max_delta_e": 0.080037
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-04.png": {
+      "measured_px": 1861,
+      "alpha_threshold": 128,
+      "off_palette_px": 1858,
+      "partial_alpha_px": 2165,
+      "colors": 1365,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021956,
+      "p95_delta_e": 0.047949,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-walk-east/runescribe-walk-east-05.png": {
+      "measured_px": 1982,
+      "alpha_threshold": 128,
+      "off_palette_px": 1980,
+      "partial_alpha_px": 2294,
+      "colors": 1459,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021706,
+      "p95_delta_e": 0.049198,
+      "max_delta_e": 0.074757
+    },
+    "../registered/runescribe-idle-south/runescribe-idle-south-00.png": {
+      "measured_px": 1982,
+      "alpha_threshold": 128,
+      "off_palette_px": 1981,
+      "partial_alpha_px": 2336,
+      "colors": 1445,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020917,
+      "p95_delta_e": 0.04846,
+      "max_delta_e": 0.084998
+    },
+    "../registered/runescribe-idle-south/runescribe-idle-south-01.png": {
+      "measured_px": 2000,
+      "alpha_threshold": 128,
+      "off_palette_px": 1998,
+      "partial_alpha_px": 2352,
+      "colors": 1471,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021097,
+      "p95_delta_e": 0.049335,
+      "max_delta_e": 0.077359
+    },
+    "../registered/runescribe-idle-south/runescribe-idle-south-02.png": {
+      "measured_px": 2059,
+      "alpha_threshold": 128,
+      "off_palette_px": 2057,
+      "partial_alpha_px": 2409,
+      "colors": 1491,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020739,
+      "p95_delta_e": 0.045975,
+      "max_delta_e": 0.080144
+    },
+    "../registered/runescribe-idle-south/runescribe-idle-south-03.png": {
+      "measured_px": 1983,
+      "alpha_threshold": 128,
+      "off_palette_px": 1979,
+      "partial_alpha_px": 2346,
+      "colors": 1443,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021131,
+      "p95_delta_e": 0.048437,
+      "max_delta_e": 0.085966
+    },
+    "../registered/runescribe-idle-north/runescribe-idle-north-00.png": {
+      "measured_px": 1856,
+      "alpha_threshold": 128,
+      "off_palette_px": 1856,
+      "partial_alpha_px": 2157,
+      "colors": 1380,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020852,
+      "p95_delta_e": 0.047497,
+      "max_delta_e": 0.081061
+    },
+    "../registered/runescribe-idle-north/runescribe-idle-north-01.png": {
+      "measured_px": 1867,
+      "alpha_threshold": 128,
+      "off_palette_px": 1867,
+      "partial_alpha_px": 2178,
+      "colors": 1360,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020392,
+      "p95_delta_e": 0.044167,
+      "max_delta_e": 0.077573
+    },
+    "../registered/runescribe-idle-north/runescribe-idle-north-02.png": {
+      "measured_px": 1904,
+      "alpha_threshold": 128,
+      "off_palette_px": 1904,
+      "partial_alpha_px": 2216,
+      "colors": 1398,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021084,
+      "p95_delta_e": 0.04742,
+      "max_delta_e": 0.077126
+    },
+    "../registered/runescribe-idle-north/runescribe-idle-north-03.png": {
+      "measured_px": 1841,
+      "alpha_threshold": 128,
+      "off_palette_px": 1839,
+      "partial_alpha_px": 2157,
+      "colors": 1354,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021156,
+      "p95_delta_e": 0.046711,
+      "max_delta_e": 0.088386
+    },
+    "../registered/runescribe-idle-west/runescribe-idle-west-00.png": {
+      "measured_px": 1831,
+      "alpha_threshold": 128,
+      "off_palette_px": 1829,
+      "partial_alpha_px": 2145,
+      "colors": 1388,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021429,
+      "p95_delta_e": 0.050587,
+      "max_delta_e": 0.078017
+    },
+    "../registered/runescribe-idle-west/runescribe-idle-west-01.png": {
+      "measured_px": 1843,
+      "alpha_threshold": 128,
+      "off_palette_px": 1840,
+      "partial_alpha_px": 2171,
+      "colors": 1395,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021081,
+      "p95_delta_e": 0.047277,
+      "max_delta_e": 0.080336
+    },
+    "../registered/runescribe-idle-west/runescribe-idle-west-02.png": {
+      "measured_px": 1857,
+      "alpha_threshold": 128,
+      "off_palette_px": 1856,
+      "partial_alpha_px": 2183,
+      "colors": 1407,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02197,
+      "p95_delta_e": 0.050243,
+      "max_delta_e": 0.077401
+    },
+    "../registered/runescribe-idle-west/runescribe-idle-west-03.png": {
+      "measured_px": 1836,
+      "alpha_threshold": 128,
+      "off_palette_px": 1836,
+      "partial_alpha_px": 2147,
+      "colors": 1400,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02134,
+      "p95_delta_e": 0.049325,
+      "max_delta_e": 0.085168
+    },
+    "../registered/runescribe-idle-east/runescribe-idle-east-00.png": {
+      "measured_px": 2017,
+      "alpha_threshold": 128,
+      "off_palette_px": 2015,
+      "partial_alpha_px": 2304,
+      "colors": 1519,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021617,
+      "p95_delta_e": 0.048466,
+      "max_delta_e": 0.075469
+    },
+    "../registered/runescribe-idle-east/runescribe-idle-east-01.png": {
+      "measured_px": 2078,
+      "alpha_threshold": 128,
+      "off_palette_px": 2074,
+      "partial_alpha_px": 2374,
+      "colors": 1536,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021023,
+      "p95_delta_e": 0.048173,
+      "max_delta_e": 0.076235
+    },
+    "../registered/runescribe-idle-east/runescribe-idle-east-02.png": {
+      "measured_px": 2068,
+      "alpha_threshold": 128,
+      "off_palette_px": 2067,
+      "partial_alpha_px": 2396,
+      "colors": 1500,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021383,
+      "p95_delta_e": 0.045892,
+      "max_delta_e": 0.069772
+    },
+    "../registered/runescribe-idle-east/runescribe-idle-east-03.png": {
+      "measured_px": 2015,
+      "alpha_threshold": 128,
+      "off_palette_px": 2014,
+      "partial_alpha_px": 2354,
+      "colors": 1527,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021457,
+      "p95_delta_e": 0.049185,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-00.png": {
+      "measured_px": 2008,
+      "alpha_threshold": 128,
+      "off_palette_px": 2007,
+      "partial_alpha_px": 2337,
+      "colors": 1527,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022367,
+      "p95_delta_e": 0.047869,
+      "max_delta_e": 0.073686
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-01.png": {
+      "measured_px": 1819,
+      "alpha_threshold": 128,
+      "off_palette_px": 1817,
+      "partial_alpha_px": 2078,
+      "colors": 1413,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022825,
+      "p95_delta_e": 0.048018,
+      "max_delta_e": 0.083553
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-02.png": {
+      "measured_px": 1942,
+      "alpha_threshold": 128,
+      "off_palette_px": 1940,
+      "partial_alpha_px": 2256,
+      "colors": 1535,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02251,
+      "p95_delta_e": 0.048868,
+      "max_delta_e": 0.067984
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-03.png": {
+      "measured_px": 1972,
+      "alpha_threshold": 128,
+      "off_palette_px": 1969,
+      "partial_alpha_px": 2279,
+      "colors": 1504,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022584,
+      "p95_delta_e": 0.049027,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-04.png": {
+      "measured_px": 1991,
+      "alpha_threshold": 128,
+      "off_palette_px": 1990,
+      "partial_alpha_px": 2314,
+      "colors": 1485,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023116,
+      "p95_delta_e": 0.048514,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-south/runescribe-cast-south-05.png": {
+      "measured_px": 1979,
+      "alpha_threshold": 128,
+      "off_palette_px": 1979,
+      "partial_alpha_px": 2300,
+      "colors": 1493,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022537,
+      "p95_delta_e": 0.047365,
+      "max_delta_e": 0.080932
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-00.png": {
+      "measured_px": 1876,
+      "alpha_threshold": 128,
+      "off_palette_px": 1875,
+      "partial_alpha_px": 2234,
+      "colors": 1220,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020271,
+      "p95_delta_e": 0.050075,
+      "max_delta_e": 0.070959
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-01.png": {
+      "measured_px": 1909,
+      "alpha_threshold": 128,
+      "off_palette_px": 1908,
+      "partial_alpha_px": 2218,
+      "colors": 1223,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019508,
+      "p95_delta_e": 0.047378,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-02.png": {
+      "measured_px": 1905,
+      "alpha_threshold": 128,
+      "off_palette_px": 1905,
+      "partial_alpha_px": 2257,
+      "colors": 1196,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019383,
+      "p95_delta_e": 0.048383,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-03.png": {
+      "measured_px": 1972,
+      "alpha_threshold": 128,
+      "off_palette_px": 1969,
+      "partial_alpha_px": 2308,
+      "colors": 1230,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.01986,
+      "p95_delta_e": 0.050254,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-04.png": {
+      "measured_px": 1903,
+      "alpha_threshold": 128,
+      "off_palette_px": 1903,
+      "partial_alpha_px": 2232,
+      "colors": 1149,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019152,
+      "p95_delta_e": 0.048084,
+      "max_delta_e": 0.087474
+    },
+    "../registered/runescribe-cast-north/runescribe-cast-north-05.png": {
+      "measured_px": 1920,
+      "alpha_threshold": 128,
+      "off_palette_px": 1918,
+      "partial_alpha_px": 2283,
+      "colors": 1248,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020297,
+      "p95_delta_e": 0.047852,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-00.png": {
+      "measured_px": 1982,
+      "alpha_threshold": 128,
+      "off_palette_px": 1980,
+      "partial_alpha_px": 2302,
+      "colors": 1524,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02127,
+      "p95_delta_e": 0.046991,
+      "max_delta_e": 0.082193
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-01.png": {
+      "measured_px": 1744,
+      "alpha_threshold": 128,
+      "off_palette_px": 1744,
+      "partial_alpha_px": 2044,
+      "colors": 1375,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021582,
+      "p95_delta_e": 0.051005,
+      "max_delta_e": 0.086643
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-02.png": {
+      "measured_px": 1839,
+      "alpha_threshold": 128,
+      "off_palette_px": 1834,
+      "partial_alpha_px": 2154,
+      "colors": 1434,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02053,
+      "p95_delta_e": 0.046246,
+      "max_delta_e": 0.081257
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-03.png": {
+      "measured_px": 2005,
+      "alpha_threshold": 128,
+      "off_palette_px": 2000,
+      "partial_alpha_px": 2334,
+      "colors": 1457,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019905,
+      "p95_delta_e": 0.046046,
+      "max_delta_e": 0.087642
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-04.png": {
+      "measured_px": 1851,
+      "alpha_threshold": 128,
+      "off_palette_px": 1847,
+      "partial_alpha_px": 2199,
+      "colors": 1405,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021188,
+      "p95_delta_e": 0.048181,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-west/runescribe-cast-west-05.png": {
+      "measured_px": 1967,
+      "alpha_threshold": 128,
+      "off_palette_px": 1964,
+      "partial_alpha_px": 2349,
+      "colors": 1528,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020917,
+      "p95_delta_e": 0.046881,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-00.png": {
+      "measured_px": 2124,
+      "alpha_threshold": 128,
+      "off_palette_px": 2120,
+      "partial_alpha_px": 2466,
+      "colors": 1600,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022714,
+      "p95_delta_e": 0.048277,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-01.png": {
+      "measured_px": 1987,
+      "alpha_threshold": 128,
+      "off_palette_px": 1985,
+      "partial_alpha_px": 2334,
+      "colors": 1555,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02308,
+      "p95_delta_e": 0.049183,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-02.png": {
+      "measured_px": 2013,
+      "alpha_threshold": 128,
+      "off_palette_px": 2008,
+      "partial_alpha_px": 2344,
+      "colors": 1537,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022835,
+      "p95_delta_e": 0.049153,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-03.png": {
+      "measured_px": 1850,
+      "alpha_threshold": 128,
+      "off_palette_px": 1849,
+      "partial_alpha_px": 2190,
+      "colors": 1413,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023247,
+      "p95_delta_e": 0.050395,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-04.png": {
+      "measured_px": 1973,
+      "alpha_threshold": 128,
+      "off_palette_px": 1970,
+      "partial_alpha_px": 2315,
+      "colors": 1536,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023416,
+      "p95_delta_e": 0.049318,
+      "max_delta_e": 0.096632
+    },
+    "../registered/runescribe-cast-east/runescribe-cast-east-05.png": {
+      "measured_px": 2048,
+      "alpha_threshold": 128,
+      "off_palette_px": 2045,
+      "partial_alpha_px": 2445,
+      "colors": 1586,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022554,
+      "p95_delta_e": 0.04758,
+      "max_delta_e": 0.096632
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-00.png": {
+      "measured_px": 1709,
+      "alpha_threshold": 128,
+      "off_palette_px": 1703,
+      "partial_alpha_px": 1942,
+      "colors": 1421,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021452,
+      "p95_delta_e": 0.041236,
+      "max_delta_e": 0.168222
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-01.png": {
+      "measured_px": 1724,
+      "alpha_threshold": 128,
+      "off_palette_px": 1721,
+      "partial_alpha_px": 1955,
+      "colors": 1447,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021336,
+      "p95_delta_e": 0.04238,
+      "max_delta_e": 0.178928
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-02.png": {
+      "measured_px": 1685,
+      "alpha_threshold": 128,
+      "off_palette_px": 1679,
+      "partial_alpha_px": 1908,
+      "colors": 1409,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021644,
+      "p95_delta_e": 0.042827,
+      "max_delta_e": 0.167626
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-03.png": {
+      "measured_px": 1699,
+      "alpha_threshold": 128,
+      "off_palette_px": 1695,
+      "partial_alpha_px": 1940,
+      "colors": 1416,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021071,
+      "p95_delta_e": 0.041061,
+      "max_delta_e": 0.151688
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-04.png": {
+      "measured_px": 1728,
+      "alpha_threshold": 128,
+      "off_palette_px": 1726,
+      "partial_alpha_px": 1963,
+      "colors": 1444,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.02152,
+      "p95_delta_e": 0.042821,
+      "max_delta_e": 0.166493
+    },
+    "../registered/hex-cultist-walk-south/hex-cultist-walk-south-05.png": {
+      "measured_px": 1719,
+      "alpha_threshold": 128,
+      "off_palette_px": 1715,
+      "partial_alpha_px": 1964,
+      "colors": 1440,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021436,
+      "p95_delta_e": 0.042969,
+      "max_delta_e": 0.153609
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-00.png": {
+      "measured_px": 1712,
+      "alpha_threshold": 128,
+      "off_palette_px": 1710,
+      "partial_alpha_px": 1976,
+      "colors": 1367,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021777,
+      "p95_delta_e": 0.037556,
+      "max_delta_e": 0.15485
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-01.png": {
+      "measured_px": 1672,
+      "alpha_threshold": 128,
+      "off_palette_px": 1670,
+      "partial_alpha_px": 1908,
+      "colors": 1319,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02128,
+      "p95_delta_e": 0.037316,
+      "max_delta_e": 0.153737
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-02.png": {
+      "measured_px": 1683,
+      "alpha_threshold": 128,
+      "off_palette_px": 1683,
+      "partial_alpha_px": 1944,
+      "colors": 1334,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.02172,
+      "p95_delta_e": 0.037768,
+      "max_delta_e": 0.158852
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-03.png": {
+      "measured_px": 1677,
+      "alpha_threshold": 128,
+      "off_palette_px": 1677,
+      "partial_alpha_px": 1925,
+      "colors": 1340,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021554,
+      "p95_delta_e": 0.038206,
+      "max_delta_e": 0.170137
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-04.png": {
+      "measured_px": 1631,
+      "alpha_threshold": 128,
+      "off_palette_px": 1631,
+      "partial_alpha_px": 1876,
+      "colors": 1330,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.022263,
+      "p95_delta_e": 0.038943,
+      "max_delta_e": 0.156012
+    },
+    "../registered/hex-cultist-walk-north/hex-cultist-walk-north-05.png": {
+      "measured_px": 1660,
+      "alpha_threshold": 128,
+      "off_palette_px": 1660,
+      "partial_alpha_px": 1907,
+      "colors": 1314,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021642,
+      "p95_delta_e": 0.037061,
+      "max_delta_e": 0.153778
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-00.png": {
+      "measured_px": 1779,
+      "alpha_threshold": 128,
+      "off_palette_px": 1773,
+      "partial_alpha_px": 2036,
+      "colors": 1425,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.01885,
+      "p95_delta_e": 0.036997,
+      "max_delta_e": 0.148163
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-01.png": {
+      "measured_px": 1602,
+      "alpha_threshold": 128,
+      "off_palette_px": 1593,
+      "partial_alpha_px": 1827,
+      "colors": 1326,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019489,
+      "p95_delta_e": 0.038687,
+      "max_delta_e": 0.173026
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-02.png": {
+      "measured_px": 1613,
+      "alpha_threshold": 128,
+      "off_palette_px": 1602,
+      "partial_alpha_px": 1860,
+      "colors": 1307,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019339,
+      "p95_delta_e": 0.038422,
+      "max_delta_e": 0.130542
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-03.png": {
+      "measured_px": 1764,
+      "alpha_threshold": 128,
+      "off_palette_px": 1753,
+      "partial_alpha_px": 2023,
+      "colors": 1396,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019215,
+      "p95_delta_e": 0.037876,
+      "max_delta_e": 0.159428
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-04.png": {
+      "measured_px": 1621,
+      "alpha_threshold": 128,
+      "off_palette_px": 1610,
+      "partial_alpha_px": 1868,
+      "colors": 1319,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019816,
+      "p95_delta_e": 0.039115,
+      "max_delta_e": 0.171847
+    },
+    "../registered/hex-cultist-walk-west/hex-cultist-walk-west-05.png": {
+      "measured_px": 1704,
+      "alpha_threshold": 128,
+      "off_palette_px": 1696,
+      "partial_alpha_px": 1963,
+      "colors": 1348,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.018853,
+      "p95_delta_e": 0.037332,
+      "max_delta_e": 0.170702
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-00.png": {
+      "measured_px": 1836,
+      "alpha_threshold": 128,
+      "off_palette_px": 1829,
+      "partial_alpha_px": 2085,
+      "colors": 1502,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020864,
+      "p95_delta_e": 0.039774,
+      "max_delta_e": 0.161597
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-01.png": {
+      "measured_px": 1692,
+      "alpha_threshold": 128,
+      "off_palette_px": 1687,
+      "partial_alpha_px": 1931,
+      "colors": 1406,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020481,
+      "p95_delta_e": 0.039159,
+      "max_delta_e": 0.149352
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-02.png": {
+      "measured_px": 1675,
+      "alpha_threshold": 128,
+      "off_palette_px": 1673,
+      "partial_alpha_px": 1929,
+      "colors": 1380,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020694,
+      "p95_delta_e": 0.04031,
+      "max_delta_e": 0.117492
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-03.png": {
+      "measured_px": 1735,
+      "alpha_threshold": 128,
+      "off_palette_px": 1728,
+      "partial_alpha_px": 2002,
+      "colors": 1410,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020706,
+      "p95_delta_e": 0.039367,
+      "max_delta_e": 0.141332
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-04.png": {
+      "measured_px": 1581,
+      "alpha_threshold": 128,
+      "off_palette_px": 1574,
+      "partial_alpha_px": 1833,
+      "colors": 1323,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020909,
+      "p95_delta_e": 0.038856,
+      "max_delta_e": 0.152257
+    },
+    "../registered/hex-cultist-walk-east/hex-cultist-walk-east-05.png": {
+      "measured_px": 1788,
+      "alpha_threshold": 128,
+      "off_palette_px": 1783,
+      "partial_alpha_px": 2048,
+      "colors": 1487,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021069,
+      "p95_delta_e": 0.038895,
+      "max_delta_e": 0.159977
+    },
+    "../registered/hex-cultist-idle-south/hex-cultist-idle-south-00.png": {
+      "measured_px": 1715,
+      "alpha_threshold": 128,
+      "off_palette_px": 1695,
+      "partial_alpha_px": 1931,
+      "colors": 1342,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022302,
+      "p95_delta_e": 0.039215,
+      "max_delta_e": 0.180392
+    },
+    "../registered/hex-cultist-idle-south/hex-cultist-idle-south-01.png": {
+      "measured_px": 1738,
+      "alpha_threshold": 128,
+      "off_palette_px": 1705,
+      "partial_alpha_px": 1972,
+      "colors": 1342,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021764,
+      "p95_delta_e": 0.039382,
+      "max_delta_e": 0.174814
+    },
+    "../registered/hex-cultist-idle-south/hex-cultist-idle-south-02.png": {
+      "measured_px": 1745,
+      "alpha_threshold": 128,
+      "off_palette_px": 1723,
+      "partial_alpha_px": 1976,
+      "colors": 1365,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021583,
+      "p95_delta_e": 0.039098,
+      "max_delta_e": 0.170425
+    },
+    "../registered/hex-cultist-idle-south/hex-cultist-idle-south-03.png": {
+      "measured_px": 1699,
+      "alpha_threshold": 128,
+      "off_palette_px": 1675,
+      "partial_alpha_px": 1931,
+      "colors": 1325,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022111,
+      "p95_delta_e": 0.038867,
+      "max_delta_e": 0.183111
+    },
+    "../registered/hex-cultist-idle-north/hex-cultist-idle-north-00.png": {
+      "measured_px": 1696,
+      "alpha_threshold": 128,
+      "off_palette_px": 1696,
+      "partial_alpha_px": 1931,
+      "colors": 1373,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.023522,
+      "p95_delta_e": 0.039711,
+      "max_delta_e": 0.168367
+    },
+    "../registered/hex-cultist-idle-north/hex-cultist-idle-north-01.png": {
+      "measured_px": 1680,
+      "alpha_threshold": 128,
+      "off_palette_px": 1680,
+      "partial_alpha_px": 1910,
+      "colors": 1322,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.023263,
+      "p95_delta_e": 0.039857,
+      "max_delta_e": 0.174958
+    },
+    "../registered/hex-cultist-idle-north/hex-cultist-idle-north-02.png": {
+      "measured_px": 1703,
+      "alpha_threshold": 128,
+      "off_palette_px": 1703,
+      "partial_alpha_px": 1941,
+      "colors": 1346,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.024018,
+      "p95_delta_e": 0.041177,
+      "max_delta_e": 0.176641
+    },
+    "../registered/hex-cultist-idle-north/hex-cultist-idle-north-03.png": {
+      "measured_px": 1644,
+      "alpha_threshold": 128,
+      "off_palette_px": 1644,
+      "partial_alpha_px": 1884,
+      "colors": 1338,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.023703,
+      "p95_delta_e": 0.040229,
+      "max_delta_e": 0.116166
+    },
+    "../registered/hex-cultist-idle-west/hex-cultist-idle-west-00.png": {
+      "measured_px": 1575,
+      "alpha_threshold": 128,
+      "off_palette_px": 1575,
+      "partial_alpha_px": 1792,
+      "colors": 1249,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020271,
+      "p95_delta_e": 0.038022,
+      "max_delta_e": 0.142284
+    },
+    "../registered/hex-cultist-idle-west/hex-cultist-idle-west-01.png": {
+      "measured_px": 1593,
+      "alpha_threshold": 128,
+      "off_palette_px": 1592,
+      "partial_alpha_px": 1814,
+      "colors": 1270,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020529,
+      "p95_delta_e": 0.038363,
+      "max_delta_e": 0.166744
+    },
+    "../registered/hex-cultist-idle-west/hex-cultist-idle-west-02.png": {
+      "measured_px": 1663,
+      "alpha_threshold": 128,
+      "off_palette_px": 1662,
+      "partial_alpha_px": 1903,
+      "colors": 1285,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020161,
+      "p95_delta_e": 0.037935,
+      "max_delta_e": 0.128246
+    },
+    "../registered/hex-cultist-idle-west/hex-cultist-idle-west-03.png": {
+      "measured_px": 1561,
+      "alpha_threshold": 128,
+      "off_palette_px": 1559,
+      "partial_alpha_px": 1778,
+      "colors": 1229,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020227,
+      "p95_delta_e": 0.03736,
+      "max_delta_e": 0.150558
+    },
+    "../registered/hex-cultist-idle-east/hex-cultist-idle-east-00.png": {
+      "measured_px": 1651,
+      "alpha_threshold": 128,
+      "off_palette_px": 1650,
+      "partial_alpha_px": 1878,
+      "colors": 1359,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020438,
+      "p95_delta_e": 0.038128,
+      "max_delta_e": 0.139816
+    },
+    "../registered/hex-cultist-idle-east/hex-cultist-idle-east-01.png": {
+      "measured_px": 1699,
+      "alpha_threshold": 128,
+      "off_palette_px": 1699,
+      "partial_alpha_px": 1940,
+      "colors": 1379,
+      "palette_colors_used": 21,
+      "mean_delta_e": 0.019888,
+      "p95_delta_e": 0.03796,
+      "max_delta_e": 0.139145
+    },
+    "../registered/hex-cultist-idle-east/hex-cultist-idle-east-02.png": {
+      "measured_px": 1743,
+      "alpha_threshold": 128,
+      "off_palette_px": 1743,
+      "partial_alpha_px": 1988,
+      "colors": 1400,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.020832,
+      "p95_delta_e": 0.040312,
+      "max_delta_e": 0.146602
+    },
+    "../registered/hex-cultist-idle-east/hex-cultist-idle-east-03.png": {
+      "measured_px": 1677,
+      "alpha_threshold": 128,
+      "off_palette_px": 1677,
+      "partial_alpha_px": 1905,
+      "colors": 1359,
+      "palette_colors_used": 21,
+      "mean_delta_e": 0.020306,
+      "p95_delta_e": 0.039596,
+      "max_delta_e": 0.174112
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-00.png": {
+      "measured_px": 1825,
+      "alpha_threshold": 128,
+      "off_palette_px": 1822,
+      "partial_alpha_px": 2080,
+      "colors": 1517,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019375,
+      "p95_delta_e": 0.037902,
+      "max_delta_e": 0.160059
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-01.png": {
+      "measured_px": 1680,
+      "alpha_threshold": 128,
+      "off_palette_px": 1672,
+      "partial_alpha_px": 1860,
+      "colors": 1405,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019634,
+      "p95_delta_e": 0.03818,
+      "max_delta_e": 0.066335
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-02.png": {
+      "measured_px": 1916,
+      "alpha_threshold": 128,
+      "off_palette_px": 1911,
+      "partial_alpha_px": 2181,
+      "colors": 1582,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.01956,
+      "p95_delta_e": 0.038024,
+      "max_delta_e": 0.101079
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-03.png": {
+      "measured_px": 1860,
+      "alpha_threshold": 128,
+      "off_palette_px": 1853,
+      "partial_alpha_px": 2096,
+      "colors": 1526,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019344,
+      "p95_delta_e": 0.039099,
+      "max_delta_e": 0.102758
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-04.png": {
+      "measured_px": 1868,
+      "alpha_threshold": 128,
+      "off_palette_px": 1853,
+      "partial_alpha_px": 2122,
+      "colors": 1515,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019579,
+      "p95_delta_e": 0.037529,
+      "max_delta_e": 0.122534
+    },
+    "../registered/hex-cultist-cast-south/hex-cultist-cast-south-05.png": {
+      "measured_px": 1825,
+      "alpha_threshold": 128,
+      "off_palette_px": 1815,
+      "partial_alpha_px": 2093,
+      "colors": 1518,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.019399,
+      "p95_delta_e": 0.038068,
+      "max_delta_e": 0.123969
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-00.png": {
+      "measured_px": 1766,
+      "alpha_threshold": 128,
+      "off_palette_px": 1766,
+      "partial_alpha_px": 2036,
+      "colors": 1409,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.024409,
+      "p95_delta_e": 0.040243,
+      "max_delta_e": 0.168675
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-01.png": {
+      "measured_px": 1698,
+      "alpha_threshold": 128,
+      "off_palette_px": 1698,
+      "partial_alpha_px": 1936,
+      "colors": 1314,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.024265,
+      "p95_delta_e": 0.042001,
+      "max_delta_e": 0.057054
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-02.png": {
+      "measured_px": 1862,
+      "alpha_threshold": 128,
+      "off_palette_px": 1862,
+      "partial_alpha_px": 2143,
+      "colors": 1418,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.024255,
+      "p95_delta_e": 0.042326,
+      "max_delta_e": 0.061315
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-03.png": {
+      "measured_px": 1750,
+      "alpha_threshold": 128,
+      "off_palette_px": 1750,
+      "partial_alpha_px": 2021,
+      "colors": 1393,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.024258,
+      "p95_delta_e": 0.040568,
+      "max_delta_e": 0.057904
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-04.png": {
+      "measured_px": 1681,
+      "alpha_threshold": 128,
+      "off_palette_px": 1681,
+      "partial_alpha_px": 1939,
+      "colors": 1340,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.024362,
+      "p95_delta_e": 0.042083,
+      "max_delta_e": 0.06725
+    },
+    "../registered/hex-cultist-cast-north/hex-cultist-cast-north-05.png": {
+      "measured_px": 1711,
+      "alpha_threshold": 128,
+      "off_palette_px": 1711,
+      "partial_alpha_px": 1983,
+      "colors": 1375,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.024509,
+      "p95_delta_e": 0.041708,
+      "max_delta_e": 0.139209
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-00.png": {
+      "measured_px": 1698,
+      "alpha_threshold": 128,
+      "off_palette_px": 1698,
+      "partial_alpha_px": 1950,
+      "colors": 1397,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.022078,
+      "p95_delta_e": 0.042706,
+      "max_delta_e": 0.150788
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-01.png": {
+      "measured_px": 1458,
+      "alpha_threshold": 128,
+      "off_palette_px": 1457,
+      "partial_alpha_px": 1651,
+      "colors": 1201,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.022327,
+      "p95_delta_e": 0.04345,
+      "max_delta_e": 0.115781
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-02.png": {
+      "measured_px": 1540,
+      "alpha_threshold": 128,
+      "off_palette_px": 1534,
+      "partial_alpha_px": 1769,
+      "colors": 1280,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.022701,
+      "p95_delta_e": 0.043439,
+      "max_delta_e": 0.128841
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-03.png": {
+      "measured_px": 1716,
+      "alpha_threshold": 128,
+      "off_palette_px": 1713,
+      "partial_alpha_px": 1951,
+      "colors": 1366,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.022062,
+      "p95_delta_e": 0.042143,
+      "max_delta_e": 0.073343
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-04.png": {
+      "measured_px": 1515,
+      "alpha_threshold": 128,
+      "off_palette_px": 1508,
+      "partial_alpha_px": 1733,
+      "colors": 1227,
+      "palette_colors_used": 23,
+      "mean_delta_e": 0.021746,
+      "p95_delta_e": 0.042778,
+      "max_delta_e": 0.060669
+    },
+    "../registered/hex-cultist-cast-west/hex-cultist-cast-west-05.png": {
+      "measured_px": 1691,
+      "alpha_threshold": 128,
+      "off_palette_px": 1689,
+      "partial_alpha_px": 1927,
+      "colors": 1402,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.021872,
+      "p95_delta_e": 0.042359,
+      "max_delta_e": 0.150142
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-00.png": {
+      "measured_px": 1797,
+      "alpha_threshold": 128,
+      "off_palette_px": 1793,
+      "partial_alpha_px": 2074,
+      "colors": 1463,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019372,
+      "p95_delta_e": 0.037573,
+      "max_delta_e": 0.166705
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-01.png": {
+      "measured_px": 1560,
+      "alpha_threshold": 128,
+      "off_palette_px": 1555,
+      "partial_alpha_px": 1761,
+      "colors": 1229,
+      "palette_colors_used": 21,
+      "mean_delta_e": 0.019824,
+      "p95_delta_e": 0.038438,
+      "max_delta_e": 0.051228
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-02.png": {
+      "measured_px": 1803,
+      "alpha_threshold": 128,
+      "off_palette_px": 1800,
+      "partial_alpha_px": 2067,
+      "colors": 1416,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019394,
+      "p95_delta_e": 0.037096,
+      "max_delta_e": 0.058775
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-03.png": {
+      "measured_px": 1911,
+      "alpha_threshold": 128,
+      "off_palette_px": 1906,
+      "partial_alpha_px": 2148,
+      "colors": 1476,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019684,
+      "p95_delta_e": 0.037573,
+      "max_delta_e": 0.051595
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-04.png": {
+      "measured_px": 1723,
+      "alpha_threshold": 128,
+      "off_palette_px": 1716,
+      "partial_alpha_px": 1942,
+      "colors": 1363,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.019771,
+      "p95_delta_e": 0.038762,
+      "max_delta_e": 0.053081
+    },
+    "../registered/hex-cultist-cast-east/hex-cultist-cast-east-05.png": {
+      "measured_px": 1787,
+      "alpha_threshold": 128,
+      "off_palette_px": 1786,
+      "partial_alpha_px": 2051,
+      "colors": 1465,
+      "palette_colors_used": 22,
+      "mean_delta_e": 0.020126,
+      "p95_delta_e": 0.039615,
+      "max_delta_e": 0.142605
+    }
+  },
+  "totals": {
+    "max_delta_e": 0.183111,
+    "worst_p95_delta_e": 0.051005,
+    "off_palette_px": 231038
+  }
+}

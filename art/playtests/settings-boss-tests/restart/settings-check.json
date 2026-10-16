@@ -1,0 +1,13 @@
+{
+    "width": 1280,
+    "height": 720,
+    "fullscreenWidth": 0,
+    "fullscreenHeight": 0,
+    "graphics": "Direct3D11",
+    "resume": true,
+    "exactResume": true,
+    "crt": false,
+    "fullscreen": false,
+    "volume": 0.36000001430511477,
+    "errors": []
+}

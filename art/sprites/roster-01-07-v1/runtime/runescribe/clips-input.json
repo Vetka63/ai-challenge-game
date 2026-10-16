@@ -1,0 +1,569 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    {
+      "name": "idle_south_00",
+      "file": "frames/idle_south_00.png"
+    },
+    {
+      "name": "idle_south_01",
+      "file": "frames/idle_south_01.png"
+    },
+    {
+      "name": "idle_south_02",
+      "file": "frames/idle_south_02.png"
+    },
+    {
+      "name": "idle_south_03",
+      "file": "frames/idle_south_03.png"
+    },
+    {
+      "name": "idle_north_00",
+      "file": "frames/idle_north_00.png"
+    },
+    {
+      "name": "idle_north_01",
+      "file": "frames/idle_north_01.png"
+    },
+    {
+      "name": "idle_north_02",
+      "file": "frames/idle_north_02.png"
+    },
+    {
+      "name": "idle_north_03",
+      "file": "frames/idle_north_03.png"
+    },
+    {
+      "name": "idle_west_00",
+      "file": "frames/idle_west_00.png"
+    },
+    {
+      "name": "idle_west_01",
+      "file": "frames/idle_west_01.png"
+    },
+    {
+      "name": "idle_west_02",
+      "file": "frames/idle_west_02.png"
+    },
+    {
+      "name": "idle_west_03",
+      "file": "frames/idle_west_03.png"
+    },
+    {
+      "name": "idle_east_00",
+      "file": "frames/idle_east_00.png"
+    },
+    {
+      "name": "idle_east_01",
+      "file": "frames/idle_east_01.png"
+    },
+    {
+      "name": "idle_east_02",
+      "file": "frames/idle_east_02.png"
+    },
+    {
+      "name": "idle_east_03",
+      "file": "frames/idle_east_03.png"
+    },
+    {
+      "name": "walk_south_00",
+      "file": "frames/walk_south_00.png"
+    },
+    {
+      "name": "walk_south_01",
+      "file": "frames/walk_south_01.png"
+    },
+    {
+      "name": "walk_south_02",
+      "file": "frames/walk_south_02.png"
+    },
+    {
+      "name": "walk_south_03",
+      "file": "frames/walk_south_03.png"
+    },
+    {
+      "name": "walk_south_04",
+      "file": "frames/walk_south_04.png"
+    },
+    {
+      "name": "walk_south_05",
+      "file": "frames/walk_south_05.png"
+    },
+    {
+      "name": "walk_north_00",
+      "file": "frames/walk_north_00.png"
+    },
+    {
+      "name": "walk_north_01",
+      "file": "frames/walk_north_01.png"
+    },
+    {
+      "name": "walk_north_02",
+      "file": "frames/walk_north_02.png"
+    },
+    {
+      "name": "walk_north_03",
+      "file": "frames/walk_north_03.png"
+    },
+    {
+      "name": "walk_north_04",
+      "file": "frames/walk_north_04.png"
+    },
+    {
+      "name": "walk_north_05",
+      "file": "frames/walk_north_05.png"
+    },
+    {
+      "name": "walk_west_00",
+      "file": "frames/walk_west_00.png"
+    },
+    {
+      "name": "walk_west_01",
+      "file": "frames/walk_west_01.png"
+    },
+    {
+      "name": "walk_west_02",
+      "file": "frames/walk_west_02.png"
+    },
+    {
+      "name": "walk_west_03",
+      "file": "frames/walk_west_03.png"
+    },
+    {
+      "name": "walk_west_04",
+      "file": "frames/walk_west_04.png"
+    },
+    {
+      "name": "walk_west_05",
+      "file": "frames/walk_west_05.png"
+    },
+    {
+      "name": "walk_east_00",
+      "file": "frames/walk_east_00.png"
+    },
+    {
+      "name": "walk_east_01",
+      "file": "frames/walk_east_01.png"
+    },
+    {
+      "name": "walk_east_02",
+      "file": "frames/walk_east_02.png"
+    },
+    {
+      "name": "walk_east_03",
+      "file": "frames/walk_east_03.png"
+    },
+    {
+      "name": "walk_east_04",
+      "file": "frames/walk_east_04.png"
+    },
+    {
+      "name": "walk_east_05",
+      "file": "frames/walk_east_05.png"
+    },
+    {
+      "name": "cast_south_00",
+      "file": "frames/cast_south_00.png"
+    },
+    {
+      "name": "cast_south_01",
+      "file": "frames/cast_south_01.png"
+    },
+    {
+      "name": "cast_south_02",
+      "file": "frames/cast_south_02.png"
+    },
+    {
+      "name": "cast_south_03",
+      "file": "frames/cast_south_03.png"
+    },
+    {
+      "name": "cast_south_04",
+      "file": "frames/cast_south_04.png"
+    },
+    {
+      "name": "cast_south_05",
+      "file": "frames/cast_south_05.png"
+    },
+    {
+      "name": "cast_north_00",
+      "file": "frames/cast_north_00.png"
+    },
+    {
+      "name": "cast_north_01",
+      "file": "frames/cast_north_01.png"
+    },
+    {
+      "name": "cast_north_02",
+      "file": "frames/cast_north_02.png"
+    },
+    {
+      "name": "cast_north_03",
+      "file": "frames/cast_north_03.png"
+    },
+    {
+      "name": "cast_north_04",
+      "file": "frames/cast_north_04.png"
+    },
+    {
+      "name": "cast_north_05",
+      "file": "frames/cast_north_05.png"
+    },
+    {
+      "name": "cast_west_00",
+      "file": "frames/cast_west_00.png"
+    },
+    {
+      "name": "cast_west_01",
+      "file": "frames/cast_west_01.png"
+    },
+    {
+      "name": "cast_west_02",
+      "file": "frames/cast_west_02.png"
+    },
+    {
+      "name": "cast_west_03",
+      "file": "frames/cast_west_03.png"
+    },
+    {
+      "name": "cast_west_04",
+      "file": "frames/cast_west_04.png"
+    },
+    {
+      "name": "cast_west_05",
+      "file": "frames/cast_west_05.png"
+    },
+    {
+      "name": "cast_east_00",
+      "file": "frames/cast_east_00.png"
+    },
+    {
+      "name": "cast_east_01",
+      "file": "frames/cast_east_01.png"
+    },
+    {
+      "name": "cast_east_02",
+      "file": "frames/cast_east_02.png"
+    },
+    {
+      "name": "cast_east_03",
+      "file": "frames/cast_east_03.png"
+    },
+    {
+      "name": "cast_east_04",
+      "file": "frames/cast_east_04.png"
+    },
+    {
+      "name": "cast_east_05",
+      "file": "frames/cast_east_05.png"
+    }
+  ],
+  "anchor_px": [
+    64,
+    108
+  ],
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 72,
+  "clips": {
+    "idle_south": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ticks": 12,
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "idle_north": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": 12,
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "idle_west": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "ticks": 12,
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "idle_east": {
+      "frames": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": 12,
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "walk_south": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ticks": 6,
+      "loop_policy": "cycle",
+      "role": "player",
+      "events": [
+        {
+          "at": 0,
+          "name": "step_l"
+        },
+        {
+          "at": 3,
+          "name": "step_r"
+        }
+      ]
+    },
+    "walk_north": {
+      "frames": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "ticks": 6,
+      "loop_policy": "cycle",
+      "role": "player",
+      "events": [
+        {
+          "at": 0,
+          "name": "step_l"
+        },
+        {
+          "at": 3,
+          "name": "step_r"
+        }
+      ]
+    },
+    "walk_west": {
+      "frames": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ticks": 6,
+      "loop_policy": "cycle",
+      "role": "player",
+      "events": [
+        {
+          "at": 0,
+          "name": "step_l"
+        },
+        {
+          "at": 3,
+          "name": "step_r"
+        }
+      ]
+    },
+    "walk_east": {
+      "frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "ticks": 6,
+      "loop_policy": "cycle",
+      "role": "player",
+      "events": [
+        {
+          "at": 0,
+          "name": "step_l"
+        },
+        {
+          "at": 3,
+          "name": "step_r"
+        }
+      ]
+    },
+    "cast_south": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        12
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "at": 3,
+          "name": "custom:spell_release"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ],
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 2,
+        "strike": 3,
+        "recover": 4,
+        "end": 5
+      }
+    },
+    "cast_north": {
+      "frames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        12
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "at": 3,
+          "name": "custom:spell_release"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ],
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 2,
+        "strike": 3,
+        "recover": 4,
+        "end": 5
+      }
+    },
+    "cast_west": {
+      "frames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        12
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "at": 3,
+          "name": "custom:spell_release"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ],
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 2,
+        "strike": 3,
+        "recover": 4,
+        "end": 5
+      }
+    },
+    "cast_east": {
+      "frames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        12
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "at": 3,
+          "name": "custom:spell_release"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ],
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 2,
+        "strike": 3,
+        "recover": 4,
+        "end": 5
+      }
+    }
+  },
+  "states": {
+    "idle_south": "idle_south",
+    "idle_north": "idle_north",
+    "idle_west": "idle_west",
+    "idle_east": "idle_east",
+    "walk_south": "walk_south",
+    "walk_north": "walk_north",
+    "walk_west": "walk_west",
+    "walk_east": "walk_east",
+    "cast_south": "cast_south",
+    "cast_north": "cast_north",
+    "cast_west": "cast_west",
+    "cast_east": "cast_east"
+  }
+}

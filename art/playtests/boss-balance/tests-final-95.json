@@ -1,0 +1,678 @@
+{
+  "status": "completed",
+  "duration": 2.47,
+  "summary": {
+    "total": 95,
+    "passed": 95,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.BossSignalsBeforeDamageAndTrainingHasNoCrowd(Bellkeeper)",
+      "Status": "Passed",
+      "Duration": 0.1426031,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.BossSignalsBeforeDamageAndTrainingHasNoCrowd(Archivist)",
+      "Status": "Passed",
+      "Duration": 0.0184885,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.ChoosingUpgradeRestoresSameOffersAndDoesNotAdvance",
+      "Status": "Passed",
+      "Duration": 0.003731,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.CorruptSaveRecoversBackupAndUnsupportedSchemaIsRejected",
+      "Status": "Passed",
+      "Duration": 0.020682,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.EncounterUnlockPersistsWithoutVictoryAndNewRunNeedsConfirmation",
+      "Status": "Passed",
+      "Duration": 0.0173482,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.FullThirtyMinuteScheduleHasTwoWardensAndFinalVictoryWithoutTimeout",
+      "Status": "Passed",
+      "Duration": 0.7348148,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.PiercingProjectileRemapsPreviouslyHitEnemyOnRestore",
+      "Status": "Passed",
+      "Duration": 0.0025776,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.RingGapAndLaneEdgesMatchDamageGeometry",
+      "Status": "Passed",
+      "Duration": 0.0005261,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.SeedSelectsBothVariantsAndReloadNeverRerolls",
+      "Status": "Passed",
+      "Duration": 0.0013583,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.SessionTrainingPreservesExactExpeditionAndCompletedRunCannotContinue",
+      "Status": "Passed",
+      "Duration": 0.0328375,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.SnapshotRoundTripRetainsRngTimersChoicesHazardsAndFuture",
+      "Status": "Passed",
+      "Duration": 0.1062001,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaActTests.WarningIsSafeActiveLaneHurtsAndDashProtects",
+      "Status": "Passed",
+      "Duration": 0.000992,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossBalanceTests.BossWaitsForExistingWarningAndHostileProjectile",
+      "Status": "Passed",
+      "Duration": 0.0028176,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossBalanceTests.ExposedCoreRewardsDamageTimingAndGuardDoesNotGrantImmunity",
+      "Status": "Passed",
+      "Duration": 0.002511,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossBalanceTests.FutureHazardRevealsBeforeDamageAndDoesNotChangeGeometry",
+      "Status": "Passed",
+      "Duration": 0.0013315,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossBalanceTests.RegularWarningCannotStartDuringBossPhraseButCanDuringRecovery",
+      "Status": "Passed",
+      "Duration": 0.000733,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossBalanceTests.TrainingCrowdIsBoundedAndResetReturnsToSolo",
+      "Status": "Passed",
+      "Duration": 0.128753,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.ChargeSweepHitsInsideWarningButNotOutsideAndDashProtects",
+      "Status": "Passed",
+      "Duration": 0.001612,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.DiskWarningAndEdgeUseExactDamageGeometry",
+      "Status": "Passed",
+      "Duration": 0.0006529,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(0)",
+      "Status": "Passed",
+      "Duration": 0.0897699,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(1)",
+      "Status": "Passed",
+      "Duration": 0.0923507,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.EachBossNaturallyCyclesAllThreePatternsWithRecovery(2)",
+      "Status": "Passed",
+      "Duration": 0.089922,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.InwardRingSweepsDamageAndPreservesGap",
+      "Status": "Passed",
+      "Duration": 0.0007993,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(1)",
+      "Status": "Passed",
+      "Duration": 0.0105052,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(2)",
+      "Status": "Passed",
+      "Duration": 0.0101824,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SavesReadEarlierSchemasAndPreserveNewAttackStateAndFuture(3)",
+      "Status": "Passed",
+      "Duration": 0.0086629,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,0)",
+      "Status": "Passed",
+      "Duration": 0.0012019,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,1)",
+      "Status": "Passed",
+      "Duration": 0.0003422,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(1,2)",
+      "Status": "Passed",
+      "Duration": 0.0002988,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,0)",
+      "Status": "Passed",
+      "Duration": 0.0002911,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,1)",
+      "Status": "Passed",
+      "Duration": 0.0002896,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.SecondPhaseAddsTelegraphedCombinationsWithoutMoreHealth(2,2)",
+      "Status": "Passed",
+      "Duration": 0.0003011,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.WardenChargeStopsBeforePillarAndImpactUsesActualLanding",
+      "Status": "Passed",
+      "Duration": 0.002105,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBossIdentityTests.WardenLocksChargeThenWarnsImpactBeforeRecovery",
+      "Status": "Passed",
+      "Duration": 0.0052042,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.AllCapsFallBackToSingleHonestHealOffer",
+      "Status": "Passed",
+      "Duration": 0.00082,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.DamageSourceAndProtectionAreReportedOnce",
+      "Status": "Passed",
+      "Duration": 0.0006731,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.DashCannotTunnelThroughPondOrPillar",
+      "Status": "Passed",
+      "Duration": 0.0005914,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.DashIsBoundedFreezesWithPauseAndResets",
+      "Status": "Passed",
+      "Duration": 0.0005699,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.DashProtectionEndsWithDashAndCannotStartInChoice",
+      "Status": "Passed",
+      "Duration": 0.0005186,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.EchoUsesCastOriginAndWaitsWhilePaused",
+      "Status": "Passed",
+      "Duration": 0.0007906,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.FanChangesProjectileCount",
+      "Status": "Passed",
+      "Duration": 0.000394,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.FirstLevelOffersSecondWeaponAndTwoSlotsExcludeThird",
+      "Status": "Passed",
+      "Duration": 0.001231,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.OrbitDamagesEntitiesAndRespectsPerTargetInterval",
+      "Status": "Passed",
+      "Duration": 0.0005671,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.OrbitSpeedUpgradeDoesNotTeleportShards",
+      "Status": "Passed",
+      "Duration": 0.0009816,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.PiercingResolvesNearestTargetsAndDoesNotRepeatHits",
+      "Status": "Passed",
+      "Duration": 0.000784,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.StarterChoiceFreezesTimeAndEnablesOnlySelectedWeapon",
+      "Status": "Passed",
+      "Duration": 0.0006872,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaBuildTests.UnownedAndMaxedUpgradesAreNotOffered",
+      "Status": "Passed",
+      "Duration": 0.0007568,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.ActiveWaveBossBlocksFinalUntilDefeatedAndCannotBeReplaced",
+      "Status": "Passed",
+      "Duration": 0.0034078,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.DefaultScheduleHasFourGuardsThenFinalVictory",
+      "Status": "Passed",
+      "Duration": 0.2003761,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.DistantBossRetainsIdentityAndHealthWhenRecycled",
+      "Status": "Passed",
+      "Duration": 0.0013202,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.HeroCrossesOldBoundariesInAllFourDirections",
+      "Status": "Passed",
+      "Duration": 0.0399625,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.InitialCrowdSpawnsOutsideActualViewport(16,9)",
+      "Status": "Passed",
+      "Duration": 0.0014104,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.InitialCrowdSpawnsOutsideActualViewport(32,9)",
+      "Status": "Passed",
+      "Duration": 0.0004929,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.InitialCrowdSpawnsOutsideActualViewport(9,16)",
+      "Status": "Passed",
+      "Duration": 0.0004548,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.NegativeChunksAndGeneratedObstaclesAgreeWithCollision",
+      "Status": "Passed",
+      "Duration": 0.0179747,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEndlessTests.PickupConsolidationBoundsEntitiesWithoutLosingExperience",
+      "Status": "Passed",
+      "Duration": 0.0022546,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.BombardierHitsOnceAndKillingCasterCancelsWarning",
+      "Status": "Passed",
+      "Duration": 0.0028436,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.BombardierMarksFixedPointAndPlayerCanLeaveIt",
+      "Status": "Passed",
+      "Duration": 0.0017479,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.ChargeSweepsThroughHeroAndCannotTunnelThroughPillar",
+      "Status": "Passed",
+      "Duration": 0.0009767,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.CrowdLimitsSimultaneousWarningsAndCannotStartOffscreen",
+      "Status": "Passed",
+      "Duration": 0.000736,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.FlankerOrbitsAndFiresExactlyThreeTelegraphedShots",
+      "Status": "Passed",
+      "Duration": 0.003015,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.LancerLocksItsPathThenRecoversAndCanBeSidestepped",
+      "Status": "Passed",
+      "Duration": 0.0018084,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.RosterIntroductionsAndPerTypeCapsAreRespected",
+      "Status": "Passed",
+      "Duration": 0.321017,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.SpeedPreferenceSurvivesRestartTrainingAndContinue",
+      "Status": "Passed",
+      "Duration": 0.0189405,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.SpeedUsesSameFixedStepCombatAndPauseHasNoCatchup(1)",
+      "Status": "Passed",
+      "Duration": 0.0025375,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.SpeedUsesSameFixedStepCombatAndPauseHasNoCatchup(2)",
+      "Status": "Passed",
+      "Duration": 0.0038604,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.SpeedUsesSameFixedStepCombatAndPauseHasNoCatchup(4)",
+      "Status": "Passed",
+      "Duration": 0.0090876,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaEnemyTacticsTests.TacticalStateSurvivesSaveAndLegacyVersionOneStillLoads",
+      "Status": "Passed",
+      "Duration": 0.001951,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaMenuTests.CancellingNewRunPreservesSavedExpedition",
+      "Status": "Passed",
+      "Duration": 0.0127627,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaMenuTests.ChoosingWeaponSurvivesSettingsAndDoesNotAdvance",
+      "Status": "Passed",
+      "Duration": 0.0068299,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaMenuTests.HomeSettingsBackNeverStartsCombat",
+      "Status": "Passed",
+      "Duration": 0.0045305,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaMenuTests.SettingsBackKeepsPauseThenResumesAtSelectedSpeed",
+      "Status": "Passed",
+      "Duration": 0.0062879,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaMenuTests.TrainingAndContinueResetMenuPageButRetainSpeedAndExpedition",
+      "Status": "Passed",
+      "Duration": 0.013329,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.BossTestBypassesUnlockAndNeverReplacesExpedition(Bellkeeper)",
+      "Status": "Passed",
+      "Duration": 0.0118146,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.BossTestBypassesUnlockAndNeverReplacesExpedition(Archivist)",
+      "Status": "Passed",
+      "Duration": 0.0071587,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.CrowdPreferencePersistsAndPracticeNeverReplacesExpedition",
+      "Status": "Passed",
+      "Duration": 0.0178971,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.LegacyProfileGetsAudioDisplayDefaultsAndKeepsProgress",
+      "Status": "Passed",
+      "Duration": 0.0051883,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.OrdinaryTrainingStaysLockedAndBossTestDoesNotCreateExpedition",
+      "Status": "Passed",
+      "Duration": 0.0010738,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.PhaseTwoAndWardenUseDifferentHealthRulesAndBackReturnsToSettings",
+      "Status": "Passed",
+      "Duration": 0.0047173,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.PreferencesPersistAcrossRestartIncludingZeroAndFalse",
+      "Status": "Passed",
+      "Duration": 0.024845,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaPreferencesTests.SliderFlushesOnSettingsExitWithoutChangingCombat",
+      "Status": "Passed",
+      "Duration": 0.0114002,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.ActorArtUsesPrintableAsciiAndFourDifferentFacings",
+      "Status": "Passed",
+      "Duration": 0.0014871,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.BossSpawnsOnceAndVictoryStopsSimulation",
+      "Status": "Passed",
+      "Duration": 0.0014812,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.DeadlineAndDeathEndTheRun",
+      "Status": "Passed",
+      "Duration": 0.0006278,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.ExperienceOpensChoiceAndFreezesWorldUntilSelection",
+      "Status": "Passed",
+      "Duration": 0.0005829,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.FastHostileProjectileUsesSweptCollisionAndInvulnerability",
+      "Status": "Passed",
+      "Duration": 0.0004401,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.FourDirectionsPersistWhenStopped",
+      "Status": "Passed",
+      "Duration": 0.0008039,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.GridMatchesBruteForceAtCellBoundaries",
+      "Status": "Passed",
+      "Duration": 0.0006149,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaRunTests.ShooterTelegraphsBeforeProducingHostileProjectile",
+      "Status": "Passed",
+      "Duration": 0.0011991,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.BothAutoAttacksDamageRealEntities",
+      "Status": "Passed",
+      "Duration": 0.0013338,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.CrowdNeverExceedsConfiguredLimit",
+      "Status": "Passed",
+      "Duration": 0.1023834,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.DemoDoesNotOvershootItsMovingTarget",
+      "Status": "Passed",
+      "Duration": 0.0009184,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.HeroCannotWalkThroughThePond",
+      "Status": "Passed",
+      "Duration": 0.0010412,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.MovementHasEqualScreenSpeedAndNoDiagonalBoost",
+      "Status": "Passed",
+      "Duration": 0.0010788,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AsciiArena.Tests.ArenaSimulationTests.PauseAndResetDoNotLeakThePreviousRun",
+      "Status": "Passed",
+      "Duration": 0.0058919,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

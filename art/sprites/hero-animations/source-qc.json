@@ -1,0 +1,542 @@
+[
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-dash.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      78,
+      203,
+      1036,
+      1286
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6812654528250054,
+    "sha256": "9c78f422f7160fc4a6895cd39b197afe562266e7d8041122b1bd3bff204fae5a"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-hurt.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      240,
+      193,
+      899,
+      1346
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7000593948088683,
+    "sha256": "2c41db4bbaf902bdd10a1871267cfcb0b5dfce05fcbeda21a24753be3c70a51f"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-idle.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      195,
+      128,
+      935,
+      1360
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6404731744045257,
+    "sha256": "bb945a8256182a29c9a6aa6cacb69c800d1e659fd81fcd53bd94756bb64b4715"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-pass.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      226,
+      127,
+      973,
+      1356
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6990063134010969,
+    "sha256": "6ccbfcd99fe27b1824f5a4956abaa11283d885c0bda5081896095d36fc5e7654"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-stepA.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      116,
+      145,
+      1001,
+      1308
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6779167048217901,
+    "sha256": "60f4066ae459213198b7dbda9c792d6eeb0c8fb588b29f763fc73de0c56aa717"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/east-stepB.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      119,
+      145,
+      999,
+      1310
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6860081346723238,
+    "sha256": "3c2f1072c170000116a65081866cf180fe8bb87a95e69f5439380a11eac0b4a4"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/north-dash.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      147,
+      268,
+      893,
+      1337
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7326546808705473,
+    "sha256": "1c54a3d40206af992ba03907edc8ee3989bb0391fd16bd35f1f87c823dcec613"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/north-hurt.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      147,
+      182,
+      844,
+      1334
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7244367031938382,
+    "sha256": "277fc5f5d714a24d124431cfe2cb857e3459b5b626b7ee11db78ccdd7cf63937"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/north-pass.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      127,
+      140,
+      881,
+      1336
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.697789800881129,
+    "sha256": "7ee1b2064592303edd3790ec652a54c11abcad2753af602553662f15b9c26dcd"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/north-stepA.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      127,
+      140,
+      881,
+      1338
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7141062035143413,
+    "sha256": "5bfcdb84cbfdd95f4b1eee6802b9ca49c99dd6dbe9c93e4d541d283bd95b38de"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/north-stepB.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      127,
+      140,
+      880,
+      1339
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7055441938076779,
+    "sha256": "124cd227379378ee9a267f4b97e258298ec7146c90dbe35248692d8d358a5ca4"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/south-dash.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      167,
+      226,
+      937,
+      1340
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6628772269873732,
+    "sha256": "9ead153764f269a32255e5c32edc89c658cc3281591db76229d70a58c58dc464"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/south-hurt.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      204,
+      187,
+      879,
+      1319
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6799554602525361,
+    "sha256": "8675bc8f3dd7718d0471f047e5218946f278e7ac2a75a3c192dcfa24c2ded600"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/south-pass.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      211,
+      121,
+      912,
+      1350
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6796616658018172,
+    "sha256": "6e538688629f4a095057969c95ec37bfcea936dbfee6baa7e37afc7662a5b4b6"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/south-stepA.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      202,
+      154,
+      917,
+      1367
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.694130724540358,
+    "sha256": "49c9ae94fff9b722283563cb8a4a39ca6f6daad3fe0035bb29fd04f8c0ac8915"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/doomguy/south-stepB.png",
+    "width": 1086,
+    "height": 1448,
+    "bbox": [
+      211,
+      121,
+      910,
+      1357
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.6917542962669028,
+    "sha256": "b77f0cbee5cbf98244c7192fac2d76fc3877bf5dc6170da3c86c0e3eeb96876d"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/east-dash.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      132,
+      298,
+      1045,
+      1089
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7683878646387658,
+    "sha256": "4612dd8dbdee222541897e1a3960f68103a795688f8a2b50e7689b9fbe2edbbf"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/east-hurt.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      179,
+      289,
+      979,
+      1136
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7198501072569806,
+    "sha256": "ab6bc95592bb42ccc055bc9e0bfee41658633d6258d1e0b030e90d4a4057dabe"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/east-pass.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      185,
+      171,
+      924,
+      1180
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7565393697333135,
+    "sha256": "fa4b299a14f179fcd8e088a79eca7ee1d8449a6f826c6bbce854dc795eb90d30"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/east-stepA.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      164,
+      217,
+      971,
+      1129
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.747721027581638,
+    "sha256": "dea911d3f31a4e9668118446f3a9eec06910ac3d1e806e74aa3539972a0518fb"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/east-stepB.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      170,
+      204,
+      998,
+      1104
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7523806980668312,
+    "sha256": "bebd43216389662e0ab23ef89e28b7499b647ae4bdc00f63751edf96f6e34f92"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/north-dash.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      165,
+      192,
+      944,
+      1179
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7481819719262641,
+    "sha256": "940dc686d3728af7d8da16df55992a7fdd297e3362c21c60abb26a547b0a734f"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/north-hurt.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      201,
+      204,
+      906,
+      1124
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7516005895001329,
+    "sha256": "35fc19a00757aad0709073238abffb3573b0c284e92190d075d26018ae5331c8"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/north-pass.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      314,
+      211,
+      999,
+      1131
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7846480737612677,
+    "sha256": "ea7bd1c1205ec3287e98b84bb8f3dcd1b0df02f22c64a273a482a88336d5e48b"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/north-stepA.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      227,
+      197,
+      1011,
+      1123
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7463502744685153,
+    "sha256": "479765c475d6ebc2e7fb783433a53995f013aff1089419dcdd442e857b4ce250"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/north-stepB.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      208,
+      173,
+      923,
+      1112
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7722852285457429,
+    "sha256": "237d07ee9534ac17eebc87d1ad7bf2a62660281c4f08876b2e8f2560e404af02"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/south-dash.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      144,
+      213,
+      891,
+      1146
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7753592504854221,
+    "sha256": "0ef03cca8aacb7e6a1103efc06bc9e7fb8293472800affbf0de90b2aca89a031"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/south-hurt.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      160,
+      192,
+      995,
+      1130
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7029693716788166,
+    "sha256": "59bcff4045fc2bdcbeaa4b676ca5b6a680543e0c066811477288f22eee1d8985"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/south-pass.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      152,
+      155,
+      911,
+      1172
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7369406519851125,
+    "sha256": "6c0f5ad93f4ab0c8f2f93a5f3af069f8c8cb3588bd633cf73276840992fa8a7e"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/south-stepA.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      147,
+      188,
+      890,
+      1158
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7399148556322312,
+    "sha256": "f2a04f7a6ffe45e5370abb6c8365801db0afc6c27fc2c7c614e50486386082aa"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/spark/south-stepB.png",
+    "width": 1134,
+    "height": 1387,
+    "bbox": [
+      191,
+      136,
+      920,
+      1113
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7541545390620132,
+    "sha256": "9f85268e8a6b98d0d57e3d025717c3ca8b1d4c879905674ac268a4a583c3116d"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/pacman/closed.png",
+    "width": 1374,
+    "height": 1145,
+    "bbox": [
+      292,
+      170,
+      1082,
+      958
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.687989677288127,
+    "sha256": "3cafe7377bb6713d6b21d39de1cb51161bee7f2f648700a65bbcb92a266f851f"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/pacman/dash.png",
+    "width": 1374,
+    "height": 1145,
+    "bbox": [
+      301,
+      235,
+      1000,
+      884
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.800462742256377,
+    "sha256": "6e74392ab364dac20208d2c62430b4723461845247ffc11517764dd6aeff315d"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/pacman/half.png",
+    "width": 1374,
+    "height": 1145,
+    "bbox": [
+      289,
+      171,
+      1060,
+      959
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7112259491619153,
+    "sha256": "d0a91692f20dfb03eeb375109065b0e9d870e872596a2552f7af210fe302230a"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/pacman/hurt.png",
+    "width": 1374,
+    "height": 1145,
+    "bbox": [
+      290,
+      171,
+      1036,
+      959
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7289868614252207,
+    "sha256": "2e70ab29097fe4039eb2441aad58574f70ea46bdb966099463b68169dd53187b"
+  },
+  {
+    "path": "Assets/Resources/HeroAnimations/pacman/open.png",
+    "width": 1374,
+    "height": 1145,
+    "bbox": [
+      292,
+      172,
+      1034,
+      959
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7368026289862258,
+    "sha256": "72fc5aa62b65a59efa97fb25b5f489b6e58592046f3248c888d2c12476d22d11"
+  }
+]

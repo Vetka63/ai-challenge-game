@@ -1,0 +1,12 @@
+{
+    "mode": "resume",
+    "graphics": "Direct3D11",
+    "width": 1280,
+    "height": 720,
+    "exactResume": true,
+    "trainingPreserved": true,
+    "errors": [
+        "Unavailable UI action: Session action 0",
+        "Return from training did not restore expedition"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-15",
+  "final_art_source": "original ASCII text layout rendered with existing project glyphs",
+  "final_route": "deterministic glyph composition, not ImageGen output",
+  "glyph_source": "AsciiArena\\Assets\\Prototype\\Rendering\\GlyphAtlas.cs",
+  "glyph_source_sha256": "4ee25005193ed5ca2aa5fa3bbc494e694f4cf27fa8f37069bc1ef566f9c36e83",
+  "identity_reference": "art\\sprites\\roster-01-07-v1\\runtime\\runescribe\\frames\\idle_south_00.png",
+  "imagegen_attempt": {
+    "file": "source.png",
+    "prompt": "prompt.txt",
+    "route": "host_image",
+    "model": null,
+    "estimateUsd": null,
+    "selected": false,
+    "reason": "Glyph-like drawing does not ensure exact ASCII glyph shapes and regular cells."
+  },
+  "reference_game": "https://store.steampowered.com/app/4588220/ASCII_Survivors/",
+  "third_party_game_art_copied": false,
+  "sprite_sha256": "c42a0b0dd23ff1d7cf100550fbd8980536f0222793fac4648a5251e6e898fc93"
+}

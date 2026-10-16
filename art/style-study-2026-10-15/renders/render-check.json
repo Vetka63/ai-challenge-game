@@ -1,0 +1,11 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "startFrame": 3,
+    "endFrame": 57,
+    "figures": 25,
+    "variants": 2,
+    "motionFramesPerVariant": 24,
+    "graphics": "Direct3D11",
+    "errors": []
+}

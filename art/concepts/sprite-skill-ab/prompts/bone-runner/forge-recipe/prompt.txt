@@ -1,0 +1,11 @@
+Create exactly ONE square image (1024x1024).
+
+Style: premium 16-bit pixel art (SNES era), crisp visible chunky pixels, limited palette, strong dark outline, 3-tone cel shading, no smooth gradients, no blur. No text, no letters, no numbers, no logo, no watermark, no signature, no UI, no border, no frame, no grid.
+
+Subject: a bone runner skeleton enemy, orthographic slightly elevated front view for a top-down 2D arena game, clearly FACING THE VIEWER: their face, gaze and chest turn straight toward the viewer; forward is out of the picture and their back is never visible. A narrow ivory skeleton with an oversized angular skull, two dark square eye sockets, three separated horizontal rib marks, thin arms and two long bent legs. An empty gap divides the legs. A single small coral waist rune provides the only coloured accent. Its silhouette is tall, narrow and slightly hunched; no weapon, armour or cloak. A neutral readable resting pose, full body and all extremities visible.
+
+Size and position: one single figure, the top of the figure (including hair, headgear, raised weapons and effects) about 35 percent below the top edge of the canvas and its lowest point about 15 percent above the bottom edge (the figure about 50 percent of the canvas height), centred horizontally, generous empty magenta margin on every side, nothing touching or crossing the edges. The whole figure is drawn with solid, fully opaque pixels: no transparency, no semi-transparent glow, no soft aura, nothing blended with the background.
+
+Keep body art independent of attack effects: no projectiles, trails, particles or aura. Make the silhouette and identity readable at the intended gameplay size.
+
+Background: solid flat pure magenta #FF00FF everywhere outside the character, no shadow, no ground, no glow on the background.

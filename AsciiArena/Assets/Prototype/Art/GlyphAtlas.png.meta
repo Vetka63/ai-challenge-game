@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 3c85084009fedfd4787147f535bf5ef7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7625008466683060627
+    second: GlyphAtlas_0
+  - first:
+      213: -5537566529966966907
+    second: GlyphAtlas_1
+  - first:
+      213: -4095717822103116729
+    second: GlyphAtlas_2
+  - first:
+      213: 4704934992530834081
+    second: GlyphAtlas_3
+  - first:
+      213: -6894408110908071073
+    second: GlyphAtlas_4
+  - first:
+      213: -3021462446750878653
+    second: GlyphAtlas_5
+  - first:
+      213: 1181315422105358683
+    second: GlyphAtlas_6
+  - first:
+      213: 5436580415179066814
+    second: GlyphAtlas_7
+  - first:
+      213: -8007051143367658429
+    second: GlyphAtlas_8
+  - first:
+      213: -3451230845619951702
+    second: GlyphAtlas_9
+  - first:
+      213: -7319276710526174530
+    second: GlyphAtlas_10
+  - first:
+      213: -6304709473140090117
+    second: GlyphAtlas_11
+  - first:
+      213: -8956517640738963242
+    second: GlyphAtlas_12
+  - first:
+      213: 1113188558931860896
+    second: GlyphAtlas_13
+  - first:
+      213: 3403769221575803100
+    second: GlyphAtlas_14
+  - first:
+      213: 8725284465089910962
+    second: GlyphAtlas_15
+  - first:
+      213: -1437599302770493189
+    second: GlyphAtlas_16
+  - first:
+      213: 3749125493739688769
+    second: GlyphAtlas_17
+  - first:
+      213: 8665459872578563780
+    second: GlyphAtlas_18
+  - first:
+      213: -6959356718767948080
+    second: GlyphAtlas_19
+  - first:
+      213: 6343122424592419760
+    second: GlyphAtlas_20
+  - first:
+      213: 7344086906277685701
+    second: GlyphAtlas_21
+  - first:
+      213: 7650176981415276950
+    second: GlyphAtlas_22
+  - first:
+      213: 276224908807945254
+    second: GlyphAtlas_23
+  - first:
+      213: 8823863826647547666
+    second: GlyphAtlas_24
+  - first:
+      213: -2317300681513231055
+    second: GlyphAtlas_25
+  - first:
+      213: 3667128774040792717
+    second: GlyphAtlas_26
+  - first:
+      213: 6304041315720425166
+    second: GlyphAtlas_27
+  - first:
+      213: 3142233388487226976
+    second: GlyphAtlas_28
+  - first:
+      213: 8278680807638261197
+    second: GlyphAtlas_29
+  - first:
+      213: 5426917231422555539
+    second: GlyphAtlas_30
+  - first:
+      213: -391820146004142808
+    second: GlyphAtlas_31
+  - first:
+      213: -6040690806501209386
+    second: GlyphAtlas_32
+  - first:
+      213: 1589298608416446398
+    second: GlyphAtlas_33
+  - first:
+      213: 5259406723598530489
+    second: GlyphAtlas_34
+  - first:
+      213: -2789170137024839681
+    second: GlyphAtlas_35
+  - first:
+      213: -630395732980257991
+    second: GlyphAtlas_36
+  - first:
+      213: -5200975407514556741
+    second: GlyphAtlas_37
+  - first:
+      213: 3028334447410122001
+    second: GlyphAtlas_38
+  - first:
+      213: 8753130224106995433
+    second: GlyphAtlas_39
+  - first:
+      213: 375584717438365998
+    second: GlyphAtlas_40
+  - first:
+      213: 8802769108214572778
+    second: GlyphAtlas_41
+  - first:
+      213: -7447834047326544713
+    second: GlyphAtlas_42
+  - first:
+      213: -6806731287818761519
+    second: GlyphAtlas_43
+  - first:
+      213: 2640959339695271378
+    second: GlyphAtlas_44
+  - first:
+      213: 8750591363350905859
+    second: GlyphAtlas_45
+  - first:
+      213: -2471036512198729995
+    second: GlyphAtlas_46
+  - first:
+      213: 3187390246467928119
+    second: GlyphAtlas_47
+  - first:
+      213: 859270085750152858
+    second: GlyphAtlas_48
+  - first:
+      213: 8498613763794739414
+    second: GlyphAtlas_49
+  - first:
+      213: -3530773491122985013
+    second: GlyphAtlas_50
+  - first:
+      213: 892478622154023098
+    second: GlyphAtlas_51
+  - first:
+      213: -6928636585263241099
+    second: GlyphAtlas_52
+  - first:
+      213: 3584644657026790687
+    second: GlyphAtlas_53
+  - first:
+      213: -7873609549288417212
+    second: GlyphAtlas_54
+  - first:
+      213: 3351285190553250906
+    second: GlyphAtlas_55
+  - first:
+      213: -5385218705917181073
+    second: GlyphAtlas_56
+  - first:
+      213: -1102229278395989472
+    second: GlyphAtlas_57
+  - first:
+      213: 2362816416192771944
+    second: GlyphAtlas_58
+  - first:
+      213: -4716064068539530775
+    second: GlyphAtlas_59
+  - first:
+      213: -5689862068041942830
+    second: GlyphAtlas_60
+  - first:
+      213: -1409360558136587937
+    second: GlyphAtlas_61
+  - first:
+      213: 2799194152483721721
+    second: GlyphAtlas_62
+  - first:
+      213: -2023776005007132364
+    second: GlyphAtlas_63
+  - first:
+      213: -7609713615573834300
+    second: GlyphAtlas_64
+  - first:
+      213: -1955825125665530752
+    second: GlyphAtlas_65
+  - first:
+      213: 1287871846696924995
+    second: GlyphAtlas_66
+  - first:
+      213: 8057850725973747165
+    second: GlyphAtlas_67
+  - first:
+      213: -749975401865654326
+    second: GlyphAtlas_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GlyphAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9206d2378e2690800000000000000
+      internalID: -7625008466683060627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587f93d849c9623b0800000000000000
+      internalID: -5537566529966966907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744ae4147561927c0800000000000000
+      internalID: -4095717822103116729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a20b19a2794b4140800000000000000
+      internalID: 4704934992530834081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53a0cce9542250a0800000000000000
+      internalID: -6894408110908071073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3443b3fb9eb9116d0800000000000000
+      internalID: -3021462446750878653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51d7461e10e46010800000000000000
+      internalID: 1181315422105358683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd0897551d927b40800000000000000
+      internalID: 5436580415179066814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3447f25886d31e090800000000000000
+      internalID: -8007051143367658429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7a3f0d4d3ca10d0800000000000000
+      internalID: -3451230845619951702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba3c486c94bc6a90800000000000000
+      internalID: -7319276710526174530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfad171532c2188a0800000000000000
+      internalID: -6304709473140090117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d00c3fc8ae04b380800000000000000
+      internalID: -8956517640738963242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad992fa817d27f00800000000000000
+      internalID: 1113188558931860896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd00f65b21e9c3f20800000000000000
+      internalID: 3403769221575803100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b81be11eff661970800000000000000
+      internalID: 8725284465089910962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8f3050d0f9c0ce0800000000000000
+      internalID: -1437599302770493189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14317b8d5c1970430800000000000000
+      internalID: 3749125493739688769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce6270b7d5e14870800000000000000
+      internalID: 8665459872578563780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0debb90cfe56b6f90800000000000000
+      internalID: -6959356718767948080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 50
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb45a4ec3c470850800000000000000
+      internalID: 6343122424592419760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9674071207be560800000000000000
+      internalID: 7344086906277685701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691b026ae63ea2a60800000000000000
+      internalID: 7650176981415276950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cbc9f471955d300800000000000000
+      internalID: 276224908807945254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ffeb54669a47a70800000000000000
+      internalID: 8823863826647547666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d12a8ce4b47dfd0800000000000000
+      internalID: -2317300681513231055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea052d03244e230800000000000000
+      internalID: 3667128774040792717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecee6e82d247c7750800000000000000
+      internalID: 6304041315720425166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066372a5e947b9b20800000000000000
+      internalID: 3142233388487226976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd5f1c0558c3e270800000000000000
+      internalID: 8278680807638261197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395436c0878405b40800000000000000
+      internalID: 5426917231422555539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d49537a9ff8af0800000000000000
+      internalID: -391820146004142808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da078867b72b2ca0800000000000000
+      internalID: -6040690806501209386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb75fa4f9a25e0610800000000000000
+      internalID: 1589298608416446398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 38
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b73461bc8a2df840800000000000000
+      internalID: 5259406723598530489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffb18cb980ea49d0800000000000000
+      internalID: -2789170137024839681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b2acbbb626047f0800000000000000
+      internalID: -630395732980257991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb66d8d3c6c62d7b0800000000000000
+      internalID: -5200975407514556741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d85f6922ec60a20800000000000000
+      internalID: 3028334447410122001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eef1a0109d597970800000000000000
+      internalID: 8753130224106995433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21baf18f48563500800000000000000
+      internalID: 375584717438365998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae669e66dd7b92a70800000000000000
+      internalID: 8802769108214572778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc9a0fe46af3a890800000000000000
+      internalID: -7447834047326544713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da860415f1a981a0800000000000000
+      internalID: -6806731287818761519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd69cce68296a420800000000000000
+      internalID: 2640959339695271378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 26
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304c12b7b78507970800000000000000
+      internalID: 8750591363350905859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fedf5f526d15bdd0800000000000000
+      internalID: -2471036512198729995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7300449aa82eb3c20800000000000000
+      internalID: 3187390246467928119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ed143279dbceb00800000000000000
+      internalID: 859270085750152858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d02b3ac03421f570800000000000000
+      internalID: 8498613763794739414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7af37773c200fc0800000000000000
+      internalID: -3530773491122985013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ee1b0498b26c00800000000000000
+      internalID: 892478622154023098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578eb953cb988df90800000000000000
+      internalID: -6928636585263241099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f157514c2573fb130800000000000000
+      internalID: 3584644657026790687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4485a82c4d15bb290800000000000000
+      internalID: -7873609549288417212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c24fbff18228e20800000000000000
+      internalID: 3351285190553250906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63840c7e1cd345b0800000000000000
+      internalID: -5385218705917181073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0220c28af4814b0f0800000000000000
+      internalID: -1102229278395989472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867b1a403096ac020800000000000000
+      internalID: 2362816416192771944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1c7b867bc2d8eb0800000000000000
+      internalID: -4716064068539530775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 14
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8f365689c8901b0800000000000000
+      internalID: -5689862068041942830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5982db1a02f07ce0800000000000000
+      internalID: -1409360558136587937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1942c304cb8d620800000000000000
+      internalID: 2799194152483721721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4393794227a1ae3e0800000000000000
+      internalID: -2023776005007132364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5a44dd8cdd46690800000000000000
+      internalID: -7609713615573834300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c1ced19638bd4e0800000000000000
+      internalID: -1955825125665530752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b8920f907fd110800000000000000
+      internalID: 1287871846696924995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e9cefa8c33df60800000000000000
+      internalID: 8057850725973747165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlyphAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf4485785d8795f0800000000000000
+      internalID: -749975401865654326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GlyphAtlas_0: -7625008466683060627
+      GlyphAtlas_1: -5537566529966966907
+      GlyphAtlas_10: -7319276710526174530
+      GlyphAtlas_11: -6304709473140090117
+      GlyphAtlas_12: -8956517640738963242
+      GlyphAtlas_13: 1113188558931860896
+      GlyphAtlas_14: 3403769221575803100
+      GlyphAtlas_15: 8725284465089910962
+      GlyphAtlas_16: -1437599302770493189
+      GlyphAtlas_17: 3749125493739688769
+      GlyphAtlas_18: 8665459872578563780
+      GlyphAtlas_19: -6959356718767948080
+      GlyphAtlas_2: -4095717822103116729
+      GlyphAtlas_20: 6343122424592419760
+      GlyphAtlas_21: 7344086906277685701
+      GlyphAtlas_22: 7650176981415276950
+      GlyphAtlas_23: 276224908807945254
+      GlyphAtlas_24: 8823863826647547666
+      GlyphAtlas_25: -2317300681513231055
+      GlyphAtlas_26: 3667128774040792717
+      GlyphAtlas_27: 6304041315720425166
+      GlyphAtlas_28: 3142233388487226976
+      GlyphAtlas_29: 8278680807638261197
+      GlyphAtlas_3: 4704934992530834081
+      GlyphAtlas_30: 5426917231422555539
+      GlyphAtlas_31: -391820146004142808
+      GlyphAtlas_32: -6040690806501209386
+      GlyphAtlas_33: 1589298608416446398
+      GlyphAtlas_34: 5259406723598530489
+      GlyphAtlas_35: -2789170137024839681
+      GlyphAtlas_36: -630395732980257991
+      GlyphAtlas_37: -5200975407514556741
+      GlyphAtlas_38: 3028334447410122001
+      GlyphAtlas_39: 8753130224106995433
+      GlyphAtlas_4: -6894408110908071073
+      GlyphAtlas_40: 375584717438365998
+      GlyphAtlas_41: 8802769108214572778
+      GlyphAtlas_42: -7447834047326544713
+      GlyphAtlas_43: -6806731287818761519
+      GlyphAtlas_44: 2640959339695271378
+      GlyphAtlas_45: 8750591363350905859
+      GlyphAtlas_46: -2471036512198729995
+      GlyphAtlas_47: 3187390246467928119
+      GlyphAtlas_48: 859270085750152858
+      GlyphAtlas_49: 8498613763794739414
+      GlyphAtlas_5: -3021462446750878653
+      GlyphAtlas_50: -3530773491122985013
+      GlyphAtlas_51: 892478622154023098
+      GlyphAtlas_52: -6928636585263241099
+      GlyphAtlas_53: 3584644657026790687
+      GlyphAtlas_54: -7873609549288417212
+      GlyphAtlas_55: 3351285190553250906
+      GlyphAtlas_56: -5385218705917181073
+      GlyphAtlas_57: -1102229278395989472
+      GlyphAtlas_58: 2362816416192771944
+      GlyphAtlas_59: -4716064068539530775
+      GlyphAtlas_6: 1181315422105358683
+      GlyphAtlas_60: -5689862068041942830
+      GlyphAtlas_61: -1409360558136587937
+      GlyphAtlas_62: 2799194152483721721
+      GlyphAtlas_63: -2023776005007132364
+      GlyphAtlas_64: -7609713615573834300
+      GlyphAtlas_65: -1955825125665530752
+      GlyphAtlas_66: 1287871846696924995
+      GlyphAtlas_67: 8057850725973747165
+      GlyphAtlas_68: -749975401865654326
+      GlyphAtlas_7: 5436580415179066814
+      GlyphAtlas_8: -8007051143367658429
+      GlyphAtlas_9: -3451230845619951702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

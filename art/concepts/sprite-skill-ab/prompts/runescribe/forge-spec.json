@@ -1,0 +1,11 @@
+{
+  "name": "runescribe",
+  "subject": "a rune scribe mage hero",
+  "identity": "A small humanoid mage with a triangular cyan hood, a dark empty face opening with two ivory square eyes, a short split cyan robe, two separately visible feet and a slender ivory staff held to the viewer's right. A small gold four-point star crowns the staff. The hood, eyes, divided hem and staff are the four identity cues. Cyan and ivory dominate; gold is a tiny accent.",
+  "class": "hero",
+  "finish": "pixel",
+  "facing": "front",
+  "view": "orthographic slightly elevated front view for a top-down 2D arena game",
+  "pose": "a neutral readable resting pose, full body and all extremities visible",
+  "extra": "Keep body art independent of attack effects: no projectiles, trails, particles or aura. Make the silhouette and identity readable at the intended gameplay size."
+}

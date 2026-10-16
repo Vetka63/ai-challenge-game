@@ -1,0 +1,44 @@
+{
+  "source": "AsciiActorArt.cs + GlyphAtlas.cs",
+  "artSource": "original ASCII glyph composition",
+  "files": [
+    "Assets/Art/AsciiActors/hero-idle-south.png",
+    "Assets/Art/AsciiActors/hero-walk-south-0.png",
+    "Assets/Art/AsciiActors/hero-walk-south-1.png",
+    "Assets/Art/AsciiActors/hero-walk-south-2.png",
+    "Assets/Art/AsciiActors/hero-walk-south-3.png",
+    "Assets/Art/AsciiActors/hero-idle-north.png",
+    "Assets/Art/AsciiActors/hero-walk-north-0.png",
+    "Assets/Art/AsciiActors/hero-walk-north-1.png",
+    "Assets/Art/AsciiActors/hero-walk-north-2.png",
+    "Assets/Art/AsciiActors/hero-walk-north-3.png",
+    "Assets/Art/AsciiActors/hero-idle-west.png",
+    "Assets/Art/AsciiActors/hero-walk-west-0.png",
+    "Assets/Art/AsciiActors/hero-walk-west-1.png",
+    "Assets/Art/AsciiActors/hero-walk-west-2.png",
+    "Assets/Art/AsciiActors/hero-walk-west-3.png",
+    "Assets/Art/AsciiActors/hero-idle-east.png",
+    "Assets/Art/AsciiActors/hero-walk-east-0.png",
+    "Assets/Art/AsciiActors/hero-walk-east-1.png",
+    "Assets/Art/AsciiActors/hero-walk-east-2.png",
+    "Assets/Art/AsciiActors/hero-walk-east-3.png",
+    "Assets/Art/AsciiActors/chaser.png",
+    "Assets/Art/AsciiActors/shooter.png",
+    "Assets/Art/AsciiActors/heavy.png",
+    "Assets/Art/AsciiActors/boss.png"
+  ],
+  "ppu": 40,
+  "cell": [
+    6,
+    8
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "heroRoot": [
+    64,
+    20
+  ],
+  "walk": "four poses per facing; runtime distance-based cadence"
+}

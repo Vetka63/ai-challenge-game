@@ -1,0 +1,24 @@
+{
+  "missing_local_links": [],
+  "javascript_syntax_ok": true,
+  "animations": {
+    "A": {
+      "frames": 24,
+      "size": [
+        1280,
+        720
+      ],
+      "motion_confirmed": true
+    },
+    "B": {
+      "frames": 24,
+      "size": [
+        1280,
+        720
+      ],
+      "motion_confirmed": true
+    }
+  },
+  "browser_interaction_tested": false,
+  "browser_limitation": "In-app browser disallows file URLs. No workaround attempted; Unity images visually inspected."
+}

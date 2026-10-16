@@ -1,0 +1,6 @@
+{
+  "name": "AsciiArena.Runtime",
+  "rootNamespace": "AsciiArena",
+  "references": ["Unity.Entities", "Unity.Mathematics", "Unity.Collections", "Zenject", "Unity.InputSystem", "Unity.TextMeshPro", "Unity.ugui", "Unity.RenderPipelines.Core.Runtime"],
+  "autoReferenced": true
+}

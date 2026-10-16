@@ -1,0 +1,242 @@
+[
+  {
+    "id": "runescribe-walk-south",
+    "first_source_height": 434,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.663594470046083,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-walk-north",
+    "first_source_height": 441,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6530612244897959,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-walk-west",
+    "first_source_height": 427,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6744730679156908,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-walk-east",
+    "first_source_height": 443,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6501128668171557,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-idle-south",
+    "first_source_height": 494,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.7139423076923077,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-idle-north",
+    "first_source_height": 497,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.7096327967806841,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-idle-west",
+    "first_source_height": 517,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6821808510638298,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-idle-east",
+    "first_source_height": 527,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6692362428842504,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-cast-south",
+    "first_source_height": 442,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6515837104072398,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-cast-north",
+    "first_source_height": 436,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6605504587155964,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-cast-west",
+    "first_source_height": 413,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6973365617433414,
+    "exit_code": 0
+  },
+  {
+    "id": "runescribe-cast-east",
+    "first_source_height": 357,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.8067226890756303,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-walk-south",
+    "first_source_height": 469,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6140724946695096,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-walk-north",
+    "first_source_height": 464,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6206896551724138,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-walk-west",
+    "first_source_height": 452,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6371681415929203,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-walk-east",
+    "first_source_height": 448,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6428571428571429,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-idle-south",
+    "first_source_height": 572,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6165865384615384,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-idle-north",
+    "first_source_height": 562,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6275578291814946,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-idle-west",
+    "first_source_height": 549,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6424180327868853,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-idle-east",
+    "first_source_height": 549,
+    "source_cell": [
+      627,
+      627
+    ],
+    "fit_scale": 0.6424180327868853,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-cast-south",
+    "first_source_height": 474,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6075949367088608,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-cast-north",
+    "first_source_height": 432,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6666666666666666,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-cast-west",
+    "first_source_height": 464,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6206896551724138,
+    "exit_code": 0
+  },
+  {
+    "id": "hex-cultist-cast-east",
+    "first_source_height": 462,
+    "source_cell": [
+      512,
+      512
+    ],
+    "fit_scale": 0.6233766233766234,
+    "exit_code": 0
+  }
+]

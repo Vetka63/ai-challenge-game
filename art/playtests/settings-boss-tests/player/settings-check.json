@@ -1,0 +1,18 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "fullscreenWidth": 2560,
+    "fullscreenHeight": 1440,
+    "graphics": "Direct3D11",
+    "resume": false,
+    "exactResume": true,
+    "crt": false,
+    "fullscreen": false,
+    "volume": 1.0,
+    "errors": [
+        "Volume pointer control failed",
+        "Volume keyboard control failed",
+        "Mute did not restore volume",
+        "Zero volume did not silence audio"
+    ]
+}

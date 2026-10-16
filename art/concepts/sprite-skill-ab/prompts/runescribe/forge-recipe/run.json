@@ -1,0 +1,29 @@
+{
+  "schema": "generate2dsprite.master_run.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "command": "prompt",
+  "created": "2026-10-15T07:47:48.664Z",
+  "name": "runescribe",
+  "class": "hero",
+  "finish": "pixel",
+  "facing": "front",
+  "key": "#FF00FF",
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "70e78e318842226a1872664045244c76ba20c0b917116477c30f20e2ef9ced36",
+    "bytes": 1844
+  },
+  "spec": {
+    "path": "spec.json",
+    "sha256": "3535009930452b9a7e9fa65b65ea13eb6921888a61e93f99eb5b09a333dc9cab",
+    "bytes": 1120
+  },
+  "references": [],
+  "media": null,
+  "takes": [],
+  "status": "ok",
+  "warnings": []
+}

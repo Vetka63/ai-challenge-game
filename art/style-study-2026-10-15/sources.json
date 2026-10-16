@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-15",
+  "status": "Awaiting user choice; visual study only",
+  "steam": "https://store.steampowered.com/app/4588220/ASCII_Survivors/",
+  "references": [
+    {
+      "file": "references/01-field.jpg",
+      "title": "Ice Queen / cold palette",
+      "capture": "Browser screenshot, displayed at 1280x720; not an original texture or a licensed game asset",
+      "size": [
+        1280,
+        720
+      ],
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588220/6df6641f4cf0ef70b76388ae563ee30782a36ae9/ss_6df6641f4cf0ef70b76388ae563ee30782a36ae9.1920x1080.jpg?t=1777655069"
+    },
+    {
+      "file": "references/02-dense-boss.jpg",
+      "title": "Inferno Titan / dense glyph boss",
+      "capture": "Browser screenshot, displayed at 1280x720; not an original texture or a licensed game asset",
+      "size": [
+        1280,
+        720
+      ],
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588220/567895ea735288ec933c1da7ef4edff01683f908/ss_567895ea735288ec933c1da7ef4edff01683f908.1920x1080.jpg?t=1777655069"
+    },
+    {
+      "file": "references/03-green-field.jpg",
+      "title": "Bone Lord / green environment",
+      "capture": "Browser screenshot, displayed at 1280x720; not an original texture or a licensed game asset",
+      "size": [
+        1280,
+        720
+      ],
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588220/7e9ed1a34fbf54b1382fc2d98c97a827629e1524/ss_7e9ed1a34fbf54b1382fc2d98c97a827629e1524.1920x1080.jpg?t=1777655069"
+    }
+  ],
+  "font": {
+    "name": "JetBrains Mono Medium",
+    "source": "https://github.com/JetBrains/JetBrainsMono",
+    "license": "SIL OFL 1.1",
+    "license_file": "../../AsciiArena/Assets/StyleStudy/Fonts/OFL.txt",
+    "sha256": "d16e6dc99672734698d629705f617c79f6eb6040f5113efe3a145204dc988109"
+  },
+  "captures": {
+    "engine": "Unity 6000.3.24f1 / URP / Direct3D11",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "gif_resolution": [
+      1280,
+      720
+    ],
+    "gif_fps": 12,
+    "gif_duration_seconds": 2,
+    "note": "GPU renders of an isolated presentation scene. GIF timing is a preview, not a gameplay performance measurement. A/B use the same anchors, roles, density and illustrative attack. Current build and reference show different gameplay moments."
+  }
+}

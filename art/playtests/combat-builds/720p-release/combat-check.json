@@ -1,0 +1,1238 @@
+{
+    "width": 1280,
+    "height": 720,
+    "mode": "Windowed",
+    "hurt": true,
+    "dash": true,
+    "warnings": true,
+    "move": true,
+    "stop": true,
+    "hotkey": true,
+    "runs": [
+        {
+            "starter": 0,
+            "first": "Runebolt",
+            "second": "Ward",
+            "phase": "Running",
+            "samples": [
+                {
+                    "frame": 22,
+                    "enemies": 12,
+                    "boltHits": 135,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.216224670410159,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 29,
+                    "enemies": 12,
+                    "boltHits": 135,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.34955596923828,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 36,
+                    "enemies": 12,
+                    "boltHits": 135,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.482887268066409,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 43,
+                    "enemies": 13,
+                    "boltHits": 136,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.599552154541019,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 50,
+                    "enemies": 13,
+                    "boltHits": 136,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.73288345336914,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 57,
+                    "enemies": 13,
+                    "boltHits": 136,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.866214752197269,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 64,
+                    "enemies": 13,
+                    "boltHits": 137,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 40.99954605102539,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 71,
+                    "enemies": 13,
+                    "boltHits": 137,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.1162109375,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 78,
+                    "enemies": 14,
+                    "boltHits": 137,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.249542236328128,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 85,
+                    "enemies": 13,
+                    "boltHits": 138,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.38287353515625,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 92,
+                    "enemies": 13,
+                    "boltHits": 138,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.516204833984378,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 99,
+                    "enemies": 13,
+                    "boltHits": 138,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.632869720458987,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 106,
+                    "enemies": 13,
+                    "boltHits": 140,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.76620101928711,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 113,
+                    "enemies": 13,
+                    "boltHits": 140,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 41.899532318115237,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 120,
+                    "enemies": 13,
+                    "boltHits": 140,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.016197204589847,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 127,
+                    "enemies": 12,
+                    "boltHits": 141,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.14952850341797,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 134,
+                    "enemies": 12,
+                    "boltHits": 141,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.24952697753906,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 141,
+                    "enemies": 13,
+                    "boltHits": 141,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.36619186401367,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 148,
+                    "enemies": 13,
+                    "boltHits": 141,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.4995231628418,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 155,
+                    "enemies": 13,
+                    "boltHits": 141,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.63285446166992,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 162,
+                    "enemies": 13,
+                    "boltHits": 142,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.76618576049805,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 169,
+                    "enemies": 13,
+                    "boltHits": 142,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 42.89951705932617,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 176,
+                    "enemies": 14,
+                    "boltHits": 142,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.01618194580078,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 183,
+                    "enemies": 14,
+                    "boltHits": 144,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.149513244628909,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 190,
+                    "enemies": 14,
+                    "boltHits": 144,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.28284454345703,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 197,
+                    "enemies": 14,
+                    "boltHits": 144,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.416175842285159,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 204,
+                    "enemies": 13,
+                    "boltHits": 146,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.54950714111328,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 211,
+                    "enemies": 14,
+                    "boltHits": 146,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.66617202758789,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 218,
+                    "enemies": 14,
+                    "boltHits": 146,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.799503326416019,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 225,
+                    "enemies": 14,
+                    "boltHits": 146,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 43.93283462524414,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 232,
+                    "enemies": 14,
+                    "boltHits": 147,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.04949951171875,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 239,
+                    "enemies": 15,
+                    "boltHits": 147,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.182830810546878,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 246,
+                    "enemies": 15,
+                    "boltHits": 149,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.316162109375,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 253,
+                    "enemies": 15,
+                    "boltHits": 151,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.449493408203128,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 260,
+                    "enemies": 15,
+                    "boltHits": 151,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.566158294677737,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 267,
+                    "enemies": 14,
+                    "boltHits": 152,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.69948959350586,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 274,
+                    "enemies": 15,
+                    "boltHits": 152,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.832820892333987,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 281,
+                    "enemies": 14,
+                    "boltHits": 154,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 44.96615219116211,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 288,
+                    "enemies": 14,
+                    "boltHits": 154,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 45.099483489990237,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 295,
+                    "enemies": 14,
+                    "boltHits": 154,
+                    "wardHits": 4,
+                    "orbitHits": 0,
+                    "hurt": 0,
+                    "time": 45.23281478881836,
+                    "hp": 100.0
+                }
+            ]
+        },
+        {
+            "starter": 1,
+            "first": "Ward",
+            "second": "Orbit",
+            "phase": "Running",
+            "samples": [
+                {
+                    "frame": 304,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 26,
+                    "hurt": 1,
+                    "time": 40.23289108276367,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 311,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 26,
+                    "hurt": 1,
+                    "time": 40.34955596923828,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 318,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 26,
+                    "hurt": 1,
+                    "time": 40.482887268066409,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 325,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 26,
+                    "hurt": 1,
+                    "time": 40.61621856689453,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 332,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 40.749549865722659,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 339,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 40.88288116455078,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 346,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.016212463378909,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 353,
+                    "enemies": 19,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.132877349853519,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 360,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.26620864868164,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 367,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.399539947509769,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 374,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.516204833984378,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 381,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.6495361328125,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 388,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.782867431640628,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 395,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 41.91619873046875,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 402,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.049530029296878,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 409,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 53,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.166194915771487,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 416,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 58,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.29952621459961,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 423,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 58,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.432857513427737,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 430,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 58,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.56618881225586,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 437,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.699520111083987,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 444,
+                    "enemies": 20,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.83285140991211,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 451,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 42.94951629638672,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 458,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 27,
+                    "hurt": 1,
+                    "time": 43.082847595214847,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 465,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 28,
+                    "hurt": 1,
+                    "time": 43.21617889404297,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 472,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 28,
+                    "hurt": 1,
+                    "time": 43.349510192871097,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 479,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 28,
+                    "hurt": 1,
+                    "time": 43.48284149169922,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 486,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 28,
+                    "hurt": 1,
+                    "time": 43.59950637817383,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 493,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 43.73283767700195,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 500,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 43.86616897583008,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 507,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 43.9995002746582,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 514,
+                    "enemies": 21,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.11616516113281,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 521,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.24949645996094,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 528,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.38282775878906,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 535,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.51615905761719,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 542,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.64949035644531,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 549,
+                    "enemies": 23,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.76615524291992,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 556,
+                    "enemies": 23,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 44.89948654174805,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 563,
+                    "enemies": 23,
+                    "boltHits": 0,
+                    "wardHits": 61,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 45.03281784057617,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 570,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 63,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 45.1661491394043,
+                    "hp": 99.5
+                },
+                {
+                    "frame": 577,
+                    "enemies": 22,
+                    "boltHits": 0,
+                    "wardHits": 63,
+                    "orbitHits": 29,
+                    "hurt": 1,
+                    "time": 45.29948043823242,
+                    "hp": 99.5
+                }
+            ]
+        },
+        {
+            "starter": 2,
+            "first": "Orbit",
+            "second": "Runebolt",
+            "phase": "Running",
+            "samples": [
+                {
+                    "frame": 586,
+                    "enemies": 11,
+                    "boltHits": 140,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.23289108276367,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 593,
+                    "enemies": 11,
+                    "boltHits": 140,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.34955596923828,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 600,
+                    "enemies": 11,
+                    "boltHits": 140,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.482887268066409,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 607,
+                    "enemies": 12,
+                    "boltHits": 141,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.61621856689453,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 614,
+                    "enemies": 12,
+                    "boltHits": 141,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.73288345336914,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 621,
+                    "enemies": 12,
+                    "boltHits": 141,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.866214752197269,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 628,
+                    "enemies": 11,
+                    "boltHits": 142,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 40.99954605102539,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 635,
+                    "enemies": 11,
+                    "boltHits": 142,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.132877349853519,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 642,
+                    "enemies": 12,
+                    "boltHits": 142,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.26620864868164,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 649,
+                    "enemies": 11,
+                    "boltHits": 144,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.38287353515625,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 656,
+                    "enemies": 11,
+                    "boltHits": 144,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.516204833984378,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 663,
+                    "enemies": 11,
+                    "boltHits": 144,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.6495361328125,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 670,
+                    "enemies": 12,
+                    "boltHits": 144,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.76620101928711,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 677,
+                    "enemies": 12,
+                    "boltHits": 145,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 41.899532318115237,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 684,
+                    "enemies": 12,
+                    "boltHits": 146,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.03286361694336,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 691,
+                    "enemies": 12,
+                    "boltHits": 146,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.14952850341797,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 698,
+                    "enemies": 12,
+                    "boltHits": 146,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.282859802246097,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 705,
+                    "enemies": 12,
+                    "boltHits": 147,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.41619110107422,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 712,
+                    "enemies": 12,
+                    "boltHits": 147,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.549522399902347,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 719,
+                    "enemies": 12,
+                    "boltHits": 147,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.66618728637695,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 726,
+                    "enemies": 12,
+                    "boltHits": 149,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.79951858520508,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 733,
+                    "enemies": 12,
+                    "boltHits": 149,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 42.9328498840332,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 740,
+                    "enemies": 13,
+                    "boltHits": 149,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.04951477050781,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 747,
+                    "enemies": 13,
+                    "boltHits": 151,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.18284606933594,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 754,
+                    "enemies": 13,
+                    "boltHits": 151,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.31617736816406,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 761,
+                    "enemies": 13,
+                    "boltHits": 151,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.43284225463867,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 768,
+                    "enemies": 13,
+                    "boltHits": 152,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.5661735534668,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 775,
+                    "enemies": 13,
+                    "boltHits": 152,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.69950485229492,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 782,
+                    "enemies": 13,
+                    "boltHits": 152,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.83283615112305,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 789,
+                    "enemies": 13,
+                    "boltHits": 152,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 43.96616744995117,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 796,
+                    "enemies": 12,
+                    "boltHits": 154,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.0994987487793,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 803,
+                    "enemies": 13,
+                    "boltHits": 154,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.216163635253909,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 810,
+                    "enemies": 13,
+                    "boltHits": 154,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.34949493408203,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 817,
+                    "enemies": 13,
+                    "boltHits": 154,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.482826232910159,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 824,
+                    "enemies": 13,
+                    "boltHits": 155,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.61615753173828,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 831,
+                    "enemies": 14,
+                    "boltHits": 155,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.749488830566409,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 838,
+                    "enemies": 14,
+                    "boltHits": 155,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.866153717041019,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 845,
+                    "enemies": 14,
+                    "boltHits": 155,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 44.93281936645508,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 852,
+                    "enemies": 14,
+                    "boltHits": 157,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 45.04948425292969,
+                    "hp": 100.0
+                },
+                {
+                    "frame": 859,
+                    "enemies": 14,
+                    "boltHits": 157,
+                    "wardHits": 0,
+                    "orbitHits": 1,
+                    "hurt": 0,
+                    "time": 45.18281555175781,
+                    "hp": 100.0
+                }
+            ]
+        }
+    ],
+    "errors": []
+}

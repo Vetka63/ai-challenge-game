@@ -1,0 +1,42 @@
+ASCII Arena prototype
+
+The ASCII character patterns, arena and effects are project-authored assets.
+The colored hero sprites and animation poses were generated with image_gen.
+Spark is an original character. Pac-Man and Doomguy are fan prototype guests;
+their character identities belong to their respective rights holders. These
+are not licensed commercial character assets. See docs/assets.md and the
+provenance records in art/sprites/hero-animations for their creation history.
+The current world/UI glyph atlas uses JetBrains Mono (see below); the previous
+bitmap atlas was drawn for this project. The project has not yet selected
+a general source-code license.
+
+JetBrains Mono Medium
+Source: https://github.com/JetBrains/JetBrainsMono
+Copyright 2020 The JetBrains Mono Project Authors.
+Licensed under the SIL Open Font License, Version 1.1.
+Full license: Assets/StyleStudy/Fonts/OFL.txt.
+The Windows build includes Licenses/JetBrainsMono-OFL.txt.
+
+Zenject / Extenject
+Source: https://github.com/Mathijs-Bakker/Extenject
+Pinned commit: 47ec2e6024bbe930ec54b57a745e8e0e52e41e68
+MIT License, Copyright (c) 2010-2015 Modest Tree Media.
+The package contains LICENSE.txt. The local Windows build includes
+Licenses/Zenject-MIT.txt.
+
+Liberation Sans
+Digitized data copyright (c) 2010 Google Corporation.
+Copyright (c) 2012 Red Hat, Inc.
+Licensed under the SIL Open Font License, Version 1.1.
+Full license: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.
+The local Windows build includes Licenses/LiberationSans-OFL.txt.
+
+Unity uGUI / TextMeshPro resources
+uGUI Copyright 2015-2020 Unity Technologies ApS.
+Licensed under the Unity Companion License for Unity-dependent projects.
+https://unity3d.com/legal/licenses/unity_companion_license
+Notice: Assets/TextMesh Pro/LICENSE-Unity-Companion.md.
+The local Windows build includes Licenses/Unity-Companion.md.
+
+Unity engine and UPM packages remain subject to their respective licenses
+and Unity terms. Their package cache is not redistributed in the repository.

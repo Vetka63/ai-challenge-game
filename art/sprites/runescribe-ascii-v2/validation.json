@@ -1,0 +1,59 @@
+{
+  "status": "pass",
+  "canvas": [
+    128,
+    128
+  ],
+  "glyph_count": 49,
+  "unique_ascii_characters": "()*./:=\\_|",
+  "grid_columns": 12,
+  "grid_rows": 9,
+  "cell_px": [
+    6,
+    8
+  ],
+  "glyph_px": [
+    5,
+    7
+  ],
+  "font_weight": "2x2 stamp; *:= horizontal 2x1 stamp to preserve counters; extent <=6x8",
+  "bbox": [
+    40,
+    36,
+    94,
+    108
+  ],
+  "old_bbox": [
+    40,
+    36,
+    90,
+    108
+  ],
+  "alpha_values": [
+    0,
+    255
+  ],
+  "opaque_colors": 3,
+  "root_top_left": [
+    64,
+    108
+  ],
+  "unity_pivot": [
+    0.5,
+    0.15625
+  ],
+  "pixels_per_unit": 64,
+  "orthographic_size": 10.6,
+  "expected_height_1080p": 57.31132075471698,
+  "expected_height_720p": 38.20754716981132,
+  "not_verified": [
+    "Unity import of this new sprite",
+    "Play Mode",
+    "crowd readability in motion"
+  ],
+  "checks": {
+    "all_glyphs_printable_ascii": true,
+    "no_clipping": true,
+    "transparent_rgb_zero": true
+  }
+}

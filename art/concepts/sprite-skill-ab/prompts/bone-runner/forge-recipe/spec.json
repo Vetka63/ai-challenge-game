@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "bone-runner",
+  "subject": "a bone runner skeleton enemy",
+  "identity": "A narrow ivory skeleton with an oversized angular skull, two dark square eye sockets, three separated horizontal rib marks, thin arms and two long bent legs. An empty gap divides the legs. A single small coral waist rune provides the only coloured accent. Its silhouette is tall, narrow and slightly hunched; no weapon, armour or cloak.",
+  "pose": "a neutral readable resting pose, full body and all extremities visible",
+  "recap": null,
+  "facing": "front",
+  "facing_parts": null,
+  "view": "orthographic slightly elevated front view for a top-down 2D arena game",
+  "class": "mob",
+  "finish": "pixel",
+  "key": "#FF00FF",
+  "genre": null,
+  "pronoun": "they",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": "Keep body art independent of attack effects: no projectiles, trails, particles or aura. Make the silhouette and identity readable at the intended gameplay size."
+}
