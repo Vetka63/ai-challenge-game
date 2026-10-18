@@ -33,10 +33,15 @@ namespace AsciiArena
             else ArenaScreen.ApplyFullscreen(Fullscreen);
         }
         private void ApplyVolume() => AudioListener.volume = Profile.muted ? 0 : Profile.masterVolume;
+        private static float NormalizeMasterVolume(float value)
+        {
+            int percentage = Mathf.RoundToInt(Mathf.Clamp01(value) * 100);
+            return percentage / 100;
+        }
         public void SetMasterVolume(float value)
         {
             if (float.IsNaN(value) || float.IsInfinity(value)) return;
-            Profile.masterVolume = Mathf.Clamp01(value); Profile.muted = false; ApplyVolume();
+            Profile.masterVolume = NormalizeMasterVolume(value); Profile.muted = false; ApplyVolume();
             preferencesDirty = true; preferencesSaveAt = Time.realtimeSinceStartup + .3f;
             Status = "Громкость применена. Настройки сохраняются автоматически.";
             VolumePreviewRequested?.Invoke();
